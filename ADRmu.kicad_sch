@@ -882,6 +882,12 @@
     (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/d9778620-fead-44e5-8261-faa00daf4e58"
       (reference "C6") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
+    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/ada0eca0-1d37-4f6b-806b-f413a9acff7b"
+      (reference "C?") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/e0fde51a-3f35-4654-8531-afd1071978c0"
+      (reference "C?") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
     (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/97a99fe4-2863-4a77-a98a-a5b1b9cc3a6a"
       (reference "D1") (unit 1) (value "LED") (footprint "LED_SMD:LED_1206_3216Metric")
     )
@@ -962,6 +968,15 @@
     )
     (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/3cd6dae0-8b1f-4f12-8496-f8807af76e2d"
       (reference "R6") (unit 1) (value "5k") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/5b265eee-7d8e-45bd-9c43-45636aff73d6"
+      (reference "R?") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/84222009-464e-408f-950b-f1ce58c6728d"
+      (reference "R?") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/fa8fa489-bfbb-4a14-909a-41f24ebcd36a"
+      (reference "R?") (unit 1) (value "1M") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/5d677983-62c1-4a6d-aa57-59540d4cb7c6"
       (reference "RN1") (unit 1) (value "322146") (footprint "Package_DIP:DIP-14_W7.62mm")
