@@ -12,6 +12,7 @@ _autosave-*
 *-rescue.lib
 *-save.pro
 *-save.kicad_pcb
+*ADRmu-backups/
 
 # Netlist files (exported from Eeschema)
 *.net

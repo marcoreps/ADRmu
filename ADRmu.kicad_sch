@@ -888,6 +888,12 @@
     (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/10fa82eb-6f85-4be7-b3b7-15c7f990a7c1"
       (reference "D2") (unit 1) (value "LED") (footprint "LED_SMD:LED_1206_3216Metric")
     )
+    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/fe2c9782-2ff0-473c-98b0-ea9a985143fb"
+      (reference "D3") (unit 1) (value "D") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/0dd6741e-0fd1-4d38-9d54-4b434a5b3e1a"
+      (reference "D4") (unit 1) (value "D") (footprint "Diode_SMD:D_SOD-123")
+    )
     (path "/dd07efd4-24c4-483d-a118-ed58a9223c8c"
       (reference "J1") (unit 1) (value "DIN41612_02x16_AC_EvenPins") (footprint "Connector_DIN:DIN41612_D_2x16_Male_Horizontal_THT")
     )
@@ -918,6 +924,12 @@
     (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/a0086770-043d-4a6d-aadb-99fd37c89a52"
       (reference "J10") (unit 1) (value "Conn_01x01") (footprint "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD3.9mm")
     )
+    (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/42641f45-5f08-4f27-ba33-982d6c2d4a9c"
+      (reference "J11") (unit 1) (value "Conn_01x01") (footprint "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD3.9mm")
+    )
+    (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/7d8ad188-aab7-4f32-b72e-0fe00ea80fbc"
+      (reference "J12") (unit 1) (value "Conn_01x01") (footprint "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD3.9mm")
+    )
     (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/82d3af55-2330-46e9-ae2b-5ce56bc7ed43"
       (reference "JP1") (unit 1) (value "Jumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
     )
@@ -929,6 +941,9 @@
     )
     (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/c47f590e-3d22-4996-99bb-686da1d8fa74"
       (reference "JP4") (unit 1) (value "Jumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
+    )
+    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/89dd6cef-9682-496d-9d3c-46b557a5d343"
+      (reference "Q1") (unit 1) (value "Q_NPN_BCE") (footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2")
     )
     (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/cf8213e3-6210-4f84-8e3b-63bd409ba25a"
       (reference "R1") (unit 1) (value "5k") (footprint "Resistor_SMD:R_0805_2012Metric")
@@ -948,6 +963,21 @@
     (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/3cd6dae0-8b1f-4f12-8496-f8807af76e2d"
       (reference "R6") (unit 1) (value "5k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
+    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/5d677983-62c1-4a6d-aa57-59540d4cb7c6"
+      (reference "RN1") (unit 1) (value "322146") (footprint "Package_DIP:DIP-14_W7.62mm")
+    )
+    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/620d5fb2-47c5-4a7a-872e-e9f873c5a897"
+      (reference "RN1") (unit 2) (value "322146") (footprint "Package_DIP:DIP-14_W7.62mm")
+    )
+    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/de9968b5-0c60-4ad8-a5a2-3b47d1cc60ae"
+      (reference "RN1") (unit 3) (value "322146") (footprint "Package_DIP:DIP-14_W7.62mm")
+    )
+    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/f70c9fe0-a2be-45f4-9863-e453a9da4443"
+      (reference "RN1") (unit 4) (value "322146") (footprint "Package_DIP:DIP-14_W7.62mm")
+    )
+    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/afe65d52-1385-44e8-8020-d0f37ec23878"
+      (reference "RN1") (unit 5) (value "322146") (footprint "Package_DIP:DIP-14_W7.62mm")
+    )
     (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/a8cc43c4-7914-481f-bd3d-67efa0fecedb"
       (reference "T1") (unit 1) (value "Transformer_SP_1S") (footprint "")
     )
@@ -965,6 +995,15 @@
     )
     (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/29bcd361-b833-4b15-86af-99727bad0424"
       (reference "U4") (unit 2) (value "ADR1000") (footprint "Package_TO_SOT_THT:TO-5-8")
+    )
+    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/15e6d5fa-8dcb-402b-9912-6c80c8b34d58"
+      (reference "U5") (unit 1) (value "Opamp_Dual") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+    )
+    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/d3ff142c-bd48-46dc-9346-96cb9f16c8c6"
+      (reference "U5") (unit 2) (value "Opamp_Dual") (footprint "")
+    )
+    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/24a1cdab-c9ce-4136-88e4-ae4c940e4508"
+      (reference "U5") (unit 3) (value "Opamp_Dual") (footprint "")
     )
   )
 )
