@@ -906,6 +906,30 @@
     (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/0dd6741e-0fd1-4d38-9d54-4b434a5b3e1a"
       (reference "D4") (unit 1) (value "D") (footprint "Diode_SMD:D_SOD-123")
     )
+    (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/8a7e1f15-efce-479e-b3d6-f978918d3a7f"
+      (reference "H1") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_4.3mm_M4")
+    )
+    (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/3d4c0f56-bfc3-4294-8003-09e0f327d8f7"
+      (reference "H2") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_4.3mm_M4")
+    )
+    (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/b4b09b5b-b6f2-4b82-aa8f-197787743f0a"
+      (reference "H3") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_4.3mm_M4")
+    )
+    (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/d06414a6-b02b-4176-9a77-e07315a23aae"
+      (reference "H4") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_4.3mm_M4")
+    )
+    (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/7d533d18-08a4-40be-a35d-0411e0023c83"
+      (reference "H5") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_4.3mm_M4")
+    )
+    (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/bf352b48-809e-4af8-8364-f0a00be5e5f1"
+      (reference "H6") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_4.3mm_M4")
+    )
+    (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/ef1b2d57-d709-4fcc-98f9-81c1a1ab4208"
+      (reference "H7") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_4.3mm_M4")
+    )
+    (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/c9fce310-1a44-48d5-823a-bf0ad1c25570"
+      (reference "H8") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_4.3mm_M4")
+    )
     (path "/dd07efd4-24c4-483d-a118-ed58a9223c8c"
       (reference "J1") (unit 1) (value "DIN41612_02x16_AC_EvenPins") (footprint "Connector_DIN:DIN41612_D_2x16_Male_Horizontal_THT")
     )
