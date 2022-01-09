@@ -888,11 +888,11 @@
     (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/ada0eca0-1d37-4f6b-806b-f413a9acff7b"
       (reference "C8") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
-    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/8c84ed42-ed98-4f7c-ace2-b3ca1a498705"
-      (reference "C?") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric")
-    )
     (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/c2c0dcfb-adbf-4ede-8c8f-892b4e3c1049"
-      (reference "C?") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (reference "C9") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/8c84ed42-ed98-4f7c-ace2-b3ca1a498705"
+      (reference "C10") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/97a99fe4-2863-4a77-a98a-a5b1b9cc3a6a"
       (reference "D1") (unit 1) (value "LED") (footprint "LED_SMD:LED_1206_3216Metric")
