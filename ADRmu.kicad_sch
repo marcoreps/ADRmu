@@ -504,10 +504,6 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 5b19cf15-0fd2-4526-a55d-3e101ab70065)
   )
-  (wire (pts (xy 215.9 101.6) (xy 231.14 101.6))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 60a5a4fb-72f4-49d8-aa68-465f5476040d)
-  )
   (wire (pts (xy 68.58 97.79) (xy 83.82 97.79))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 6ab69bfa-68e2-4ad4-816b-63989e5024f4)
@@ -617,7 +613,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 27299abf-eabb-45db-a109-6d9800bfa12f)
     (property "Reference" "J4" (id 0) (at 236.22 80.01 0))
-    (property "Value" "ADRf" (id 1) (at 236.22 82.55 0))
+    (property "Value" "ADR" (id 1) (at 236.22 82.55 0))
     (property "Footprint" "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD3.9mm" (id 2) (at 236.22 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -653,20 +649,6 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 9f496a98-695e-4c70-85ba-7c6f60ec4dc5))
-  )
-
-  (symbol (lib_id "Connector_Generic:Conn_01x01") (at 236.22 101.6 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid 608a13a4-63e6-4ef1-9c5b-d919cc935a37)
-    (property "Reference" "J5" (id 0) (at 236.22 95.25 0))
-    (property "Value" "ADRs" (id 1) (at 236.22 97.79 0))
-    (property "Footprint" "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD3.9mm" (id 2) (at 236.22 101.6 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 236.22 101.6 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 0bd4e1c7-bcb0-4092-bac8-b1bd8d875048))
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 236.22 55.88 0) (mirror x) (unit 1)
@@ -764,17 +746,9 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 3802c5fb-fbb8-4216-81b3-f399dfc252d1)
     )
-    (pin "ADRsense" output (at 215.9 101.6 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 80184351-19b3-4bcd-82a1-58efa7bb8354)
-    )
     (pin "return" output (at 215.9 116.84 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 6d36cc42-c96d-4faa-8163-fb1950ed80f4)
-    )
-    (pin "ADRforce" output (at 215.9 86.36 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 72363896-6364-4bc3-8889-d87485501e40)
     )
     (pin "12Vin" input (at 157.48 76.2 180)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -783,6 +757,10 @@
     (pin "0Vin" input (at 157.48 111.76 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid c49fc677-384d-4f6f-8f2f-9abdcc8339e3)
+    )
+    (pin "ADR" output (at 215.9 86.36 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid df26df8c-0754-44d6-8352-e59aad105094)
     )
   )
 
@@ -864,6 +842,12 @@
     (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/95877f46-4a32-4f5e-8ff1-3c3984ea236e"
       (reference "#PWR0109") (unit 1) (value "GND") (footprint "")
     )
+    (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/942f0676-bb26-490c-a5a8-6bd325bcef29"
+      (reference "#PWR0110") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/8855ad76-3b32-484c-b2a9-0614e6f9ce1e"
+      (reference "#PWR0111") (unit 1) (value "+3V3") (footprint "")
+    )
     (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/8a4e1483-985f-4634-8a4c-4cfa69729777"
       (reference "C1") (unit 1) (value "1000u") (footprint "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm")
     )
@@ -908,6 +892,9 @@
     )
     (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/f5cf8c50-a62d-48bf-9acf-20c92b951976"
       (reference "C15") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/c7e505b7-3263-497d-b6db-a745ba5df807"
+      (reference "C?") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/97a99fe4-2863-4a77-a98a-a5b1b9cc3a6a"
       (reference "D1") (unit 1) (value "LED") (footprint "LED_SMD:LED_1206_3216Metric")
@@ -967,10 +954,7 @@
       (reference "J3") (unit 1) (value "10Vs") (footprint "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD3.9mm")
     )
     (path "/27299abf-eabb-45db-a109-6d9800bfa12f"
-      (reference "J4") (unit 1) (value "ADRf") (footprint "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD3.9mm")
-    )
-    (path "/608a13a4-63e6-4ef1-9c5b-d919cc935a37"
-      (reference "J5") (unit 1) (value "ADRs") (footprint "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD3.9mm")
+      (reference "J4") (unit 1) (value "ADR") (footprint "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD3.9mm")
     )
     (path "/30570277-0b2d-44ac-9416-b1ae1209d471"
       (reference "J6") (unit 1) (value "return") (footprint "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD3.9mm")
@@ -1094,6 +1078,9 @@
     )
     (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/e6a44763-1337-4e7b-abd3-cfd9844fccc8"
       (reference "U6") (unit 1) (value "LT3045xMSE") (footprint "Package_SO:MSOP-12-1EP_3x4mm_P0.65mm_EP1.65x2.85mm")
+    )
+    (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/018002e6-06ae-46c7-887f-c27f45825467"
+      (reference "U7") (unit 1) (value "24AA02-OT") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
   )
 )
