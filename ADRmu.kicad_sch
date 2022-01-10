@@ -617,7 +617,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 27299abf-eabb-45db-a109-6d9800bfa12f)
     (property "Reference" "J4" (id 0) (at 236.22 80.01 0))
-    (property "Value" "Conn_01x01" (id 1) (at 236.22 82.55 0))
+    (property "Value" "ADRf" (id 1) (at 236.22 82.55 0))
     (property "Footprint" "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD3.9mm" (id 2) (at 236.22 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -631,7 +631,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 30570277-0b2d-44ac-9416-b1ae1209d471)
     (property "Reference" "J6" (id 0) (at 236.22 110.49 0))
-    (property "Value" "Conn_01x01" (id 1) (at 236.22 113.03 0))
+    (property "Value" "return" (id 1) (at 236.22 113.03 0))
     (property "Footprint" "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD3.9mm" (id 2) (at 236.22 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -645,7 +645,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 4bee5892-6b3a-433a-b771-068c80bdc6e8)
     (property "Reference" "J3" (id 0) (at 236.22 64.77 0))
-    (property "Value" "Conn_01x01" (id 1) (at 236.22 67.31 0))
+    (property "Value" "10Vs" (id 1) (at 236.22 67.31 0))
     (property "Footprint" "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD3.9mm" (id 2) (at 236.22 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -659,7 +659,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 608a13a4-63e6-4ef1-9c5b-d919cc935a37)
     (property "Reference" "J5" (id 0) (at 236.22 95.25 0))
-    (property "Value" "Conn_01x01" (id 1) (at 236.22 97.79 0))
+    (property "Value" "ADRs" (id 1) (at 236.22 97.79 0))
     (property "Footprint" "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD3.9mm" (id 2) (at 236.22 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -673,7 +673,7 @@
     (in_bom yes) (on_board yes)
     (uuid adbf8438-12a3-4949-9d6c-a3b68a6378f0)
     (property "Reference" "J2" (id 0) (at 236.22 49.53 0))
-    (property "Value" "Conn_01x01" (id 1) (at 236.22 52.07 0))
+    (property "Value" "10Vf" (id 1) (at 236.22 52.07 0))
     (property "Footprint" "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD3.9mm" (id 2) (at 236.22 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -732,7 +732,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid e45d5717-29b8-4b31-b3f8-99a046e18c84)
     (property "Reference" "J7" (id 0) (at 236.22 125.73 0))
-    (property "Value" "Conn_01x01" (id 1) (at 236.22 128.27 0))
+    (property "Value" "guard" (id 1) (at 236.22 128.27 0))
     (property "Footprint" "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD3.9mm" (id 2) (at 236.22 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -900,6 +900,9 @@
     (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/23cf9060-cff9-4b2a-84bb-136bbb11b187"
       (reference "C12") (unit 1) (value "22u") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
+    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/6845caeb-6485-48fb-9c50-6cb716fb69d9"
+      (reference "C13") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
     (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/24683382-393e-4151-a76d-4bae24fbeada"
       (reference "C14") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
@@ -926,6 +929,9 @@
     )
     (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/36760d4a-f556-46ce-84f1-a1c51caf80df"
       (reference "D7") (unit 1) (value "D_Schottky") (footprint "Diode_SMD:D_SOD-123F")
+    )
+    (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/27618427-173e-42f1-8841-5bc123d4d738"
+      (reference "D8") (unit 1) (value "LED") (footprint "LED_SMD:LED_1206_3216Metric")
     )
     (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/8a7e1f15-efce-479e-b3d6-f978918d3a7f"
       (reference "H1") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_4.3mm_M4")
@@ -955,22 +961,22 @@
       (reference "J1") (unit 1) (value "DIN41612_02x16_AC_EvenPins") (footprint "Connector_DIN:DIN41612_D_2x16_Male_Horizontal_THT")
     )
     (path "/adbf8438-12a3-4949-9d6c-a3b68a6378f0"
-      (reference "J2") (unit 1) (value "Conn_01x01") (footprint "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD3.9mm")
+      (reference "J2") (unit 1) (value "10Vf") (footprint "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD3.9mm")
     )
     (path "/4bee5892-6b3a-433a-b771-068c80bdc6e8"
-      (reference "J3") (unit 1) (value "Conn_01x01") (footprint "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD3.9mm")
+      (reference "J3") (unit 1) (value "10Vs") (footprint "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD3.9mm")
     )
     (path "/27299abf-eabb-45db-a109-6d9800bfa12f"
-      (reference "J4") (unit 1) (value "Conn_01x01") (footprint "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD3.9mm")
+      (reference "J4") (unit 1) (value "ADRf") (footprint "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD3.9mm")
     )
     (path "/608a13a4-63e6-4ef1-9c5b-d919cc935a37"
-      (reference "J5") (unit 1) (value "Conn_01x01") (footprint "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD3.9mm")
+      (reference "J5") (unit 1) (value "ADRs") (footprint "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD3.9mm")
     )
     (path "/30570277-0b2d-44ac-9416-b1ae1209d471"
-      (reference "J6") (unit 1) (value "Conn_01x01") (footprint "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD3.9mm")
+      (reference "J6") (unit 1) (value "return") (footprint "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD3.9mm")
     )
     (path "/e45d5717-29b8-4b31-b3f8-99a046e18c84"
-      (reference "J7") (unit 1) (value "Conn_01x01") (footprint "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD3.9mm")
+      (reference "J7") (unit 1) (value "guard") (footprint "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD3.9mm")
     )
     (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/00d886bb-f578-4690-8703-0d82aa33913b"
       (reference "J8") (unit 1) (value "Conn_01x01") (footprint "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD3.9mm")
