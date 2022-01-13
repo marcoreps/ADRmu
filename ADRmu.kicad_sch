@@ -1038,6 +1038,30 @@
     (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/c47f590e-3d22-4996-99bb-686da1d8fa74"
       (reference "JP4") (unit 1) (value "Jumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
     )
+    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/b35e92b9-9262-42ed-8042-4f2ee4a48e41"
+      (reference "JP5") (unit 1) (value "Jumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
+    )
+    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/998969c2-b64c-473b-933d-cb52f89f03b6"
+      (reference "JP6") (unit 1) (value "Jumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
+    )
+    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/ce9bf4f1-5d07-4497-bbfc-dd498e28b2f6"
+      (reference "JP7") (unit 1) (value "Jumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
+    )
+    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/416464c6-246a-499b-b63c-3963f490b380"
+      (reference "JP8") (unit 1) (value "Jumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
+    )
+    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/3b1ffd99-6312-4419-9746-5417d0458fcb"
+      (reference "JP9") (unit 1) (value "Jumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
+    )
+    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/5048e5b4-f7a7-451c-85d9-ca3694cff2a1"
+      (reference "JP10") (unit 1) (value "Jumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
+    )
+    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/f9446ea7-e442-475b-bc6c-fd3800a189b2"
+      (reference "JP11") (unit 1) (value "Jumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
+    )
+    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/22d3f550-fed4-412b-b6b4-9db1ccb8e521"
+      (reference "JP?") (unit 1) (value "Jumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
+    )
     (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/656edf66-7ee1-44ef-b0df-7b06fcedd1e9"
       (reference "NT2") (unit 1) (value "NetTie_2") (footprint "NetTie:NetTie-2_SMD_Pad0.5mm")
     )
@@ -1083,6 +1107,24 @@
     (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/34af8217-2914-46cd-8af7-cee39a974b87"
       (reference "R12") (unit 1) (value "121k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
+    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/16c9b8f3-19c1-4ac6-99f9-1d4060d22155"
+      (reference "R13") (unit 1) (value "0") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/c3c3629d-96ae-4386-a037-11237d654606"
+      (reference "R14") (unit 1) (value "0") (footprint "Crystal:Crystal_HC52-U_Vertical")
+    )
+    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/62cd15dc-fbc5-4a9d-959b-f69a089e7c1f"
+      (reference "R15") (unit 1) (value "0") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/4f7df87c-67e3-4d53-8635-48c3312e40f1"
+      (reference "R16") (unit 1) (value "0") (footprint "Crystal:Crystal_HC52-U_Vertical")
+    )
+    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/1a3b5c0b-e088-44e9-8fdd-85c6cf97212f"
+      (reference "R17") (unit 1) (value "0") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/d672ec0f-1d0a-48eb-a6f7-5678497440d3"
+      (reference "R18") (unit 1) (value "0") (footprint "Crystal:Crystal_HC52-U_Vertical")
+    )
     (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/b6374ec4-7ed7-459e-befd-2e08e8f885b1"
       (reference "R19") (unit 1) (value "5k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
@@ -1095,8 +1137,38 @@
     (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/590dbea1-342c-423f-9920-ea67e378a0c1"
       (reference "R22") (unit 1) (value "49.9k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
+    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/41de54a2-7974-40a3-bd30-b7bb282d6b79"
+      (reference "R23") (unit 1) (value "0") (footprint "Crystal:Crystal_HC52-U_Vertical")
+    )
+    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/276a54e9-3bc2-4348-abe1-276e6c03c252"
+      (reference "R24") (unit 1) (value "0") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/bdc3df5b-23a5-49b3-9f09-a01309bb1548"
+      (reference "R25") (unit 1) (value "0") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/2129dde9-ec3b-42a8-9446-433e2c1ac0b0"
+      (reference "R26") (unit 1) (value "0") (footprint "Crystal:Crystal_HC52-U_Vertical")
+    )
+    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/c036d1cb-6bc0-426b-8201-ba5a7dc461b9"
+      (reference "R27") (unit 1) (value "0") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/8a3f72af-306d-4a02-97f4-128374f53722"
+      (reference "R28") (unit 1) (value "0") (footprint "Crystal:Crystal_HC52-U_Vertical")
+    )
+    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/df330e64-1a22-4560-8a2e-19b13abcb836"
+      (reference "R29") (unit 1) (value "0") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/a0bf7f9b-d082-480c-879f-a72866e1289c"
+      (reference "R30") (unit 1) (value "0") (footprint "Crystal:Crystal_HC52-U_Vertical")
+    )
     (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/d7e8e7da-b22b-4f0e-b185-d441a5c79cc8"
       (reference "R33") (unit 1) (value "100R") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/937202b2-509c-4f8f-b74b-179fcf22b48c"
+      (reference "R?") (unit 1) (value "0") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/d82448bc-2652-48c5-9f37-6b17c4c7cbaf"
+      (reference "R?") (unit 1) (value "0") (footprint "Crystal:Crystal_HC52-U_Vertical")
     )
     (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/61e33ddb-fb2f-4483-96fd-ca725420cb1a"
       (reference "RN1") (unit 1) (value "322146") (footprint "Package_DIP:DIP-14_W7.62mm")
