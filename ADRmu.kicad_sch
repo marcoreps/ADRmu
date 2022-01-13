@@ -1060,7 +1060,10 @@
       (reference "JP11") (unit 1) (value "Jumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
     )
     (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/22d3f550-fed4-412b-b6b4-9db1ccb8e521"
-      (reference "JP?") (unit 1) (value "Jumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
+      (reference "JP12") (unit 1) (value "Jumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
+    )
+    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/2f87324e-dce8-4f51-8e10-66c28792458a"
+      (reference "JP13") (unit 1) (value "Jumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
     )
     (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/656edf66-7ee1-44ef-b0df-7b06fcedd1e9"
       (reference "NT2") (unit 1) (value "NetTie_2") (footprint "NetTie:NetTie-2_SMD_Pad0.5mm")
@@ -1161,14 +1164,14 @@
     (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/a0bf7f9b-d082-480c-879f-a72866e1289c"
       (reference "R30") (unit 1) (value "0") (footprint "Crystal:Crystal_HC52-U_Vertical")
     )
-    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/d7e8e7da-b22b-4f0e-b185-d441a5c79cc8"
-      (reference "R33") (unit 1) (value "100R") (footprint "Resistor_SMD:R_0805_2012Metric")
-    )
     (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/937202b2-509c-4f8f-b74b-179fcf22b48c"
-      (reference "R?") (unit 1) (value "0") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R31") (unit 1) (value "0") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/d82448bc-2652-48c5-9f37-6b17c4c7cbaf"
-      (reference "R?") (unit 1) (value "0") (footprint "Crystal:Crystal_HC52-U_Vertical")
+      (reference "R32") (unit 1) (value "0") (footprint "Crystal:Crystal_HC52-U_Vertical")
+    )
+    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/d7e8e7da-b22b-4f0e-b185-d441a5c79cc8"
+      (reference "R33") (unit 1) (value "100R") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/61e33ddb-fb2f-4483-96fd-ca725420cb1a"
       (reference "RN1") (unit 1) (value "322146") (footprint "Package_DIP:DIP-14_W7.62mm")
