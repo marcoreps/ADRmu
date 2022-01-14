@@ -2759,7 +2759,7 @@
   )
 
   (symbol (lib_id "Device:NetTie_2") (at 83.82 127 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 656edf66-7ee1-44ef-b0df-7b06fcedd1e9)
     (property "Reference" "NT201" (id 0) (at 83.82 121.92 0))
     (property "Value" "NetTie_2" (id 1) (at 83.82 124.46 0))
