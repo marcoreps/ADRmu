@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.44999999999999996
+          "min_clearance": 0.19999999999999998
         }
       },
       "diff_pair_dimensions": [
@@ -95,7 +95,7 @@
         "tracks_crossing": "error",
         "unconnected_items": "error",
         "unresolved_variable": "error",
-        "via_dangling": "warning",
+        "via_dangling": "ignore",
         "zone_has_empty_net": "error",
         "zones_intersect": "error"
       },
@@ -401,7 +401,9 @@
           "/DC-DC/GNDf",
           "/DC-DC/U3_Pin14",
           "/DC-DC/U3_Pin3",
+          "/DC-DC/filtered+",
           "/DC-DC/rectified+",
+          "/DC-DC/rectified-",
           "/DC-DC/xformer_A",
           "/DC-DC/xformer_B",
           "/ref/10Vforce",
@@ -413,11 +415,11 @@
           "GND"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(194, 0, 0)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.0,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 6.0
+        "wire_width": 18.0
       },
       {
         "bus_width": 12.0,
@@ -441,7 +443,7 @@
           "/ref/RN1_Pin6"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(0, 132, 132)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.4,
         "via_diameter": 0.8,
         "via_drill": 0.4,
@@ -486,11 +488,11 @@
           "/ref/U8_Pin2"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(194, 194, 0)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 6.0
+        "wire_width": 12.0
       }
     ],
     "meta": {

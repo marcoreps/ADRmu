@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "ADRmu_Library")(type "KiCad")(uri "${KIPRJMOD}/ADRmu_Library.pretty")(options "")(descr ""))
+)

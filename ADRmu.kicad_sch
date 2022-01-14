@@ -969,6 +969,9 @@
     (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/27618427-173e-42f1-8841-5bc123d4d738"
       (reference "D306") (unit 1) (value "LED") (footprint "LED_SMD:LED_1206_3216Metric")
     )
+    (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/7083a221-c7aa-43e3-a91b-d25a60d7d698"
+      (reference "FL301") (unit 1) (value "Filter_EMI_CommonMode") (footprint "ADRmu_Library:Filter_EPCOS_B82793C0")
+    )
     (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/8a7e1f15-efce-479e-b3d6-f978918d3a7f"
       (reference "H301") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_4.3mm_M4")
     )
@@ -1085,6 +1088,12 @@
     )
     (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/c47f590e-3d22-4996-99bb-686da1d8fa74"
       (reference "JP304") (unit 1) (value "Jumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
+    )
+    (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/4eac2148-15b3-4de0-8cef-a82d2d3effef"
+      (reference "JP305") (unit 1) (value "Jumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
+    )
+    (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/a4d798ca-d798-4656-af02-4adfac7ec8eb"
+      (reference "JP306") (unit 1) (value "Jumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
     )
     (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/656edf66-7ee1-44ef-b0df-7b06fcedd1e9"
       (reference "NT201") (unit 1) (value "NetTie_2") (footprint "NetTie:NetTie-2_SMD_Pad0.5mm")
