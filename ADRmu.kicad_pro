@@ -506,7 +506,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../Desktop/ADRmu.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
