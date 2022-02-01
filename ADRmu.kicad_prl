@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 2,
+    "active_layer": 31,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_nets": [],
@@ -8,7 +8,7 @@
     "net_color_mode": 1,
     "opacity": {
       "pads": 0.5199999809265137,
-      "tracks": 0.33000001311302185,
+      "tracks": 0.5899999737739563,
       "vias": 0.6800000071525574,
       "zones": 0.6
     },
@@ -63,7 +63,7 @@
       36
     ],
     "visible_layers": "fffffff_fffffff9",
-    "zone_display_mode": 1
+    "zone_display_mode": 0
   },
   "meta": {
     "filename": "ADRmu.kicad_prl",
