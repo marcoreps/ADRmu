@@ -26,7 +26,7 @@ Low cost 10V DC reference standard in DIN 41612 modular enclosure. Based on oven
 ### Battery life (h)
 \> 24
 ### Isolation (MΩ to AC,PE)
-> 10 000 MΩ
+\> 10 000 MΩ
 < 1000 pF
 ### Output Protection
 Output can be shorted indefinitely with battery life derating.
