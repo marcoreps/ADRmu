@@ -6,18 +6,27 @@
 Low cost 10V DC reference standard in DIN 41612 modular enclosure
 
 ## Tentative specs
-######Output Voltage Stability (± µV/V)
-24 hour:
+###### Output Voltage Stability (± µV/V)
+24 hour: < 0.3
 30 day:
 90 day:
 1 year:
 ###### Output Voltage Noise (0.1 - 10 Hz)(±µV/V rms)
-###### Output Voltage Tempco
-###### Short circuit current
-###### Battery life
-###### Isolation
+< 0.2
+###### Output Voltage Tempco (±µV/K)
+< 0.2
+###### Short circuit current (mA)
+10
+###### Battery life (h)
+> 24
+###### Isolation (MΩ to AC,PE)
+> 10 000 MΩ
+< 1000 pF
 ###### Output Protection
-###### Temperature Range
+Output can be shorted indefinitely with battery life derating.
+Output protected against ESD.
+###### Temperature Range (°C)
+15 - 35
 
 
 ## Measured results:
