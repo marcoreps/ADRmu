@@ -3,10 +3,11 @@
 ![rendering](https://github.com/marcoreps/ADRmu/raw/main/images/render.png)
 
 ## Scope
-Low cost 10V DC reference standard in DIN 41612 modular enclosure
+Low cost 10V DC reference standard in DIN 41612 modular enclosure. Based on ovenized LTZ1000 / LTZ1000A or ADR1000A zener diodes.
 
 ## Tentative specs
-###### Output Voltage Stability (± µV/V)
+
+##### Output Voltage Stability (± µV/V):
 24 hour: < 0.3
 30 day:
 90 day:
