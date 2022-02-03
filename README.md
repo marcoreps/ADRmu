@@ -7,7 +7,7 @@ Low cost 10V DC reference standard in DIN 41612 modular enclosure. Based on oven
 
 ## Tentative specs
 
-##### Output Voltage Stability (± µV/V):
+### Output Voltage Stability (± µV/V):
 24 hour: < 0.3
 30 day:
 90 day:
