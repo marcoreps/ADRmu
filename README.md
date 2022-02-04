@@ -1,6 +1,7 @@
 # ADR1000 10V standard
 
 ![rendering](https://github.com/marcoreps/ADRmu/raw/main/images/render.png)
+![ppm over 24h](https://github.com/marcoreps/ADRmu/raw/main/images/24hppm.jpg)
 
 ## Scope
 Low cost 10V DC reference standard in DIN 41612 modular enclosure. Based on ovenized LTZ1000 / LTZ1000A or ADR1000A zener diodes.
@@ -19,7 +20,7 @@ Low cost 10V DC reference standard in DIN 41612 modular enclosure. Based on oven
 
 ### Output Voltage Noise (0.1 - 10 Hz)(±µV/V rms)
 
-< 0.2
+< 0.02
 
 ### Output Voltage Tempco (±µV/K)
 
