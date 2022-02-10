@@ -409,7 +409,6 @@
           "/DC-DC/xformer_B",
           "/ref/10Vforce",
           "/ref/ADR",
-          "/ref/D202_a",
           "/ref/U203_out",
           "/ref/heater+",
           "/ref/heater-",
@@ -440,7 +439,6 @@
           "/DC-DC/U304_alert",
           "/DC-DC/status",
           "/DC-DC/sync",
-          "/fault",
           "/ref/U203_+in"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
@@ -476,7 +474,6 @@
           "/ref/ADR_Pin7",
           "/ref/ADR_Pin8",
           "/ref/Q201_base",
-          "/ref/Q202_g",
           "/ref/R202_Pin1",
           "/ref/RN201_Pin1",
           "/ref/RN201_Pin12",

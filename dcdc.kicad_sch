@@ -3471,7 +3471,7 @@
     (property "Reference" "C304" (id 0) (at 45.72 100.33 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "2n2 50V" (id 1) (at 46.99 102.87 0)
+    (property "Value" "1n 50V" (id 1) (at 46.99 102.87 0)
       (effects (font (size 1.016 1.016)) (justify right))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at 49.2252 109.22 0)

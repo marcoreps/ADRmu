@@ -6,6 +6,11 @@
 ## Scope
 Low cost 10V DC reference standard in DIN 41612 modular enclosure. Based on ovenized LTZ1000 / LTZ1000A or ADR1000A zener diodes.
 
+## TODO
+Increase trace width where possible.
+Film caps where neccessary.
+Thin film networks instead of protoboard.
+
 ## Tentative specs
 
 ### Output Voltage Stability (± µV/V):
