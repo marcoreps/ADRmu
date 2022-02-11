@@ -399,9 +399,6 @@
           "+12V",
           "+3V3",
           "/DC-DC/12Vf",
-          "/DC-DC/U304_cola",
-          "/DC-DC/U304_colb",
-          "/DC-DC/U304_ct",
           "/DC-DC/filtered+",
           "/DC-DC/rectified+",
           "/DC-DC/rectified-",
@@ -461,8 +458,6 @@
         "microvia_drill": 0.1,
         "name": "medium current",
         "nets": [
-          "/DC-DC/U304_rsl",
-          "/DC-DC/U304_rt",
           "/DC-DC/U305_ilim",
           "/DC-DC/U305_pgfb",
           "/DC-DC/U305_set",
