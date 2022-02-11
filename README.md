@@ -8,7 +8,6 @@ Low cost 10V DC reference standard in DIN 41612 modular enclosure. Based on oven
 
 ## TODO
 Increase trace width where possible.
-Film caps where neccessary.
 Thin film networks instead of protoboard.
 
 ## Tentative specs

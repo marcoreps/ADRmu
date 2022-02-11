@@ -493,11 +493,17 @@
   (junction (at 228.6 55.88) (diameter 0) (color 0 0 0 0)
     (uuid 19697aaf-c912-49b9-95f0-fb37db14cc2c)
   )
+  (junction (at 52.07 82.55) (diameter 0) (color 0 0 0 0)
+    (uuid 1f7c000d-4158-4826-b320-6f5ff0454a80)
+  )
   (junction (at 68.58 107.95) (diameter 0) (color 0 0 0 0)
     (uuid 25e0000f-5acc-4358-8504-707159f0f0dd)
   )
   (junction (at 68.58 97.79) (diameter 0) (color 0 0 0 0)
     (uuid 35b79abc-075e-4aa4-b8a1-8d6a11a00ea2)
+  )
+  (junction (at 52.07 100.33) (diameter 0) (color 0 0 0 0)
+    (uuid 42a8bfb7-8774-48aa-95b8-98d2bcadfd95)
   )
   (junction (at 52.07 87.63) (diameter 0) (color 0 0 0 0)
     (uuid 4d504521-7a05-497e-b647-6cdd56ccb439)
@@ -516,6 +522,9 @@
   )
   (junction (at 68.58 105.41) (diameter 0) (color 0 0 0 0)
     (uuid a952d1b6-8e74-4727-9f36-5875af59e243)
+  )
+  (junction (at 55.88 82.55) (diameter 0) (color 0 0 0 0)
+    (uuid af7554d9-9cc3-4493-a75f-b137848c8f69)
   )
   (junction (at 68.58 90.17) (diameter 0) (color 0 0 0 0)
     (uuid b90b767f-bec7-454b-a9aa-fc4c89a31265)
@@ -541,8 +550,8 @@
   (junction (at 223.52 55.88) (diameter 0) (color 0 0 0 0)
     (uuid ed73f421-210f-463e-8416-475f22c56ef2)
   )
-  (junction (at 223.52 151.13) (diameter 0) (color 0 0 0 0)
-    (uuid fe4a6485-a6f5-4ae4-b65f-72cfbd63cab9)
+  (junction (at 55.88 102.87) (diameter 0) (color 0 0 0 0)
+    (uuid f2830bc0-9752-4267-b15a-69abddae189f)
   )
 
   (wire (pts (xy 245.11 156.21) (xy 74.93 156.21))
@@ -557,6 +566,10 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 08184418-7291-4600-aed8-e56cc64a8bf7)
   )
+  (wire (pts (xy 52.07 82.55) (xy 52.07 87.63))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 08e7f292-a28f-40af-b661-d42b765ca7b8)
+  )
   (wire (pts (xy 242.57 120.65) (xy 228.6 120.65))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 094313da-aa8f-4487-b40c-7729849f8a14)
@@ -565,13 +578,13 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 095e6197-24e4-4e91-9974-cf307bff5f58)
   )
+  (wire (pts (xy 55.88 82.55) (xy 68.58 82.55))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 0c9a9af3-1e76-4baa-8343-11a20d6a7713)
+  )
   (wire (pts (xy 52.07 100.33) (xy 55.88 100.33))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 0fe431fb-fb3d-43a3-9bdc-200a6f90d46c)
-  )
-  (wire (pts (xy 231.14 132.08) (xy 228.6 132.08))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 198ac348-96f4-40ae-b8ed-5d810257b5c8)
   )
   (wire (pts (xy 72.39 158.75) (xy 72.39 113.03))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -600,10 +613,6 @@
   (wire (pts (xy 68.58 74.93) (xy 83.82 74.93))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 3031c93e-07b0-44b7-8a41-b4bd33eccd83)
-  )
-  (wire (pts (xy 228.6 151.13) (xy 223.52 151.13))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 305a60cd-6dfc-4c8c-8853-d707046e01fd)
   )
   (wire (pts (xy 55.88 74.93) (xy 68.58 74.93))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -637,7 +646,7 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 44e3041a-af5f-44d7-9028-db9ba8f536d3)
   )
-  (wire (pts (xy 52.07 77.47) (xy 52.07 87.63))
+  (wire (pts (xy 52.07 77.47) (xy 52.07 82.55))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 45d80ddd-89d4-448b-8da2-3b29a35d22fe)
   )
@@ -653,10 +662,6 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 5271449a-43a8-4ef2-87b9-0f06d8725fcc)
   )
-  (wire (pts (xy 228.6 132.08) (xy 228.6 151.13))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 548fa785-c5c0-42ff-8644-3967cfcf0ab9)
-  )
   (wire (pts (xy 55.88 77.47) (xy 68.58 77.47))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 5a3c2b27-b63a-4a61-862e-cb294b053222)
@@ -664,6 +669,10 @@
   (wire (pts (xy 228.6 55.88) (xy 228.6 58.42))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 5b19cf15-0fd2-4526-a55d-3e101ab70065)
+  )
+  (wire (pts (xy 55.88 102.87) (xy 68.58 102.87))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 5bae2540-b86b-40c5-a5aa-a164916449cd)
   )
   (wire (pts (xy 215.9 116.84) (xy 228.6 116.84))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -688,6 +697,10 @@
   (wire (pts (xy 55.88 105.41) (xy 68.58 105.41))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 83d4e440-37a7-46f4-8ed6-1135d9a1e673)
+  )
+  (wire (pts (xy 52.07 100.33) (xy 52.07 102.87))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 87a27dd6-bf6a-4b65-bd46-9fcffe392292)
   )
   (wire (pts (xy 52.07 92.71) (xy 55.88 92.71))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -736,6 +749,10 @@
   (wire (pts (xy 231.14 55.88) (xy 228.6 55.88))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid c727e0e6-5482-4cd5-bcc6-f0d194c14014)
+  )
+  (wire (pts (xy 52.07 102.87) (xy 55.88 102.87))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid c9f32cd8-0885-4309-a82c-c5f5eb50e8d6)
   )
   (wire (pts (xy 55.88 85.09) (xy 68.58 85.09))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -821,8 +838,12 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid f8b1f15a-caef-4925-b338-6b41dbc8c6a7)
   )
+  (wire (pts (xy 52.07 82.55) (xy 55.88 82.55))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid faf806b4-9e66-41f8-bab2-0d3b77ccec9b)
+  )
 
-  (text "+12V in\nGND\nPE\n\nDC-DC sync in\nGND\nDC-DC power good out\nGND\nI2C SCL\nI2C SDA\nGND\n\nfloating GND\nADR 6.62V\n10V sense\n10V force"
+  (text "+12V in\nGND\nPE\nGND\nDC-DC sync in\nGND\nDC-DC power good out\nGND\nI2C SCL\nI2C SDA\nGND\nGND\nfloating GND\nADR 6.62V\n10V sense\n10V force"
     (at 50.8 114.3 0)
     (effects (font (size 1.5748 1.5748)) (justify right bottom))
     (uuid 69667217-7bdb-4c73-9ac0-5262bf0e3a69)
@@ -832,7 +853,7 @@
     (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 27299abf-eabb-45db-a109-6d9800bfa12f)
     (property "Reference" "J104" (id 0) (at 236.22 80.01 0))
-    (property "Value" "ADR" (id 1) (at 236.22 82.55 0))
+    (property "Value" "7Vref" (id 1) (at 236.22 82.55 0))
     (property "Footprint" "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD3.9mm" (id 2) (at 236.22 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -846,7 +867,7 @@
     (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 30570277-0b2d-44ac-9416-b1ae1209d471)
     (property "Reference" "J105" (id 0) (at 236.22 110.49 0))
-    (property "Value" "LoSense" (id 1) (at 236.22 113.03 0))
+    (property "Value" "Lo" (id 1) (at 236.22 113.03 0))
     (property "Footprint" "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD3.9mm" (id 2) (at 236.22 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -965,20 +986,6 @@
     (pin "c8" (uuid 443b842e-cdd6-495f-a7fb-0cef04c17274))
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_01x01") (at 236.22 132.08 0) (mirror x) (unit 1)
-    (in_bom no) (on_board yes) (fields_autoplaced)
-    (uuid e45d5717-29b8-4b31-b3f8-99a046e18c84)
-    (property "Reference" "J106" (id 0) (at 236.22 125.73 0))
-    (property "Value" "GNDf" (id 1) (at 236.22 128.27 0))
-    (property "Footprint" "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD3.9mm" (id 2) (at 236.22 132.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 236.22 132.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 7a645273-96ef-41ae-b64f-315434b61e00))
-  )
-
   (sheet (at 157.48 40.64) (size 58.42 106.68) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
@@ -997,7 +1004,7 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 5cb1901b-6e35-497a-97c0-5f3a0200fd2b)
     )
-    (pin "ADR" output (at 215.9 86.36 0)
+    (pin "7Vref" output (at 215.9 86.36 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid df26df8c-0754-44d6-8352-e59aad105094)
     )
@@ -1009,7 +1016,7 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 0a6f9be2-0125-4c20-9566-c3f94e1eb813)
     )
-    (pin "LoSense" output (at 215.9 116.84 0)
+    (pin "Lo" output (at 215.9 116.84 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 2b761a4a-a828-40b6-a826-27b0eb14e299)
     )
@@ -1037,7 +1044,7 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 8998c3bc-1919-4f43-85fa-d379d828c747)
     )
-    (pin "GNDf" output (at 142.24 111.76 0)
+    (pin "GNDA" output (at 142.24 111.76 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 031ac99b-ee03-447e-bdfd-8176092c1f89)
     )
@@ -1066,6 +1073,9 @@
   )
 
   (symbol_instances
+    (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/e9d646bd-149c-4c14-86f9-f398695f375c"
+      (reference "#PWR0101") (unit 1) (value "GNDA") (footprint "")
+    )
     (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/6d556c3c-cfb6-4231-a43a-cf2bf99678ef"
       (reference "#PWR0301") (unit 1) (value "+12V") (footprint "")
     )
@@ -1109,22 +1119,22 @@
       (reference "C203") (unit 1) (value "100n 50V") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/c2c0dcfb-adbf-4ede-8c8f-892b4e3c1049"
-      (reference "C204") (unit 1) (value "100n 50V") (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (reference "C204") (unit 1) (value "100n Film") (footprint "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2")
     )
     (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/8c84ed42-ed98-4f7c-ace2-b3ca1a498705"
-      (reference "C205") (unit 1) (value "100n 50V") (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (reference "C205") (unit 1) (value "100n Film") (footprint "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2")
     )
     (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/8201cfb7-aa62-498e-84d5-6821e2772aa5"
-      (reference "C206") (unit 1) (value "22u 25V") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C206") (unit 1) (value "10u Film") (footprint "Capacitor_THT:C_Rect_L7.2mm_W11.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2")
     )
     (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/67b054b9-8906-4f2a-9da5-d6fd872badf8"
       (reference "C207") (unit 1) (value "100n 50V") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/cf776b83-331c-44ce-8ab6-c11578ab6637"
-      (reference "C208") (unit 1) (value "220n 50V") (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (reference "C208") (unit 1) (value "220n Film") (footprint "Capacitor_THT:C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2")
     )
     (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/ef4f06d8-ea18-4e01-b7be-c2399e2eb994"
-      (reference "C209") (unit 1) (value "1u 25V") (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (reference "C209") (unit 1) (value "1u Film") (footprint "Capacitor_THT:C_Rect_L4.6mm_W5.5mm_P2.50mm_MKS02_FKP02")
     )
     (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/f7c34d3d-e7b8-4e5f-b046-b579bcf5edad"
       (reference "C301") (unit 1) (value "100n 50V") (footprint "Capacitor_SMD:C_0805_2012Metric")
@@ -1229,13 +1239,10 @@
       (reference "J103") (unit 1) (value "10Vs") (footprint "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD3.9mm")
     )
     (path "/27299abf-eabb-45db-a109-6d9800bfa12f"
-      (reference "J104") (unit 1) (value "ADR") (footprint "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD3.9mm")
+      (reference "J104") (unit 1) (value "7Vref") (footprint "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD3.9mm")
     )
     (path "/30570277-0b2d-44ac-9416-b1ae1209d471"
-      (reference "J105") (unit 1) (value "LoSense") (footprint "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD3.9mm")
-    )
-    (path "/e45d5717-29b8-4b31-b3f8-99a046e18c84"
-      (reference "J106") (unit 1) (value "GNDf") (footprint "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD3.9mm")
+      (reference "J105") (unit 1) (value "Lo") (footprint "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD3.9mm")
     )
     (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/1412d0ae-64e0-405e-b8c0-581c96d125e3"
       (reference "J301") (unit 1) (value "Conn_01x01") (footprint "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD3.9mm")
@@ -1254,9 +1261,6 @@
     )
     (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/28b0a2d1-0258-442d-b320-8ef674375dfc"
       (reference "JP201") (unit 1) (value "Jumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
-    )
-    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/4122f162-72e9-4d7c-b7d1-128cf916e026"
-      (reference "JP202") (unit 1) (value "Jumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
     )
     (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/07bfaede-b766-47a0-af04-4d68b0d8fe90"
       (reference "JP203") (unit 1) (value "Jumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
@@ -1297,10 +1301,10 @@
     (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/5048e5b4-f7a7-451c-85d9-ca3694cff2a1"
       (reference "JP215") (unit 1) (value "Jumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
     )
-    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/998969c2-b64c-473b-933d-cb52f89f03b6"
+    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/516b64a3-01b3-4edc-aec7-f3272984b3e4"
       (reference "JP216") (unit 1) (value "Jumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
     )
-    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/516b64a3-01b3-4edc-aec7-f3272984b3e4"
+    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/998969c2-b64c-473b-933d-cb52f89f03b6"
       (reference "JP217") (unit 1) (value "Jumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
     )
     (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/77211ae6-ee80-4229-aca5-c516debfc0d9"
@@ -1318,17 +1322,26 @@
     (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/b35e92b9-9262-42ed-8042-4f2ee4a48e41"
       (reference "JP222") (unit 1) (value "Jumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
     )
+    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/47129bd1-0f30-4096-9379-97e0199972f6"
+      (reference "JP223") (unit 1) (value "Jumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
+    )
     (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/416464c6-246a-499b-b63c-3963f490b380"
-      (reference "JP223") (unit 1) (value "Jumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
+      (reference "JP224") (unit 1) (value "Jumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
     )
     (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/ad59d2b1-d3f7-41df-8bb3-d58e6925c954"
-      (reference "JP224") (unit 1) (value "Jumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
-    )
-    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/4861523e-02c3-413d-919d-9141e94422ba"
       (reference "JP225") (unit 1) (value "Jumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
     )
+    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/4fc24e63-5190-41ab-bb09-94340ee3730f"
+      (reference "JP226") (unit 1) (value "Jumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
+    )
+    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/4861523e-02c3-413d-919d-9141e94422ba"
+      (reference "JP227") (unit 1) (value "Jumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
+    )
     (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/3b1ffd99-6312-4419-9746-5417d0458fcb"
-      (reference "JP226") (unit 1) (value "Jumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
+      (reference "JP228") (unit 1) (value "Jumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
+    )
+    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/72d6a716-f040-4eb8-9cc8-b0a0269cb9a7"
+      (reference "JP229") (unit 1) (value "Jumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
     )
     (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/82d3af55-2330-46e9-ae2b-5ce56bc7ed43"
       (reference "JP301") (unit 1) (value "Jumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
@@ -1409,7 +1422,7 @@
       (reference "R217") (unit 1) (value "0") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/d17295b1-d0e7-4210-9a0d-9eb18f9f93f5"
-      (reference "R218") (unit 1) (value "0") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R218") (unit 1) (value "18k2") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/0b8550b8-7aa8-4404-af7a-bba2ebac7d01"
       (reference "R219") (unit 1) (value "18k2") (footprint "Crystal:Crystal_HC52-U_Vertical")
@@ -1427,7 +1440,7 @@
       (reference "R223") (unit 1) (value "0") (footprint "Crystal:Crystal_HC52-U_Vertical")
     )
     (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/f10c8c55-f285-4351-b26f-5115cf9d9906"
-      (reference "R224") (unit 1) (value "100") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R224") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/41de54a2-7974-40a3-bd30-b7bb282d6b79"
       (reference "R225") (unit 1) (value "0") (footprint "Crystal:Crystal_HC52-U_Vertical")
@@ -1532,25 +1545,49 @@
       (reference "RN202") (unit 8) (value "Vishay TDP 10k") (footprint "Package_DIP:DIP-16_W7.62mm")
     )
     (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/61e33ddb-fb2f-4483-96fd-ca725420cb1a"
-      (reference "RN204") (unit 1) (value "322146") (footprint "Package_DIP:DIP-14_W7.62mm")
+      (reference "RN203") (unit 1) (value "322146") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/6fdcbff1-2cb3-4d94-aba8-3ee3870c1d05"
-      (reference "RN204") (unit 2) (value "322146") (footprint "Package_DIP:DIP-14_W7.62mm")
+      (reference "RN203") (unit 2) (value "322146") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/8666ecb7-2ac9-4a8d-9840-f85e38ab0340"
-      (reference "RN204") (unit 3) (value "322146") (footprint "Package_DIP:DIP-14_W7.62mm")
+      (reference "RN203") (unit 3) (value "322146") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/305079df-c1dc-408d-b053-f117074e3923"
-      (reference "RN204") (unit 4) (value "322146") (footprint "Package_DIP:DIP-14_W7.62mm")
+      (reference "RN203") (unit 4) (value "322146") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/b2ea05a6-ec63-41a0-968b-8926fafa1239"
-      (reference "RN204") (unit 5) (value "322146") (footprint "Package_DIP:DIP-14_W7.62mm")
+      (reference "RN203") (unit 5) (value "322146") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/bff07581-ab03-420a-8805-f46f8f32b91c"
-      (reference "RN204") (unit 6) (value "322146") (footprint "Package_DIP:DIP-14_W7.62mm")
+      (reference "RN203") (unit 6) (value "322146") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/fde9221f-bdb3-4fc4-aa9c-7e43102431d6"
-      (reference "RN204") (unit 7) (value "322146") (footprint "Package_DIP:DIP-14_W7.62mm")
+      (reference "RN203") (unit 7) (value "322146") (footprint "Package_DIP:DIP-14_W7.62mm")
+    )
+    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/d05a8a57-532c-4506-871c-b337dab47fdc"
+      (reference "RN204") (unit 1) (value "Vishay TDP 100") (footprint "Package_DIP:DIP-16_W7.62mm")
+    )
+    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/0c9d8d04-ebaf-482d-a4dd-5dc4f08c5b98"
+      (reference "RN204") (unit 2) (value "Vishay TDP 100") (footprint "Package_DIP:DIP-16_W7.62mm")
+    )
+    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/3261dad1-ad2f-49af-9d88-9ca8c689f11e"
+      (reference "RN204") (unit 3) (value "Vishay TDP 100") (footprint "Package_DIP:DIP-16_W7.62mm")
+    )
+    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/4657a725-f83f-41d7-8d78-5df6c4ca4b46"
+      (reference "RN204") (unit 4) (value "Vishay TDP 100") (footprint "Package_DIP:DIP-16_W7.62mm")
+    )
+    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/05d75266-ea15-4210-9755-60522e6cb8dc"
+      (reference "RN204") (unit 5) (value "Vishay TDP 100") (footprint "Package_DIP:DIP-16_W7.62mm")
+    )
+    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/8677d68f-dfa3-43f8-85b1-740851a741c6"
+      (reference "RN204") (unit 6) (value "Vishay TDP 100") (footprint "Package_DIP:DIP-16_W7.62mm")
+    )
+    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/87b3e3c2-d810-460f-aa85-2f491d7473d9"
+      (reference "RN204") (unit 7) (value "Vishay TDP 100") (footprint "Package_DIP:DIP-16_W7.62mm")
+    )
+    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/366f807f-fe73-4425-b634-06a83cc8f7e7"
+      (reference "RN204") (unit 8) (value "Vishay TDP 100") (footprint "Package_DIP:DIP-16_W7.62mm")
     )
     (path "/b6049450-f12f-4eca-adfb-237ec3a8e84f"
       (reference "SYM101") (unit 1) (value "OSMU") (footprint "ADRmu_Library:osmu_logo")
