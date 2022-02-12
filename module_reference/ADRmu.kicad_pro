@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.3
+          "min_clearance": 0.19999999999999998
         }
       },
       "diff_pair_dimensions": [
@@ -399,6 +399,8 @@
           "+12V",
           "+3V3",
           "/DC-DC/12Vf",
+          "/DC-DC/U302_cola",
+          "/DC-DC/U302_colb",
           "/DC-DC/filtered+",
           "/DC-DC/rectified+",
           "/DC-DC/rectified-",
@@ -434,6 +436,9 @@
           "/DC-DC/PG",
           "/DC-DC/SCL",
           "/DC-DC/SDA",
+          "/DC-DC/U303_a0",
+          "/DC-DC/U303_a1",
+          "/DC-DC/U303_a2",
           "/DC-DC/U304_add0",
           "/DC-DC/U304_alert",
           "/DC-DC/status",
@@ -458,6 +463,9 @@
         "microvia_drill": 0.1,
         "name": "medium current",
         "nets": [
+          "/DC-DC/U302_ct",
+          "/DC-DC/U302_rsl",
+          "/DC-DC/U302_rt",
           "/DC-DC/U305_ilim",
           "/DC-DC/U305_pgfb",
           "/DC-DC/U305_set",

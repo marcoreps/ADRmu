@@ -1074,6 +1074,24 @@
     (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/e9d646bd-149c-4c14-86f9-f398695f375c"
       (reference "#PWR0101") (unit 1) (value "GNDA") (footprint "")
     )
+    (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/d4667331-0c02-4b89-ad1b-03ae58cdf409"
+      (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/08b8f810-d185-42b6-9a86-a16863a121d8"
+      (reference "#PWR0103") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/acdc0814-65c5-4617-b091-8a15deeb7c30"
+      (reference "#PWR0104") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/e6601025-e11a-4f37-84ae-d48e6efd271e"
+      (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/b17eb8db-dc2f-4772-b9f8-acc3d2f168eb"
+      (reference "#PWR0106") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/ee2e5a05-b98e-4c68-8066-1c93bbdb26df"
+      (reference "#PWR0107") (unit 1) (value "+3V3") (footprint "")
+    )
     (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/6d556c3c-cfb6-4231-a43a-cf2bf99678ef"
       (reference "#PWR0301") (unit 1) (value "+12V") (footprint "")
     )
@@ -1359,6 +1377,15 @@
     (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/b0aa3ea3-bd28-46b9-a539-93a02b47c025"
       (reference "JP306") (unit 1) (value "Jumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
     )
+    (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/2a2b7983-1563-40eb-b323-72b3f36ec976"
+      (reference "JP307") (unit 1) (value "Jumper_3_Open") (footprint "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels")
+    )
+    (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/a2be7a39-0843-4eee-a1b8-6e72c9bed82f"
+      (reference "JP308") (unit 1) (value "Jumper_3_Open") (footprint "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels")
+    )
+    (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/9d64a242-7dd2-4e60-a367-2f8010d73a0a"
+      (reference "JP309") (unit 1) (value "Jumper_3_Open") (footprint "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels")
+    )
     (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/656edf66-7ee1-44ef-b0df-7b06fcedd1e9"
       (reference "NT201") (unit 1) (value "NetTie_2") (footprint "NetTie:NetTie-2_SMD_Pad0.5mm")
     )
@@ -1617,8 +1644,8 @@
     (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/81ba01b9-e49a-4929-bb2c-d2bb233f709e"
       (reference "U302") (unit 1) (value "LT3439") (footprint "Package_SO:TSSOP-16-1EP_4.4x5mm_P0.65mm")
     )
-    (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/018002e6-06ae-46c7-887f-c27f45825467"
-      (reference "U303") (unit 1) (value "24AA02-OT") (footprint "Package_TO_SOT_SMD:SOT-23-5")
+    (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/2cd5ef3f-7192-4e09-8416-f9427ed5ab4b"
+      (reference "U303") (unit 1) (value "24LC02") (footprint "Package_SO:MSOP-8_3x3mm_P0.65mm")
     )
     (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/134880bc-d841-4eb7-9f36-1cb570974bc8"
       (reference "U304") (unit 1) (value "TMP117") (footprint "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm")
