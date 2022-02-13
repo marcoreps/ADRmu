@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "ADRmu_battery_Library")(type "KiCad")(uri "${KIPRJMOD}/ADRmu_battery_Library.kicad_sym")(options "")(descr ""))
+)
