@@ -1954,6 +1954,9 @@
     (uuid f5827182-ceb9-4881-92e5-f1ee488430d0)
   )
 
+  (no_connect (at 223.52 76.2) (uuid 2b086aaf-9294-4fb9-8772-8ddb47cff181))
+  (no_connect (at 220.98 76.2) (uuid 2b086aaf-9294-4fb9-8772-8ddb47cff181))
+
   (wire (pts (xy 218.44 76.2) (xy 218.44 78.74))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 006cc238-e8ca-4602-a90e-cdd708bc19e8)
