@@ -523,11 +523,11 @@
   )
 
   (no_connect (at 68.58 97.79) (uuid 18fc95f1-2508-450b-942a-2a8059c60ccf))
-  (no_connect (at 55.88 97.79) (uuid 18fc95f1-2508-450b-942a-2a8059c60ccf))
+  (no_connect (at 55.88 97.79) (uuid 18fc95f1-2508-450b-942a-2a8059c60cd0))
   (no_connect (at 55.88 82.55) (uuid 6a64bf88-cbb7-4c49-8415-3814ecfca3de))
-  (no_connect (at 68.58 82.55) (uuid 6a64bf88-cbb7-4c49-8415-3814ecfca3de))
-  (no_connect (at 55.88 80.01) (uuid 6a64bf88-cbb7-4c49-8415-3814ecfca3de))
-  (no_connect (at 68.58 80.01) (uuid 6a64bf88-cbb7-4c49-8415-3814ecfca3de))
+  (no_connect (at 68.58 82.55) (uuid 6a64bf88-cbb7-4c49-8415-3814ecfca3df))
+  (no_connect (at 55.88 80.01) (uuid 6a64bf88-cbb7-4c49-8415-3814ecfca3e0))
+  (no_connect (at 68.58 80.01) (uuid 6a64bf88-cbb7-4c49-8415-3814ecfca3e1))
   (no_connect (at 55.88 102.87) (uuid 9abac189-93fb-45a9-b235-b8e565a337ea))
   (no_connect (at 55.88 100.33) (uuid 9abac189-93fb-45a9-b235-b8e565a337eb))
   (no_connect (at 68.58 100.33) (uuid 9abac189-93fb-45a9-b235-b8e565a337ec))
@@ -1195,9 +1195,6 @@
     (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/28b0a2d1-0258-442d-b320-8ef674375dfc"
       (reference "JP201") (unit 1) (value "Jumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
     )
-    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/07bfaede-b766-47a0-af04-4d68b0d8fe90"
-      (reference "JP203") (unit 1) (value "Jumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
-    )
     (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/22d3f550-fed4-412b-b6b4-9db1ccb8e521"
       (reference "JP204") (unit 1) (value "Jumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
     )
@@ -1318,14 +1315,8 @@
     (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/35cc51ac-88aa-4e06-b208-c6eba9764c77"
       (reference "R202") (unit 1) (value "0") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/b7a40cda-2d38-4aa1-8263-96305825f134"
-      (reference "R203") (unit 1) (value "0") (footprint "Crystal:Crystal_HC52-U_Vertical")
-    )
     (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/5b265eee-7d8e-45bd-9c43-45636aff73d6"
       (reference "R204") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
-    )
-    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/3b202fed-f40b-4bc5-8880-8f3c1167fb92"
-      (reference "R205") (unit 1) (value "0") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/fa8fa489-bfbb-4a14-909a-41f24ebcd36a"
       (reference "R206") (unit 1) (value "1M") (footprint "Resistor_SMD:R_0805_2012Metric")

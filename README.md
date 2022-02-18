@@ -7,6 +7,7 @@
 Low cost 10V DC reference standard in DIN 41612 modular enclosure. Based on ovenized LTZ1000 / LTZ1000A or ADR1000A zener diodes.
 
 ## TODO
+Add fuel gauge to battery
 
 ## Tentative specs
 
