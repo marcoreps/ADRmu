@@ -8,6 +8,8 @@ Low cost 10V DC reference standard in DIN 41612 modular enclosure. Based on oven
 
 ## TODO
 Add fuel gauge to battery
+Charge battery with LTC4079 maybe
+Layout improved RN201
 
 ## Tentative specs
 
