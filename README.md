@@ -9,12 +9,9 @@ Low cost 10V DC reference standard in DIN 41612 modular enclosure. Based on oven
 ## TODO
 Add fuel gauge to battery
 Charge battery with LTC4079 maybe
-Layout improved RN201
-tighten solder mask ring around ADR
 remove optional resistors from stencil
-MUCH! more isolation distance
 
-## Tentative specs
+## Spec speculations
 
 ### Output Voltage Stability (± µV/V):
 
