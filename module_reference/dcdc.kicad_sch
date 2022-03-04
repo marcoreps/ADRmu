@@ -6,7 +6,7 @@
 
   (title_block
     (title "DC-DC converter & misc")
-    (date "2022-03-02")
+    (date "2022-03-04")
     (rev "0.4")
     (company "RPG")
     (comment 1 "All resistors 0.1% MF unless otherwise noted")
@@ -2610,7 +2610,7 @@
   )
 
   (symbol (lib_id "Jumper:Jumper_3_Open") (at 171.45 92.71 90) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 2a2b7983-1563-40eb-b323-72b3f36ec976)
     (property "Reference" "JP307" (id 0) (at 168.91 91.4399 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3114,7 +3114,7 @@
   )
 
   (symbol (lib_id "Jumper:Jumper_3_Open") (at 177.8 107.95 90) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 9d64a242-7dd2-4e60-a367-2f8010d73a0a)
     (property "Reference" "JP309" (id 0) (at 175.26 106.6799 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3150,7 +3150,7 @@
   )
 
   (symbol (lib_id "Jumper:Jumper_3_Open") (at 171.45 124.46 90) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid a2be7a39-0843-4eee-a1b8-6e72c9bed82f)
     (property "Reference" "JP308" (id 0) (at 168.91 123.1899 90)
       (effects (font (size 1.27 1.27)) (justify left))

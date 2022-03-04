@@ -6,7 +6,7 @@
 
   (title_block
     (title "Parent schematic")
-    (date "2022-03-02")
+    (date "2022-03-04")
     (rev "0.4")
     (company "RPG")
     (comment 1 "All resistors 0.1% MF unless otherwise noted")
@@ -585,7 +585,7 @@
   (no_connect (at 68.58 97.79) (uuid 18fc95f1-2508-450b-942a-2a8059c60ccf))
   (no_connect (at 55.88 97.79) (uuid 18fc95f1-2508-450b-942a-2a8059c60cd0))
   (no_connect (at 68.58 90.17) (uuid 3263b5f7-8027-473f-bb36-bbe701aa4ed1))
-  (no_connect (at 55.88 90.17) (uuid 3263b5f7-8027-473f-bb36-bbe701aa4ed1))
+  (no_connect (at 55.88 90.17) (uuid 3263b5f7-8027-473f-bb36-bbe701aa4ed2))
   (no_connect (at 55.88 82.55) (uuid 6a64bf88-cbb7-4c49-8415-3814ecfca3de))
   (no_connect (at 68.58 82.55) (uuid 6a64bf88-cbb7-4c49-8415-3814ecfca3df))
   (no_connect (at 55.88 80.01) (uuid 6a64bf88-cbb7-4c49-8415-3814ecfca3e0))

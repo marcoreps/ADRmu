@@ -6,7 +6,7 @@
 
   (title_block
     (title "Reference and 10V buffer circuit")
-    (date "2022-03-02")
+    (date "2022-03-04")
     (rev "0.4")
     (company "RPG")
     (comment 1 "All resistors 0.1% MF unless otherwise noted")
