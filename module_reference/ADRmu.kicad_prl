@@ -1,7 +1,7 @@
 {
   "board": {
     "active_layer": 37,
-    "active_layer_preset": "Front Assembly View",
+    "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_nets": [],
     "high_contrast_mode": 0,
@@ -62,7 +62,7 @@
       35,
       36
     ],
-    "visible_layers": "00290b0_80000001",
+    "visible_layers": "00290a0_00000006",
     "zone_display_mode": 0
   },
   "meta": {
