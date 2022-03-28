@@ -528,8 +528,8 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "../../Desktop/ADRmu.step",
-      "vrml": ""
+      "step": "board_3d_model.step",
+      "vrml": "board_3d_model.wrl"
     },
     "page_layout_descr_file": ""
   },
