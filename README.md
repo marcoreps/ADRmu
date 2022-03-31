@@ -4,13 +4,28 @@
 ![ppm over 24h](https://github.com/marcoreps/ADRmu/raw/main/images/24hppm.jpg)
 
 ## Scope
+
 Low cost 10V DC reference standard in DIN 41612 modular enclosure. Based on ovenized LTZ1000 / LTZ1000A or ADR1000A zener diodes.
 
 ## TODO
+
+Reduce core losses
+
+Inrush trips battery OC
+
 Add fuel gauge to battery
+
 Charge battery with LTC4079 maybe
+
 Battery charge input protection diodes
+
+Lower battery charge current to 600mA
+
 EEPROM in BOM doesn't allow addressing, maybe switch to i.e. BR24H64FVM-5ACTR
+
+## Assembly advice
+
+Recommended ~5 transformer windings pri & sec
 
 ## Spec speculations
 
