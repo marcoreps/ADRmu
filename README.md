@@ -9,10 +9,6 @@ Low cost 10V DC reference standard in DIN 41612 modular enclosure. Based on oven
 
 ## TODO
 
-Route jumper link
-
-Add fuel gauge to battery
-
 Align JP and R designators
 
 ## Assembly advice
