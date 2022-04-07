@@ -9,19 +9,11 @@ Low cost 10V DC reference standard in DIN 41612 modular enclosure. Based on oven
 
 ## TODO
 
-Reduce core losses
-
-Inrush trips battery OC
+Route jumper link
 
 Add fuel gauge to battery
 
-Charge battery with LTC4079 maybe
-
-Battery charge input protection diodes
-
-Lower battery charge current to 600mA
-
-EEPROM in BOM doesn't allow addressing, maybe switch to i.e. BR24H64FVM-5ACTR
+Align JP and R designators
 
 ## Assembly advice
 

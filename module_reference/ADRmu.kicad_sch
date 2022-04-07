@@ -1169,7 +1169,7 @@
       (reference "C302") (unit 1) (value "100n 50V") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/8a4e1483-985f-4634-8a4c-4cfa69729777"
-      (reference "C303") (unit 1) (value "1000u 25V") (footprint "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm")
+      (reference "C303") (unit 1) (value "470u 25V") (footprint "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm")
     )
     (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/d9778620-fead-44e5-8261-faa00daf4e58"
       (reference "C304") (unit 1) (value "1n 50V") (footprint "Capacitor_SMD:C_0805_2012Metric")
@@ -1384,6 +1384,9 @@
     (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/9d64a242-7dd2-4e60-a367-2f8010d73a0a"
       (reference "JP309") (unit 1) (value "Jumper_3_Open") (footprint "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels")
     )
+    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/40c9c017-d4fa-46c1-9560-cff9d6dbb03b"
+      (reference "JP?") (unit 1) (value "Jumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
+    )
     (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/656edf66-7ee1-44ef-b0df-7b06fcedd1e9"
       (reference "NT201") (unit 1) (value "NetTie_2") (footprint "NetTie:NetTie-2_SMD_Pad2.0mm")
     )
@@ -1481,7 +1484,7 @@
       (reference "R302") (unit 1) (value "16k9") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/941fbe55-e647-4947-a826-13a67b740fac"
-      (reference "R303") (unit 1) (value "16k9") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R303") (unit 1) (value "49k9") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/3cd6dae0-8b1f-4f12-8496-f8807af76e2d"
       (reference "R304") (unit 1) (value "16k9") (footprint "Resistor_SMD:R_0805_2012Metric")
@@ -1496,7 +1499,7 @@
       (reference "R307") (unit 1) (value "4k99") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/b6374ec4-7ed7-459e-befd-2e08e8f885b1"
-      (reference "R308") (unit 1) (value "16k9") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R308") (unit 1) (value "49k9") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/c704b6f6-f527-4c2e-9d83-ff759777f370"
       (reference "R309") (unit 1) (value "200k") (footprint "Resistor_SMD:R_0805_2012Metric")
@@ -1640,7 +1643,7 @@
       (reference "U303") (unit 1) (value "TMP117") (footprint "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm")
     )
     (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/2cd5ef3f-7192-4e09-8416-f9427ed5ab4b"
-      (reference "U304") (unit 1) (value "24LC02") (footprint "Package_SO:MSOP-8_3x3mm_P0.65mm")
+      (reference "U304") (unit 1) (value "BR24H64FVM") (footprint "Package_SO:MSOP-8_3x3mm_P0.65mm")
     )
     (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/e6a44763-1337-4e7b-abd3-cfd9844fccc8"
       (reference "U305") (unit 1) (value "LT3045xMSE") (footprint "Package_SO:MSOP-12-1EP_3x4mm_P0.65mm_EP1.65x2.85mm")
