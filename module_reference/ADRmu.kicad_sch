@@ -1505,13 +1505,13 @@
       (reference "R310") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/34af8217-2914-46cd-8af7-cee39a974b87"
-      (reference "R311") (unit 1) (value "120k") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R311") (unit 1) (value "110k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/cdb664ee-3f00-4c5a-af63-9c9dadcc63d1"
-      (reference "R312") (unit 1) (value "1M8") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R312") (unit 1) (value "1M") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/590dbea1-342c-423f-9920-ea67e378a0c1"
-      (reference "R313") (unit 1) (value "49k9") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R313") (unit 1) (value "30k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/bc336e03-bc09-4510-978e-8a7ea994a185"
       (reference "RN201") (unit 1) (value "Vishay TDP 10k") (footprint "Package_DIP:DIP-16_W7.62mm")
