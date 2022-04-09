@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\Users\reps\Documents\ADRmu\module_reference\ADRmu.kicad_sch</source>
-    <date>04/03/2022 00:57:09</date>
+    <date>09/04/2022 07:39:20</date>
     <tool>Eeschema (6.0.0)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -289,7 +289,7 @@
       <tstamps>afa5b8a8-f13e-41cf-aeea-54044bb0e20e</tstamps>
     </comp>
     <comp ref="C303">
-      <value>1000u 25V</value>
+      <value>470u 25V</value>
       <footprint>Capacitor_THT:CP_Radial_D16.0mm_P7.50mm</footprint>
       <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
       <property name="Sheetname" value="DC-DC"/>
@@ -470,7 +470,7 @@
       <tstamps>0a7e68ff-5478-4f10-9cfa-e3e4c8b93824</tstamps>
     </comp>
     <comp ref="R303">
-      <value>10k</value>
+      <value>49k9</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="DC-DC"/>
@@ -515,7 +515,7 @@
       <tstamps>d081bf58-512e-4cca-92f8-30436bfe989f</tstamps>
     </comp>
     <comp ref="R308">
-      <value>10k</value>
+      <value>49k9</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="DC-DC"/>
@@ -542,7 +542,7 @@
       <tstamps>8c403d35-c4a5-400e-b2cf-16b1f0fc315b</tstamps>
     </comp>
     <comp ref="R311">
-      <value>120k</value>
+      <value>110k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="DC-DC"/>
@@ -551,7 +551,7 @@
       <tstamps>34af8217-2914-46cd-8af7-cee39a974b87</tstamps>
     </comp>
     <comp ref="R312">
-      <value>1M8</value>
+      <value>1M</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="DC-DC"/>
@@ -560,7 +560,7 @@
       <tstamps>cdb664ee-3f00-4c5a-af63-9c9dadcc63d1</tstamps>
     </comp>
     <comp ref="R313">
-      <value>49k9</value>
+      <value>30k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="DC-DC"/>
@@ -608,9 +608,9 @@
       <tstamps>134880bc-d841-4eb7-9f36-1cb570974bc8</tstamps>
     </comp>
     <comp ref="U304">
-      <value>24LC02</value>
+      <value>BR24H64FVM</value>
       <footprint>Package_SO:MSOP-8_3x3mm_P0.65mm</footprint>
-      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/21709c.pdf</datasheet>
+      <datasheet>https://fscdn.rohm.com/en/products/databook/datasheet/ic/memory/eeprom/br24h64xxx-5ac-e.pdf</datasheet>
       <libsource lib="Memory_EEPROM" part="24LC02" description="I2C Serial EEPROM, 2Kb, DIP-8/SOIC-8/TSSOP-8/DFN-8"/>
       <property name="Sheetname" value="DC-DC"/>
       <property name="Sheetfile" value="dcdc.kicad_sch"/>
