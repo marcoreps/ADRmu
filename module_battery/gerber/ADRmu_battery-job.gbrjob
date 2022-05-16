@@ -3,15 +3,15 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "(6.0.0)"
+      "Version": "(6.0.5)"
     },
-    "CreationDate": "2022-04-07T22:49:51+02:00"
+    "CreationDate": "2022-05-16T18:42:15+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "ADRmu_battery",
       "GUID": "4144526d-755f-4626-9174-746572792e6b",
-      "Revision": "0.2"
+      "Revision": "0.3"
     },
     "Size": {
       "X": 160.1,
