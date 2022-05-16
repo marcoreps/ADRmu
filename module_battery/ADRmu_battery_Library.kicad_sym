@@ -256,7 +256,7 @@
       )
     )
     (symbol "LTC4079_1_0"
-      (pin output line (at 12.7 5.08 180) (length 2.54)
+      (pin power_out line (at 12.7 5.08 180) (length 2.54)
         (name "BAT" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
