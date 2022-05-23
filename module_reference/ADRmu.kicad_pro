@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.8,
+          "height": 1.6,
+          "width": 1.6
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -44,8 +44,8 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "45_degree_only": true,
-          "min_clearance": 0.19999999999999998
+          "45_degree_only": false,
+          "min_clearance": 0.35
         }
       },
       "diff_pair_dimensions": [
@@ -405,7 +405,6 @@
           "/DC-DC/12Vf",
           "/DC-DC/U302_cola",
           "/DC-DC/U302_colb",
-          "/DC-DC/filtered+",
           "/DC-DC/rectified+",
           "/DC-DC/xformer_A",
           "/DC-DC/xformer_B",
@@ -440,16 +439,11 @@
           "/DC-DC/PG",
           "/DC-DC/SCL",
           "/DC-DC/SDA",
-          "/DC-DC/U303_a0",
-          "/DC-DC/U303_a1",
-          "/DC-DC/U303_a2",
           "/DC-DC/U303_add0",
           "/DC-DC/U303_alert",
           "/DC-DC/U304_a0",
           "/DC-DC/U304_a1",
           "/DC-DC/U304_a2",
-          "/DC-DC/U304_add0",
-          "/DC-DC/U304_alert",
           "/DC-DC/status",
           "/DC-DC/sync",
           "/ref/U203_+in"
@@ -489,7 +483,6 @@
           "/ref/ADR_Pin8",
           "/ref/JP201_Pin1",
           "/ref/JP214_Pin2",
-          "/ref/JP221_Pin2",
           "/ref/Q201_base",
           "/ref/R206_Pin1",
           "/ref/RN201_Pin11",
