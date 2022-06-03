@@ -1,6 +1,8 @@
 from smbus2 import SMBus, i2c_msg
 from math import ceil
 from time import sleep
+import sys
+
 
 def read_eeprom(bus, address, count, blocksize=32):
     print("reading "+str(count)+" bytes ...")
@@ -32,11 +34,19 @@ def write_eeprom(bus, address, data, blocksize=32, sleep_time=0.01):
         bus.i2c_rdwr(write)
 
 bus = SMBus(1)
-i2c_address=0x50
-str_to_write="ADRmu S/N 1\nYYYY.MM.DD,VV.VVVVVVVV,TT.TTT\n2022.03.31,09.99629718,33.086"
-data = [ord(c) for c in str_to_write]
-write_eeprom(bus,i2c_address, data)
-sleep(1)
-read_result = read_eeprom(bus, i2c_address, len(data))
-print(''.join(chr(i) for i in read_result))
-assert(read_result == data)
+i2c_address=0x53
+
+if (sys.argv[1]=="read"):
+    read_result = read_eeprom(bus, i2c_address, 100)
+    print(''.join(chr(i) for i in read_result))
+
+elif( sys.argv[0]=="write"):
+    write_eeprom(bus,i2c_address,[0xFF]*100)
+    sleep(1)
+    str_to_write="ADRmu S/N 4\nYYYY.MM.DD,VV.VVVVVVVV,TT.TTT\n2022.06.02,09.99785080,28.585"
+    data = [ord(c) for c in str_to_write]
+    write_eeprom(bus,i2c_address, data)
+    sleep(1)
+    read_result = read_eeprom(bus, i2c_address, len(data))
+    print(''.join(chr(i) for i in read_result))
+    assert(read_result == data)

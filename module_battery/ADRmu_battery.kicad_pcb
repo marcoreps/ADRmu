@@ -4267,6 +4267,7 @@
     )
   )
 
+  (gr_rect (start 204.0128 109.1438) (end 204.9272 113.6142) (layer "F.Paste") (width 0.15) (fill solid) (tstamp ab030358-3293-44d1-a420-0486258f0417))
   (gr_rect (start 165.885 125.1) (end 155.885 75.1) (layer "B.SilkS") (width 0.15) (fill solid) (tstamp 8eff6adb-f8e5-40ff-bd15-11a9adc436b3))
   (gr_line (start 92.075 142.24) (end 90.805 142.875) (layer "F.SilkS") (width 0.15) (tstamp 21836752-9bed-4557-b43a-691bbd28d518))
   (gr_line (start 93 114.5) (end 97 115.45) (layer "F.SilkS") (width 0.15) (tstamp 90639f2a-a27b-414d-b99f-84b4d77734cb))
