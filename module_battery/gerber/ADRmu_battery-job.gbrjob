@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "(6.0.5)"
     },
-    "CreationDate": "2022-05-16T18:42:15+02:00"
+    "CreationDate": "2022-06-04T15:18:32+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "ADRmu_battery",
       "GUID": "4144526d-755f-4626-9174-746572792e6b",
-      "Revision": "0.3"
+      "Revision": "0.4"
     },
     "Size": {
       "X": 160.1,
@@ -24,8 +24,8 @@
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.2,
-      "PadToTrack": 0.2,
+      "PadToPad": 0.0,
+      "PadToTrack": 0.0,
       "TrackToTrack": 0.2,
       "MinLineWidth": 0.3,
       "TrackToRegion": 0.2,
