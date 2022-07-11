@@ -1,0 +1,1554 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\reps\Documents\ADRmu\module_battery\ADRmu_battery.kicad_sch</source>
+    <date>11/07/2022 09:41:18</date>
+    <tool>Eeschema (6.0.5)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>ADRmu battery module</title>
+        <company>RPG</company>
+        <rev>0.6</rev>
+        <date>2022-07-11</date>
+        <source>ADRmu_battery.kicad_sch</source>
+        <comment number="1" value="All resistors 0.1% MF unless otherwise noted"/>
+        <comment number="2" value="All capacitors X7R MLCC unless otherwise noted"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="B101">
+      <value>BK-18650-PC8</value>
+      <footprint>ADRmu_battery_Library:BK-18650-PC8</footprint>
+      <libsource lib="ADRmu_battery_Library" part="BK-18650-PC8" description="quad 18650 battery holder"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f835af3b-39cf-4b95-9f23-e62a5f8ccacb 95f23959-3be6-4713-9a0a-ab083f42d815 cb813e4c-244c-4fbf-8ac1-5fe6dbc85f33 6c1c214c-3783-4fd2-97f7-4af12afe327b</tstamps>
+    </comp>
+    <comp ref="C101">
+      <value>1u 50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d0145516-0f09-48c3-a72a-e94276fb4bbe</tstamps>
+    </comp>
+    <comp ref="C102">
+      <value>1u 50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>812cfab6-11d0-4075-a719-7bcd308064b4</tstamps>
+    </comp>
+    <comp ref="C103">
+      <value>1u 50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>37f153c0-d307-4cfc-8344-8bc4b00b2ebe</tstamps>
+    </comp>
+    <comp ref="C104">
+      <value>1u 50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>be1ac3a4-0765-4178-a3b0-a642b3e603ce</tstamps>
+    </comp>
+    <comp ref="C105">
+      <value>1u 50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e8d08dd5-bcd4-4d06-9a93-af2956095b0e</tstamps>
+    </comp>
+    <comp ref="C106">
+      <value>1u 50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bb2192a3-e592-4ab3-8978-4b0fb43387a1</tstamps>
+    </comp>
+    <comp ref="C107">
+      <value>100n 50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bd6193f2-b383-4a74-810b-2794c5f025e1</tstamps>
+    </comp>
+    <comp ref="C108">
+      <value>1u 50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3cb198d1-daa1-4856-ac03-73c2b8ce8299</tstamps>
+    </comp>
+    <comp ref="C109">
+      <value>100n 50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cb23d396-3b27-4cf1-a3e3-ba3828e6e2b2</tstamps>
+    </comp>
+    <comp ref="C110">
+      <value>100n 50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9e65c8b4-ea8c-48bf-92cc-09ae27370b90</tstamps>
+    </comp>
+    <comp ref="C111">
+      <value>100n 50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>07577e2d-56fe-45f0-b216-56913ef416b0</tstamps>
+    </comp>
+    <comp ref="C112">
+      <value>100n 50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d6c52aeb-94e7-4f5d-86ba-3b296cbb0688</tstamps>
+    </comp>
+    <comp ref="C113">
+      <value>220u 16V</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f0a9383e-beff-44c3-b698-c3c69686601b</tstamps>
+    </comp>
+    <comp ref="C114">
+      <value>1u 50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8c9e3340-ada5-4bec-b8b6-d49c3df69d2d</tstamps>
+    </comp>
+    <comp ref="C115">
+      <value>1u 50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>312b4176-097f-449e-a4cb-6a88273db3b9</tstamps>
+    </comp>
+    <comp ref="C116">
+      <value>1u 50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cc4847cc-87a7-451c-a60b-b8d5baf393e2</tstamps>
+    </comp>
+    <comp ref="C117">
+      <value>100n 50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b5eed884-575b-4f16-8a4a-5682d3a71b99</tstamps>
+    </comp>
+    <comp ref="D101">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>571e7e7f-b122-4265-a677-b57b42a8d2e5</tstamps>
+    </comp>
+    <comp ref="D102">
+      <value>16V</value>
+      <footprint>Diode_SMD:D_SOT-23_ANK</footprint>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ef4ba482-6d39-41e7-a91a-758314e25642</tstamps>
+    </comp>
+    <comp ref="D103">
+      <value>LT Y8SG-V2AB-36</value>
+      <footprint>LED_SMD:LED_1206_3216Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>048e9f19-2d04-44c0-9d27-07589f19df0d</tstamps>
+    </comp>
+    <comp ref="D104">
+      <value>LT Y8SG-V2AB-36</value>
+      <footprint>LED_SMD:LED_1206_3216Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7afadd78-5a91-4dcf-b00f-7d57473f9cdb</tstamps>
+    </comp>
+    <comp ref="D105">
+      <value>BZX84C10</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzx84c2v4.pdf</datasheet>
+      <libsource lib="Diode" part="BZX84Cxx" description="300mW Zener Diode, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9cae6d54-dac3-4c82-a40d-2d5d06b38002</tstamps>
+    </comp>
+    <comp ref="D106">
+      <value>LT Y8SG-V2AB-36</value>
+      <footprint>LED_SMD:LED_1206_3216Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2521e052-5f5d-437f-90ea-6b0447b817d2</tstamps>
+    </comp>
+    <comp ref="D109">
+      <value>LT Y8SG-V2AB-36</value>
+      <footprint>LED_SMD:LED_1206_3216Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>95b67a28-131b-4b0f-b9b7-deba761fcee1</tstamps>
+    </comp>
+    <comp ref="D112">
+      <value>LT Y8SG-V2AB-36</value>
+      <footprint>LED_SMD:LED_1206_3216Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9442116d-7d47-4392-af5e-2fda899be512</tstamps>
+    </comp>
+    <comp ref="D116">
+      <value>RS1D-13-F</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>15b2e52c-dbb5-4362-a23c-108148443d33</tstamps>
+    </comp>
+    <comp ref="F101">
+      <value>2A</value>
+      <footprint>Fuse:Fuse_1812_4532Metric</footprint>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dcdc3aae-6c89-471f-94ed-c36b3a3c0094</tstamps>
+    </comp>
+    <comp ref="HS101">
+      <value>THJP1206AST1</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d9accfaf-f1d8-4640-b7f0-2f29d374620f</tstamps>
+    </comp>
+    <comp ref="HS102">
+      <value>THJP1206AST1</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>26d8b8c3-f75c-407e-87ff-52b4f9728be3</tstamps>
+    </comp>
+    <comp ref="HS103">
+      <value>THJP1206AST1</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e593babe-b691-4a96-95d5-a1a037f06184</tstamps>
+    </comp>
+    <comp ref="HS104">
+      <value>THJP1206AST1</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f1192613-dc3f-4189-b57c-2cab6f20d9c8</tstamps>
+    </comp>
+    <comp ref="J101">
+      <value>Harting 09042326831</value>
+      <footprint>Connector_DIN:DIN41612_D_2x16_Male_Horizontal_THT</footprint>
+      <libsource lib="Connector" part="DIN41612_02x16_AC_EvenPins" description="DIN41612 connector, double row (AC) even pins only, 02x16, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>59fbe416-3cd9-436b-a19d-e1b1ddce22ac</tstamps>
+    </comp>
+    <comp ref="Q101">
+      <value>Q_NMOS_GDS</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eee8e452-64c2-438b-ae15-f80f510df41b</tstamps>
+    </comp>
+    <comp ref="Q102">
+      <value>Q_NMOS_GDS</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c62f4bb1-81cc-434c-a548-1562f0746789</tstamps>
+    </comp>
+    <comp ref="R101">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>78c3138c-eeb6-4f93-9dc5-d0276a269644</tstamps>
+    </comp>
+    <comp ref="R102">
+      <value>33</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ccd89112-c84b-46e9-8e23-9700fbd66cc8</tstamps>
+    </comp>
+    <comp ref="R103">
+      <value>33</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9291b9ee-da1f-4f67-b92b-004d082c36c2</tstamps>
+    </comp>
+    <comp ref="R104">
+      <value>33</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>741f29bd-5148-4282-b9a1-7c13cb0a965b</tstamps>
+    </comp>
+    <comp ref="R105">
+      <value>33</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>16237f70-7fe8-4104-9c7a-96b72c1a8f5f</tstamps>
+    </comp>
+    <comp ref="R106">
+      <value>33</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>30973fa6-4951-4969-b3c5-9480e0b3e37a</tstamps>
+    </comp>
+    <comp ref="R107">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>97f1fe69-9d49-4c27-ab87-a86213d5a291</tstamps>
+    </comp>
+    <comp ref="R108">
+      <value>60mR</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c92d1b89-be64-4af3-98c1-eeb4ba74b690</tstamps>
+    </comp>
+    <comp ref="R109">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>58efdb04-9062-4ba7-9ff5-527def451f15</tstamps>
+    </comp>
+    <comp ref="R110">
+      <value>5k1</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6067fe11-8f22-4306-bce3-9ab39fd86c2f</tstamps>
+    </comp>
+    <comp ref="R111">
+      <value>10M</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3b3db8e5-2f14-43aa-ac24-31cc30774fc0</tstamps>
+    </comp>
+    <comp ref="R112">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>afef6548-b461-42a2-ad84-fd2d708a792b</tstamps>
+    </comp>
+    <comp ref="R113">
+      <value>3M</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dcf3a868-bb54-4f80-86bd-0c6d588831bb</tstamps>
+    </comp>
+    <comp ref="R114">
+      <value>5k1</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f78266a7-d93c-4b01-b7b6-8630bc707286</tstamps>
+    </comp>
+    <comp ref="R115">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aa58b0df-3eea-448d-b166-d531e51075f3</tstamps>
+    </comp>
+    <comp ref="R116">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ff1141c9-89c4-4fee-8166-3d707acb6730</tstamps>
+    </comp>
+    <comp ref="R117">
+      <value>200k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>87751947-dbb5-487d-86a7-3f1247a65e67</tstamps>
+    </comp>
+    <comp ref="R118">
+      <value>470k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>03a33570-9fdd-49f8-9a51-3e6e0b7b5f29</tstamps>
+    </comp>
+    <comp ref="R119">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fde0d7a2-68de-4047-be95-2cd0d5e8defd</tstamps>
+    </comp>
+    <comp ref="R120">
+      <value>49k9</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6c6dd531-fab5-476d-8cae-9514a0af0247</tstamps>
+    </comp>
+    <comp ref="R121">
+      <value>9.1M</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ebe4d216-6e37-4339-b1fa-650a1a7c8757</tstamps>
+    </comp>
+    <comp ref="R122">
+      <value>680k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>85232871-7690-4091-9c3c-7e30ca7a3e94</tstamps>
+    </comp>
+    <comp ref="R124">
+      <value>1k2</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e21c3568-b1a1-45b7-8ff2-d3a87b7d6b6c</tstamps>
+    </comp>
+    <comp ref="R125">
+      <value>49k9</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>96b1582e-1bf5-40ee-8df6-bed2694ce633</tstamps>
+    </comp>
+    <comp ref="R126">
+      <value>49k9</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c385f202-657f-4918-8fc7-bddaf22636a6</tstamps>
+    </comp>
+    <comp ref="R127">
+      <value>49k9</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b71e76f9-6fd8-4528-8c3f-e02f424ab983</tstamps>
+    </comp>
+    <comp ref="R128">
+      <value>49k9</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0762eedb-6aac-4bc3-bd7f-1d483d09751c</tstamps>
+    </comp>
+    <comp ref="R129">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bd7883c0-71a4-4be2-8b47-49b4297ab473</tstamps>
+    </comp>
+    <comp ref="R130">
+      <value>5k1</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>57b1840d-2cf2-446d-b046-5d0a27f9fc49</tstamps>
+    </comp>
+    <comp ref="R131">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ae083d1f-ed05-4b5a-933b-564911a1ef04</tstamps>
+    </comp>
+    <comp ref="R132">
+      <value>22k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2ac42287-1421-4e80-ad0c-5f91dd769183</tstamps>
+    </comp>
+    <comp ref="R133">
+      <value>6k8</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>87a503ae-09a8-47cc-9f37-a762ded4f87d</tstamps>
+    </comp>
+    <comp ref="R134">
+      <value>6k8</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>77a8e8a4-6859-4061-99cd-9444994ddc11</tstamps>
+    </comp>
+    <comp ref="R135">
+      <value>82k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fc8604ea-a7f1-42da-9637-3a503b348bb5</tstamps>
+    </comp>
+    <comp ref="R136">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1584e020-0aec-471d-9220-cadbf6e166f5</tstamps>
+    </comp>
+    <comp ref="R137">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cfb5d7ce-fe85-4e20-87ba-c82786436ca3</tstamps>
+    </comp>
+    <comp ref="TH101">
+      <value>CMFB3435103FNT</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="Thermistor_NTC" description="Temperature dependent resistor, negative temperature coefficient"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eb79ab6e-5927-4ac1-8ae0-e3ccc79e76cf</tstamps>
+    </comp>
+    <comp ref="TH102">
+      <value>Alternative 10k NTC</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical</footprint>
+      <libsource lib="Device" part="Thermistor_NTC" description="Temperature dependent resistor, negative temperature coefficient"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>623d01f5-ee94-485f-9984-77b81670f49e</tstamps>
+    </comp>
+    <comp ref="U101">
+      <value>BQ7791500</value>
+      <footprint>Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/bq77915.pdf</datasheet>
+      <libsource lib="ADRmu_battery_Library" part="BQ77915" description="BQ77915 3-Series to 5-Series Stackable Ultra-Low Power Primary Protector with"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d417909d-4db5-47e3-ba21-90475370d25d</tstamps>
+    </comp>
+    <comp ref="U102">
+      <value>LTC4079</value>
+      <footprint>Package_DFN_QFN:DFN-10-1EP_3x3mm_P0.5mm_EP1.65x2.38mm</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/ltc4079.pdf</datasheet>
+      <libsource lib="ADRmu_battery_Library" part="LTC4079" description="60V, 250mA Linear Charger with Low Quiescent Current"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>60af4ec9-9bd3-4271-bbbf-c5025f9ffd46</tstamps>
+    </comp>
+    <comp ref="U103">
+      <value>L7812</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="L7812" description="Positive 1.5A 35V Linear Regulator, Fixed Output 12V, TO-220/TO-263/TO-252"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cd99fcdc-7b83-462f-b3fb-ff3be4d08336</tstamps>
+    </comp>
+    <comp ref="U104">
+      <value>LM317_TO-263</value>
+      <footprint>Package_TO_SOT_SMD:TO-263-2</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm317.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="LM317_TO-263" description="1.5A 35V Adjustable Linear Regulator, TO-263"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6bc59a36-ecac-4e7e-9980-8b56d30e7ec2</tstamps>
+    </comp>
+    <comp ref="U105">
+      <value>LM339</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>https://www.st.com/resource/en/datasheet/lm139.pdf</datasheet>
+      <libsource lib="Comparator" part="LM339" description="Quad Differential Comparators, SOIC-14/TSSOP-14"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ADRmu_battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f0866f3a-e3d1-49e1-96f3-514d6fd3c984 807419fd-926e-4162-8225-ed540b55f306 d9264d3b-e515-44fd-a3b3-0e04cfa7149a 0a91c88a-b4f6-4f9b-8590-07b3a0374fb0</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="ADRmu_battery_Library" part="BK-18650-PC8">
+      <description>quad 18650 battery holder</description>
+      <fields>
+        <field name="Reference">B</field>
+        <field name="Value">BK-18650-PC8</field>
+        <field name="Footprint">ADRmu_battery_Library:BK-18650-PC8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+        <pin num="3" name="+" type="passive"/>
+        <pin num="4" name="-" type="passive"/>
+        <pin num="5" name="+" type="passive"/>
+        <pin num="6" name="-" type="passive"/>
+        <pin num="7" name="+" type="passive"/>
+        <pin num="8" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ADRmu_battery_Library" part="BQ77915">
+      <description>BQ77915 3-Series to 5-Series Stackable Ultra-Low Power Primary Protector with</description>
+      <docs>https://www.ti.com/lit/ds/symlink/bq77915.pdf</docs>
+      <footprints>
+        <fp>TSSOP*4.4x6.5mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BQ77915</field>
+        <field name="Footprint">Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/bq77915.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="AVDD" type="output"/>
+        <pin num="3" name="VC5" type="input"/>
+        <pin num="4" name="VC4" type="input"/>
+        <pin num="5" name="VC3" type="input"/>
+        <pin num="6" name="VC2" type="input"/>
+        <pin num="7" name="VC1" type="input"/>
+        <pin num="8" name="VC0" type="input"/>
+        <pin num="9" name="VSS" type="power_in"/>
+        <pin num="10" name="SRP" type="input"/>
+        <pin num="11" name="SRN" type="input"/>
+        <pin num="12" name="DSG" type="output"/>
+        <pin num="13" name="CHG" type="output"/>
+        <pin num="14" name="LD" type="input"/>
+        <pin num="15" name="LPWR" type="output"/>
+        <pin num="16" name="CBI" type="input"/>
+        <pin num="17" name="OCDP" type="input"/>
+        <pin num="18" name="TS" type="input"/>
+        <pin num="19" name="VTB" type="output"/>
+        <pin num="20" name="CCFG" type="input"/>
+        <pin num="21" name="CBO" type="output"/>
+        <pin num="22" name="PRES" type="input"/>
+        <pin num="23" name="CTRC" type="input"/>
+        <pin num="24" name="CTRD" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="ADRmu_battery_Library" part="LTC4079">
+      <description>60V, 250mA Linear Charger with Low Quiescent Current</description>
+      <docs>https://www.analog.com/media/en/technical-documentation/data-sheets/ltc4079.pdf</docs>
+      <footprints>
+        <fp>TSSOP*4.4x6.5mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LTC4079</field>
+        <field name="Footprint">Package_DFN_QFN:DFN-10-1EP_3x3mm_P0.5mm_EP1.65x2.38mm</field>
+        <field name="Datasheet">https://www.analog.com/media/en/technical-documentation/data-sheets/ltc4079.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="EN" type="input"/>
+        <pin num="3" name="PROG" type="input"/>
+        <pin num="4" name="NTCBIAS" type="output"/>
+        <pin num="5" name="NTC" type="input"/>
+        <pin num="6" name="TIMER" type="input"/>
+        <pin num="7" name="~{CHRG}" type="output"/>
+        <pin num="8" name="FBG" type="bidirectional"/>
+        <pin num="9" name="FB" type="input"/>
+        <pin num="10" name="BAT" type="power_out"/>
+        <pin num="11" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Comparator" part="LM339">
+      <description>Quad Differential Comparators, SOIC-14/TSSOP-14</description>
+      <docs>https://www.st.com/resource/en/datasheet/lm139.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x8.7mm*P1.27mm*</fp>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM339</field>
+        <field name="Datasheet">https://www.st.com/resource/en/datasheet/lm139.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="open_collector"/>
+        <pin num="2" name="" type="open_collector"/>
+        <pin num="3" name="V+" type="power_in"/>
+        <pin num="4" name="-" type="input"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="+" type="input"/>
+        <pin num="8" name="-" type="input"/>
+        <pin num="9" name="+" type="input"/>
+        <pin num="10" name="-" type="input"/>
+        <pin num="11" name="+" type="input"/>
+        <pin num="12" name="V-" type="power_in"/>
+        <pin num="13" name="" type="open_collector"/>
+        <pin num="14" name="" type="open_collector"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="DIN41612_02x16_AC_EvenPins">
+      <description>DIN41612 connector, double row (AC) even pins only, 02x16, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>DIN41612*2x*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">DIN41612_02x16_AC_EvenPins</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="a2" name="Pin_a2" type="passive"/>
+        <pin num="a4" name="Pin_a4" type="passive"/>
+        <pin num="a6" name="Pin_a6" type="passive"/>
+        <pin num="a8" name="Pin_a8" type="passive"/>
+        <pin num="a10" name="Pin_a10" type="passive"/>
+        <pin num="a12" name="Pin_a12" type="passive"/>
+        <pin num="a14" name="Pin_a14" type="passive"/>
+        <pin num="a16" name="Pin_a16" type="passive"/>
+        <pin num="a18" name="Pin_a18" type="passive"/>
+        <pin num="a20" name="Pin_a20" type="passive"/>
+        <pin num="a22" name="Pin_a22" type="passive"/>
+        <pin num="a24" name="Pin_a24" type="passive"/>
+        <pin num="a26" name="Pin_a26" type="passive"/>
+        <pin num="a28" name="Pin_a28" type="passive"/>
+        <pin num="a30" name="Pin_a30" type="passive"/>
+        <pin num="a32" name="Pin_a32" type="passive"/>
+        <pin num="c2" name="Pin_c2" type="passive"/>
+        <pin num="c4" name="Pin_c4" type="passive"/>
+        <pin num="c6" name="Pin_c6" type="passive"/>
+        <pin num="c8" name="Pin_c8" type="passive"/>
+        <pin num="c10" name="Pin_c10" type="passive"/>
+        <pin num="c12" name="Pin_c12" type="passive"/>
+        <pin num="c14" name="Pin_c14" type="passive"/>
+        <pin num="c16" name="Pin_c16" type="passive"/>
+        <pin num="c18" name="Pin_c18" type="passive"/>
+        <pin num="c20" name="Pin_c20" type="passive"/>
+        <pin num="c22" name="Pin_c22" type="passive"/>
+        <pin num="c24" name="Pin_c24" type="passive"/>
+        <pin num="c26" name="Pin_c26" type="passive"/>
+        <pin num="c28" name="Pin_c28" type="passive"/>
+        <pin num="c30" name="Pin_c30" type="passive"/>
+        <pin num="c32" name="Pin_c32" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Zener">
+      <description>Zener diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Polyfuse">
+      <description>Resettable fuse, polymeric positive temperature coefficient</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*polyfuse*</fp>
+        <fp>*PTC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Polyfuse</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NMOS_GDS">
+      <description>N-MOSFET transistor, gate/drain/source</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_GDS</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Thermistor_NTC">
+      <description>Temperature dependent resistor, negative temperature coefficient</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*NTC*</fp>
+        <fp>*Thermistor*</fp>
+        <fp>PIN?ARRAY*</fp>
+        <fp>bornier*</fp>
+        <fp>*Terminal?Block*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TH</field>
+        <field name="Value">Thermistor_NTC</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="BZX84Cxx">
+      <description>300mW Zener Diode, SOT-23</description>
+      <docs>https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzx84c2v4.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BZX84Cxx</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzx84c2v4.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="NC" type="no_connect"/>
+        <pin num="3" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="L7812">
+      <description>Positive 1.5A 35V Linear Regulator, Fixed Output 12V, TO-220/TO-263/TO-252</description>
+      <docs>http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</docs>
+      <footprints>
+        <fp>TO?252*</fp>
+        <fp>TO?263*</fp>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">L7812</field>
+        <field name="Datasheet">http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="LM317_TO-263">
+      <description>1.5A 35V Adjustable Linear Regulator, TO-263</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm317.pdf</docs>
+      <footprints>
+        <fp>TO?263*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM317_TO-263</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-263-2</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm317.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ADJ" type="input"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="ADRmu_battery_Library">
+      <uri>C:\Users\reps\Documents\ADRmu\module_battery/ADRmu_battery_Library.kicad_sym</uri>
+    </library>
+    <library logical="Comparator">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Comparator.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+BATT">
+      <node ref="B101" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="C112" pin="2" pintype="passive"/>
+      <node ref="C117" pin="2" pintype="passive"/>
+      <node ref="R101" pin="1" pintype="passive"/>
+      <node ref="R102" pin="1" pintype="passive"/>
+      <node ref="R120" pin="1" pintype="passive"/>
+      <node ref="R121" pin="2" pintype="passive"/>
+      <node ref="R126" pin="2" pintype="passive"/>
+      <node ref="R127" pin="2" pintype="passive"/>
+      <node ref="R128" pin="2" pintype="passive"/>
+      <node ref="R129" pin="2" pintype="passive"/>
+      <node ref="R130" pin="2" pintype="passive"/>
+      <node ref="R136" pin="2" pintype="passive"/>
+      <node ref="U102" pin="10" pinfunction="BAT" pintype="power_out"/>
+      <node ref="U103" pin="1" pinfunction="IN" pintype="power_in"/>
+      <node ref="U105" pin="3" pinfunction="V+" pintype="power_in"/>
+    </net>
+    <net code="2" name="-BATT">
+      <node ref="B101" pin="8" pinfunction="-" pintype="passive"/>
+      <node ref="F101" pin="1" pintype="passive"/>
+    </net>
+    <net code="3" name="/-i{slash}o">
+      <node ref="C111" pin="2" pintype="passive"/>
+      <node ref="C112" pin="1" pintype="passive"/>
+      <node ref="C113" pin="2" pintype="passive"/>
+      <node ref="C114" pin="2" pintype="passive"/>
+      <node ref="C115" pin="2" pintype="passive"/>
+      <node ref="C116" pin="2" pintype="passive"/>
+      <node ref="C117" pin="1" pintype="passive"/>
+      <node ref="D102" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D103" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D105" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="HS101" pin="2" pintype="passive"/>
+      <node ref="HS102" pin="2" pintype="passive"/>
+      <node ref="HS103" pin="2" pintype="passive"/>
+      <node ref="HS104" pin="2" pintype="passive"/>
+      <node ref="J101" pin="a22" pinfunction="Pin_a22" pintype="passive"/>
+      <node ref="J101" pin="a24" pinfunction="Pin_a24" pintype="passive"/>
+      <node ref="J101" pin="a4" pinfunction="Pin_a4" pintype="passive"/>
+      <node ref="J101" pin="c22" pinfunction="Pin_c22" pintype="passive"/>
+      <node ref="J101" pin="c24" pinfunction="Pin_c24" pintype="passive"/>
+      <node ref="J101" pin="c4" pinfunction="Pin_c4" pintype="passive"/>
+      <node ref="Q102" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="R113" pin="1" pintype="passive"/>
+      <node ref="R118" pin="1" pintype="passive"/>
+      <node ref="R124" pin="1" pintype="passive"/>
+      <node ref="R135" pin="1" pintype="passive"/>
+      <node ref="R137" pin="1" pintype="passive"/>
+      <node ref="U102" pin="11" pinfunction="GND" pintype="power_in"/>
+      <node ref="U102" pin="5" pinfunction="NTC" pintype="input"/>
+      <node ref="U102" pin="6" pinfunction="TIMER" pintype="input"/>
+      <node ref="U103" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U105" pin="12" pinfunction="V-" pintype="power_in"/>
+    </net>
+    <net code="4" name="/AVDD">
+      <node ref="C108" pin="2" pintype="passive"/>
+      <node ref="U101" pin="2" pinfunction="AVDD" pintype="output"/>
+      <node ref="U101" pin="20" pinfunction="CCFG" pintype="input"/>
+    </net>
+    <net code="5" name="/dropped_in+">
+      <node ref="C114" pin="1" pintype="passive"/>
+      <node ref="HS101" pin="1" pintype="passive"/>
+      <node ref="HS102" pin="1" pintype="passive"/>
+      <node ref="HS103" pin="1" pintype="passive"/>
+      <node ref="HS104" pin="1" pintype="passive"/>
+      <node ref="R131" pin="1" pintype="passive"/>
+      <node ref="U102" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U102" pin="2" pinfunction="EN" pintype="input"/>
+      <node ref="U104" pin="2" pinfunction="VO" pintype="power_out"/>
+    </net>
+    <net code="6" name="/in+">
+      <node ref="D116" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J101" pin="a20" pinfunction="Pin_a20" pintype="passive"/>
+      <node ref="J101" pin="c20" pinfunction="Pin_c20" pintype="passive"/>
+    </net>
+    <net code="7" name="GND">
+      <node ref="C104" pin="2" pintype="passive"/>
+      <node ref="C105" pin="2" pintype="passive"/>
+      <node ref="C106" pin="2" pintype="passive"/>
+      <node ref="C107" pin="1" pintype="passive"/>
+      <node ref="C108" pin="1" pintype="passive"/>
+      <node ref="C110" pin="1" pintype="passive"/>
+      <node ref="F101" pin="2" pintype="passive"/>
+      <node ref="R106" pin="1" pintype="passive"/>
+      <node ref="R107" pin="1" pintype="passive"/>
+      <node ref="R108" pin="1" pintype="passive"/>
+      <node ref="R117" pin="1" pintype="passive"/>
+      <node ref="R119" pin="1" pintype="passive"/>
+      <node ref="TH101" pin="2" pintype="passive"/>
+      <node ref="TH102" pin="2" pintype="passive"/>
+      <node ref="U101" pin="23" pinfunction="CTRC" pintype="input"/>
+      <node ref="U101" pin="24" pinfunction="CTRD" pintype="input"/>
+      <node ref="U101" pin="9" pinfunction="VSS" pintype="power_in"/>
+    </net>
+    <net code="8" name="Net-(B101-Pad2)">
+      <node ref="B101" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="B101" pin="3" pinfunction="+" pintype="passive"/>
+      <node ref="R103" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(B101-Pad4)">
+      <node ref="B101" pin="4" pinfunction="-" pintype="passive"/>
+      <node ref="B101" pin="5" pinfunction="+" pintype="passive"/>
+      <node ref="R104" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(B101-Pad6)">
+      <node ref="B101" pin="6" pinfunction="-" pintype="passive"/>
+      <node ref="B101" pin="7" pinfunction="+" pintype="passive"/>
+      <node ref="R105" pin="1" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(C101-Pad1)">
+      <node ref="C101" pin="1" pintype="passive"/>
+      <node ref="R102" pin="2" pintype="passive"/>
+      <node ref="U101" pin="3" pinfunction="VC5" pintype="input"/>
+      <node ref="U101" pin="4" pinfunction="VC4" pintype="input"/>
+    </net>
+    <net code="12" name="Net-(C101-Pad2)">
+      <node ref="C101" pin="2" pintype="passive"/>
+      <node ref="C102" pin="1" pintype="passive"/>
+      <node ref="R103" pin="2" pintype="passive"/>
+      <node ref="U101" pin="5" pinfunction="VC3" pintype="input"/>
+    </net>
+    <net code="13" name="Net-(C102-Pad2)">
+      <node ref="C102" pin="2" pintype="passive"/>
+      <node ref="C103" pin="1" pintype="passive"/>
+      <node ref="R104" pin="2" pintype="passive"/>
+      <node ref="U101" pin="6" pinfunction="VC2" pintype="input"/>
+    </net>
+    <net code="14" name="Net-(C103-Pad2)">
+      <node ref="C103" pin="2" pintype="passive"/>
+      <node ref="C104" pin="1" pintype="passive"/>
+      <node ref="R105" pin="2" pintype="passive"/>
+      <node ref="U101" pin="7" pinfunction="VC1" pintype="input"/>
+    </net>
+    <net code="15" name="Net-(C105-Pad1)">
+      <node ref="C105" pin="1" pintype="passive"/>
+      <node ref="R106" pin="2" pintype="passive"/>
+      <node ref="U101" pin="8" pinfunction="VC0" pintype="input"/>
+    </net>
+    <net code="16" name="Net-(C106-Pad1)">
+      <node ref="C106" pin="1" pintype="passive"/>
+      <node ref="R101" pin="2" pintype="passive"/>
+      <node ref="R115" pin="2" pintype="passive"/>
+      <node ref="U101" pin="1" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="17" name="Net-(C107-Pad2)">
+      <node ref="C107" pin="2" pintype="passive"/>
+      <node ref="C109" pin="1" pintype="passive"/>
+      <node ref="R107" pin="2" pintype="passive"/>
+      <node ref="U101" pin="10" pinfunction="SRP" pintype="input"/>
+    </net>
+    <net code="18" name="Net-(C109-Pad2)">
+      <node ref="C109" pin="2" pintype="passive"/>
+      <node ref="C110" pin="2" pintype="passive"/>
+      <node ref="R109" pin="2" pintype="passive"/>
+      <node ref="U101" pin="11" pinfunction="SRN" pintype="input"/>
+    </net>
+    <net code="19" name="Net-(C111-Pad1)">
+      <node ref="C111" pin="1" pintype="passive"/>
+      <node ref="Q101" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="R108" pin="2" pintype="passive"/>
+      <node ref="R109" pin="1" pintype="passive"/>
+      <node ref="R111" pin="1" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(C113-Pad1)">
+      <node ref="C113" pin="1" pintype="passive"/>
+      <node ref="J101" pin="a2" pinfunction="Pin_a2" pintype="passive"/>
+      <node ref="J101" pin="c2" pinfunction="Pin_c2" pintype="passive"/>
+      <node ref="U103" pin="3" pinfunction="OUT" pintype="power_out"/>
+    </net>
+    <net code="21" name="Net-(C115-Pad1)">
+      <node ref="C115" pin="1" pintype="passive"/>
+      <node ref="D116" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R125" pin="1" pintype="passive"/>
+      <node ref="U104" pin="3" pinfunction="VI" pintype="power_in"/>
+    </net>
+    <net code="22" name="Net-(C116-Pad1)">
+      <node ref="C116" pin="1" pintype="passive"/>
+      <node ref="R130" pin="1" pintype="passive"/>
+      <node ref="R131" pin="2" pintype="passive"/>
+      <node ref="U104" pin="1" pinfunction="ADJ" pintype="input"/>
+    </net>
+    <net code="23" name="Net-(D101-Pad1)">
+      <node ref="D101" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D102" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q102" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R112" pin="2" pintype="passive"/>
+      <node ref="R113" pin="2" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(D101-Pad2)">
+      <node ref="D101" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R112" pin="1" pintype="passive"/>
+      <node ref="R114" pin="2" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(D103-Pad2)">
+      <node ref="D103" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R120" pin="2" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(D104-Pad1)">
+      <node ref="D104" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U102" pin="7" pinfunction="~{CHRG}" pintype="output"/>
+    </net>
+    <net code="27" name="Net-(D104-Pad2)">
+      <node ref="D104" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R125" pin="2" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(D105-Pad3)">
+      <node ref="D105" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="R129" pin="1" pintype="passive"/>
+      <node ref="R132" pin="2" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(D106-Pad1)">
+      <node ref="D106" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U105" pin="2" pintype="open_collector"/>
+    </net>
+    <net code="30" name="Net-(D106-Pad2)">
+      <node ref="D106" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R126" pin="1" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(D109-Pad1)">
+      <node ref="D109" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U105" pin="1" pintype="open_collector"/>
+    </net>
+    <net code="32" name="Net-(D109-Pad2)">
+      <node ref="D109" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R127" pin="1" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(D112-Pad1)">
+      <node ref="D112" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U105" pin="13" pintype="open_collector"/>
+    </net>
+    <net code="34" name="Net-(D112-Pad2)">
+      <node ref="D112" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R128" pin="1" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(Q101-Pad1)">
+      <node ref="Q101" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R110" pin="1" pintype="passive"/>
+      <node ref="R111" pin="2" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(Q101-Pad2)">
+      <node ref="Q101" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="Q102" pin="2" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(R110-Pad2)">
+      <node ref="R110" pin="2" pintype="passive"/>
+      <node ref="U101" pin="12" pinfunction="DSG" pintype="output"/>
+    </net>
+    <net code="38" name="Net-(R114-Pad1)">
+      <node ref="R114" pin="1" pintype="passive"/>
+      <node ref="U101" pin="13" pinfunction="CHG" pintype="output"/>
+    </net>
+    <net code="39" name="Net-(R115-Pad1)">
+      <node ref="R115" pin="1" pintype="passive"/>
+      <node ref="U101" pin="22" pinfunction="PRES" pintype="input"/>
+    </net>
+    <net code="40" name="Net-(R116-Pad1)">
+      <node ref="R116" pin="1" pintype="passive"/>
+      <node ref="TH101" pin="1" pintype="passive"/>
+      <node ref="TH102" pin="1" pintype="passive"/>
+      <node ref="U101" pin="18" pinfunction="TS" pintype="input"/>
+    </net>
+    <net code="41" name="Net-(R116-Pad2)">
+      <node ref="R116" pin="2" pintype="passive"/>
+      <node ref="U101" pin="19" pinfunction="VTB" pintype="output"/>
+    </net>
+    <net code="42" name="Net-(R117-Pad2)">
+      <node ref="R117" pin="2" pintype="passive"/>
+      <node ref="U101" pin="17" pinfunction="OCDP" pintype="input"/>
+    </net>
+    <net code="43" name="Net-(R118-Pad2)">
+      <node ref="R118" pin="2" pintype="passive"/>
+      <node ref="U101" pin="14" pinfunction="LD" pintype="input"/>
+    </net>
+    <net code="44" name="Net-(R119-Pad2)">
+      <node ref="R119" pin="2" pintype="passive"/>
+      <node ref="U101" pin="16" pinfunction="CBI" pintype="input"/>
+    </net>
+    <net code="45" name="Net-(R121-Pad1)">
+      <node ref="R121" pin="1" pintype="passive"/>
+      <node ref="R122" pin="2" pintype="passive"/>
+      <node ref="U102" pin="9" pinfunction="FB" pintype="input"/>
+    </net>
+    <net code="46" name="Net-(R122-Pad1)">
+      <node ref="R122" pin="1" pintype="passive"/>
+      <node ref="U102" pin="8" pinfunction="FBG" pintype="bidirectional"/>
+    </net>
+    <net code="47" name="Net-(R124-Pad2)">
+      <node ref="R124" pin="2" pintype="passive"/>
+      <node ref="U102" pin="3" pinfunction="PROG" pintype="input"/>
+    </net>
+    <net code="48" name="Net-(R132-Pad1)">
+      <node ref="R132" pin="1" pintype="passive"/>
+      <node ref="R133" pin="2" pintype="passive"/>
+      <node ref="U105" pin="5" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="49" name="Net-(R133-Pad1)">
+      <node ref="R133" pin="1" pintype="passive"/>
+      <node ref="R134" pin="2" pintype="passive"/>
+      <node ref="U105" pin="7" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="50" name="Net-(R134-Pad1)">
+      <node ref="R134" pin="1" pintype="passive"/>
+      <node ref="R135" pin="2" pintype="passive"/>
+      <node ref="U105" pin="11" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="51" name="Net-(R136-Pad1)">
+      <node ref="R136" pin="1" pintype="passive"/>
+      <node ref="R137" pin="2" pintype="passive"/>
+      <node ref="U105" pin="10" pinfunction="-" pintype="input"/>
+      <node ref="U105" pin="4" pinfunction="-" pintype="input"/>
+      <node ref="U105" pin="6" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="52" name="unconnected-(D105-Pad2)">
+      <node ref="D105" pin="2" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="53" name="unconnected-(J101-Pada6)">
+      <node ref="J101" pin="a6" pinfunction="Pin_a6" pintype="passive+no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(J101-Pada8)">
+      <node ref="J101" pin="a8" pinfunction="Pin_a8" pintype="passive+no_connect"/>
+    </net>
+    <net code="55" name="unconnected-(J101-Pada10)">
+      <node ref="J101" pin="a10" pinfunction="Pin_a10" pintype="passive+no_connect"/>
+    </net>
+    <net code="56" name="unconnected-(J101-Pada12)">
+      <node ref="J101" pin="a12" pinfunction="Pin_a12" pintype="passive+no_connect"/>
+    </net>
+    <net code="57" name="unconnected-(J101-Pada14)">
+      <node ref="J101" pin="a14" pinfunction="Pin_a14" pintype="passive+no_connect"/>
+    </net>
+    <net code="58" name="unconnected-(J101-Pada16)">
+      <node ref="J101" pin="a16" pinfunction="Pin_a16" pintype="passive+no_connect"/>
+    </net>
+    <net code="59" name="unconnected-(J101-Pada18)">
+      <node ref="J101" pin="a18" pinfunction="Pin_a18" pintype="passive+no_connect"/>
+    </net>
+    <net code="60" name="unconnected-(J101-Pada26)">
+      <node ref="J101" pin="a26" pinfunction="Pin_a26" pintype="passive+no_connect"/>
+    </net>
+    <net code="61" name="unconnected-(J101-Pada28)">
+      <node ref="J101" pin="a28" pinfunction="Pin_a28" pintype="passive+no_connect"/>
+    </net>
+    <net code="62" name="unconnected-(J101-Pada30)">
+      <node ref="J101" pin="a30" pinfunction="Pin_a30" pintype="passive+no_connect"/>
+    </net>
+    <net code="63" name="unconnected-(J101-Pada32)">
+      <node ref="J101" pin="a32" pinfunction="Pin_a32" pintype="passive+no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(J101-Padc6)">
+      <node ref="J101" pin="c6" pinfunction="Pin_c6" pintype="passive+no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(J101-Padc8)">
+      <node ref="J101" pin="c8" pinfunction="Pin_c8" pintype="passive+no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(J101-Padc10)">
+      <node ref="J101" pin="c10" pinfunction="Pin_c10" pintype="passive+no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(J101-Padc12)">
+      <node ref="J101" pin="c12" pinfunction="Pin_c12" pintype="passive+no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(J101-Padc14)">
+      <node ref="J101" pin="c14" pinfunction="Pin_c14" pintype="passive+no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(J101-Padc16)">
+      <node ref="J101" pin="c16" pinfunction="Pin_c16" pintype="passive+no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(J101-Padc18)">
+      <node ref="J101" pin="c18" pinfunction="Pin_c18" pintype="passive+no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(J101-Padc26)">
+      <node ref="J101" pin="c26" pinfunction="Pin_c26" pintype="passive+no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(J101-Padc28)">
+      <node ref="J101" pin="c28" pinfunction="Pin_c28" pintype="passive+no_connect"/>
+    </net>
+    <net code="73" name="unconnected-(J101-Padc30)">
+      <node ref="J101" pin="c30" pinfunction="Pin_c30" pintype="passive+no_connect"/>
+    </net>
+    <net code="74" name="unconnected-(J101-Padc32)">
+      <node ref="J101" pin="c32" pinfunction="Pin_c32" pintype="passive+no_connect"/>
+    </net>
+    <net code="75" name="unconnected-(U101-Pad15)">
+      <node ref="U101" pin="15" pinfunction="LPWR" pintype="output+no_connect"/>
+    </net>
+    <net code="76" name="unconnected-(U101-Pad21)">
+      <node ref="U101" pin="21" pinfunction="CBO" pintype="output+no_connect"/>
+    </net>
+    <net code="77" name="unconnected-(U102-Pad4)">
+      <node ref="U102" pin="4" pinfunction="NTCBIAS" pintype="output+no_connect"/>
+    </net>
+  </nets>
+</export>

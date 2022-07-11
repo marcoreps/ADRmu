@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.19999999999999998
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -103,16 +103,16 @@
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.19999999999999998,
-        "min_copper_edge_clearance": 0.3,
-        "min_hole_clearance": 0.3,
+        "min_clearance": 0.0,
+        "min_copper_edge_clearance": 0.0,
+        "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
         "min_silk_clearance": 0.0,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.19999999999999998,
-        "min_via_annular_width": 0.13,
+        "min_via_annular_width": 0.049999999999999996,
         "min_via_diameter": 0.39999999999999997,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
@@ -120,11 +120,8 @@
       },
       "track_widths": [
         0.0,
-        0.3,
         0.4,
-        0.5,
-        1.0,
-        2.0
+        1.0
       ],
       "via_dimensions": [
         {
@@ -351,7 +348,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ADRmu_battery.kicad_pro",
+    "filename": "resistor_network.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -385,7 +382,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "resistor_network.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -430,7 +427,7 @@
   },
   "sheets": [
     [
-      "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
+      "9ed83340-a3c8-490f-bd22-af35290c8c9c",
       ""
     ]
   ],
