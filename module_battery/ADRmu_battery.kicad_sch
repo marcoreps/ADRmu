@@ -4148,7 +4148,7 @@
     (property "Reference" "R122" (id 0) (at 156.21 44.4499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "680k" (id 1) (at 156.21 46.9899 0)
+    (property "Value" "150k" (id 1) (at 156.21 46.9899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (id 2) (at 160.528 45.72 90)
@@ -5097,7 +5097,7 @@
     (property "Reference" "R121" (id 0) (at 156.21 31.7499 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "9.1M" (id 1) (at 156.21 34.2899 0)
+    (property "Value" "2M" (id 1) (at 156.21 34.2899 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (id 2) (at 156.972 33.02 90)
@@ -5578,10 +5578,10 @@
       (reference "R120") (unit 1) (value "49k9") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/ebe4d216-6e37-4339-b1fa-650a1a7c8757"
-      (reference "R121") (unit 1) (value "9.1M") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R121") (unit 1) (value "2M") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/85232871-7690-4091-9c3c-7e30ca7a3e94"
-      (reference "R122") (unit 1) (value "680k") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R122") (unit 1) (value "150k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/e21c3568-b1a1-45b7-8ff2-d3a87b7d6b6c"
       (reference "R124") (unit 1) (value "1k2") (footprint "Resistor_SMD:R_0805_2012Metric")
