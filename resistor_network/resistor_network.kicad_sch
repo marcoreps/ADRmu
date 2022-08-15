@@ -1013,7 +1013,7 @@
     (pin "8" (uuid 549c7d5f-7078-4e97-9563-6ef72f6c39e5))
   )
 
-  (symbol (lib_id "Transistor_BJT:BCX53") (at 115.57 99.06 0) (unit 1)
+  (symbol (lib_id "Transistor_BJT:BCX53") (at 115.57 99.06 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid c15b02da-284c-432d-9bea-36c027c7dd23)
     (property "Reference" "Q2" (id 0) (at 120.65 97.7899 0)
@@ -1022,7 +1022,7 @@
     (property "Value" "BCX53" (id 1) (at 120.65 100.3299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-89-3" (id 2) (at 120.65 100.965 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-89-3" (id 2) (at 120.65 97.155 0)
       (effects (font (size 1.27 1.27) italic) (justify left) hide)
     )
     (property "Datasheet" "http://www.infineon.com/dgdl/bcx51_bcx52_bcx53.pdf" (id 3) (at 115.57 99.06 0)

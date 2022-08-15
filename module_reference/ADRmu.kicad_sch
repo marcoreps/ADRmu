@@ -6,8 +6,8 @@
 
   (title_block
     (title "Parent schematic")
-    (date "2022-05-23")
-    (rev "0.5")
+    (date "2022-08-15")
+    (rev "0.6")
     (company "RPG")
     (comment 1 "All resistors 0.1% MF unless otherwise noted")
     (comment 2 "All capacitors X7R MLCC unless otherwise noted")
@@ -1500,6 +1500,9 @@
     (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/72d6a716-f040-4eb8-9cc8-b0a0269cb9a7"
       (reference "JP222") (unit 1) (value "Jumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
     )
+    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/e69f8093-a7b0-4f1a-8403-2b90c3d49a0e"
+      (reference "JP223") (unit 1) (value "Jumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
+    )
     (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/82d3af55-2330-46e9-ae2b-5ce56bc7ed43"
       (reference "JP301") (unit 1) (value "Jumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
     )
@@ -1625,6 +1628,9 @@
     )
     (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/d7e8e7da-b22b-4f0e-b185-d441a5c79cc8"
       (reference "R232") (unit 1) (value "100") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/4033317c-0117-4210-b0e1-fe911c79bc25"
+      (reference "R233") (unit 1) (value "0") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal")
     )
     (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/f61a4a7c-2b93-4a10-a388-7bf827e2c6b1"
       (reference "R301") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric")
