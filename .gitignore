@@ -16,6 +16,7 @@ _autosave-*
 *ADRmu_battery-backups/
 *resistor_network-backups/
 *backplane-backups/
+*rack_slot_cover-backups/
 
 # Netlist files (exported from Eeschema)
 *.net
