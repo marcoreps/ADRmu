@@ -2,14 +2,14 @@
   "board": {
     "active_layer": 0,
     "active_layer_preset": "",
-    "auto_track_width": false,
+    "auto_track_width": true,
     "hidden_nets": [],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
-      "pads": 0.5199999809265137,
-      "tracks": 0.7300000190734863,
-      "vias": 0.8299999833106995,
+      "pads": 1.0,
+      "tracks": 1.0,
+      "vias": 1.0,
       "zones": 0.6
     },
     "ratsnest_display_mode": 0,
@@ -61,11 +61,11 @@
       35,
       36
     ],
-    "visible_layers": "0001130_80000007",
+    "visible_layers": "fffffff_ffffffff",
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "ADRmu.kicad_prl",
+    "filename": "reference_front_panel.kicad_prl",
     "version": 3
   },
   "project": {
