@@ -1,0 +1,215 @@
+STEP translation to Solid Edge
+Date: Sunday,September 18,2022 04:15pm
+Source File: C:\Users\reps\Documents\ADRmu\resistor_network\3d\resistor_network.step
+Author: Pcbnew
+Organization: Kicad
+Source System: KiCad to STEP converter
+
+Hardware:
+Processor: Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz
+Operating System: Windows 10
+Installed Memory: 31.93 GB
+
+Software Information
+Parasolid Version: 34.0.153
+PSBodyShop Version: 34.0.110
+Step Adapter Version: 9.0.92
+Solid Edge Version: 222.00.00.132 x64
+
+Step Import Options
+Import Faceted Bodies: On
+Import Check Bodies: Off
+Import Curves: On
+Import DoNotSave: On
+Import Multiple Bodies As Single Part File: On
+Import Stitch Surfaces: On
+Import Boolean Solids: On
+Make Base Feature: On
+Simplify Geometry: On
+Import Imprint Curves: On
+Import Drive: C:
+Import Stitch Surfaces: On
+Import Surfaces: On
+Import Output Path: C:\Users\reps\Documents\ADRmu\resistor_network\3d
+Import Enable Default Output Path: On
+Import PMI: Off
+Import As Internal Components: Off
+Import Path: 
+
+Translating to Parasolid data types...
++Begin Assembly: 1
++Created SE Assembly File C:\Users\reps\Documents\ADRmu\resistor_network\3d\resistor_network.asm
+|--+Begin Assembly: 2
+|--+Created SE Assembly File C:\Users\reps\Documents\ADRmu\resistor_network\3d\R_1206_3216Metric.asm
+|  |--+Created SE Part File C:\Users\reps\Documents\ADRmu\resistor_network\3d\SOLID.par
+|--+Total Parts: 2
+|--+Assemblies: 0
+|--+Solid Bodies: 2
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\reps\Documents\ADRmu\resistor_network\3d\R_1206_3216Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Created SE Assembly File C:\Users\reps\Documents\ADRmu\resistor_network\3d\R_0805_2012Metric.asm
+|  |--+Created SE Part File C:\Users\reps\Documents\ADRmu\resistor_network\3d\SOLID_0.par
+|--+Total Parts: 2
+|--+Assemblies: 0
+|--+Solid Bodies: 2
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\reps\Documents\ADRmu\resistor_network\3d\R_1206_3216Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\reps\Documents\ADRmu\resistor_network\3d\R_1206_3216Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\reps\Documents\ADRmu\resistor_network\3d\R_1206_3216Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Created SE Assembly File C:\Users\reps\Documents\ADRmu\resistor_network\3d\SOT-23.asm
+|  |--+Created SE Part File C:\Users\reps\Documents\ADRmu\resistor_network\3d\SOLID_1.par
+|--+Total Parts: 2
+|--+Assemblies: 0
+|--+Solid Bodies: 2
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\reps\Documents\ADRmu\resistor_network\3d\R_1206_3216Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\reps\Documents\ADRmu\resistor_network\3d\R_1206_3216Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\reps\Documents\ADRmu\resistor_network\3d\R_1206_3216Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\reps\Documents\ADRmu\resistor_network\3d\R_0805_2012Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Created SE Assembly File C:\Users\reps\Documents\ADRmu\resistor_network\3d\SOT-89-3.asm
+|  |--+Created SE Part File C:\Users\reps\Documents\ADRmu\resistor_network\3d\SOLID_2.par
+|--+Total Parts: 2
+|--+Assemblies: 0
+|--+Solid Bodies: 2
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\reps\Documents\ADRmu\resistor_network\3d\R_0805_2012Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\reps\Documents\ADRmu\resistor_network\3d\R_1206_3216Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Created SE Assembly File C:\Users\reps\Documents\ADRmu\resistor_network\3d\PinHeader_1x08_P2.54mm_Vertical_SMD_Pin1Left.asm
+|  |--+Created SE Part File C:\Users\reps\Documents\ADRmu\resistor_network\3d\SOLID_3.par
+|--+Total Parts: 2
+|--+Assemblies: 0
+|--+Solid Bodies: 2
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\reps\Documents\ADRmu\resistor_network\3d\R_1206_3216Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\reps\Documents\ADRmu\resistor_network\3d\R_1206_3216Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\reps\Documents\ADRmu\resistor_network\3d\R_1206_3216Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\reps\Documents\ADRmu\resistor_network\3d\PinHeader_1x08_P2.54mm_Vertical_SMD_Pin1Left.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\reps\Documents\ADRmu\resistor_network\3d\R_1206_3216Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\reps\Documents\ADRmu\resistor_network\3d\R_1206_3216Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\reps\Documents\ADRmu\resistor_network\3d\R_1206_3216Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\reps\Documents\ADRmu\resistor_network\3d\R_1206_3216Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Created SE Part File C:\Users\reps\Documents\ADRmu\resistor_network\3d\resistor_network PCB.par
++Total Parts: 7
++Assemblies: 5
++Solid Bodies: 2
++Sheet Bodies: 0
++End Assembly: 1
+Translation process completed
+Total time required to translate and post process:00 : 00 : 03

@@ -34,7 +34,11 @@ def write_eeprom(bus, address, data, blocksize=32, sleep_time=0.01):
         bus.i2c_rdwr(write)
 
 bus = SMBus(1)
-i2c_address=0x53
+i2c_address=0x50 #ADRmu 1
+#i2c_address=0x51 #ADRmu 2
+#i2c_address=0x52 #ADRmu 3
+#i2c_address=0x53 #ADRmu 4
+
 
 if (sys.argv[1]=="read"):
     read_result = read_eeprom(bus, i2c_address, 100)

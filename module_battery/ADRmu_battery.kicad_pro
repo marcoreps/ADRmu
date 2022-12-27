@@ -385,7 +385,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "ADRmu_battery.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

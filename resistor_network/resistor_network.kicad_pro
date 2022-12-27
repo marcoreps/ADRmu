@@ -382,7 +382,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "resistor_network.step",
+      "step": "3d/resistor_network.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

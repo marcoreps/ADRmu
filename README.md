@@ -5,15 +5,18 @@
 
 ## Scope
 
-Low cost 10V DC reference standard in DIN 41612 modular enclosure. Based on ovenized LTZ1000 / LTZ1000A or ADR1000A zener diodes.
+Low cost 10V DC reference standard in DIN 41612 modular enclosure. Based on ovenized LTZ1000 / LTZ1000A or ADR1000A zener diodes. Fits into standard 100x160mm project boxes too. The most promising strategies for configuring the zener and buffering the output are accomodated.
 
 ## TODO
 
 Align JP and R designators
+Remove JPB and JPH enumeration
+add lt5400 and other gain resistor options
+
 
 ## Assembly advice
 
-Recommended ~5 transformer windings pri & sec
+Recommended 5:7 transformer (pri:sec) when using 12V input
 
 ## Spec speculations
 
@@ -51,7 +54,7 @@ Recommended ~5 transformer windings pri & sec
 
 ### Output Protection
 
-Output can be shorted indefinitely with battery life derating. Output protected against ESD.
+Output can be shorted indefinitely with battery life derating. Output protected against ESD and input up to 60V.
 
 ### Temperature Range (°C)
 

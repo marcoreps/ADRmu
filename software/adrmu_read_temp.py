@@ -38,5 +38,8 @@ class TMP117:
     def is_measuring(self):
         return False
         
-ADRmu4_temp_sensor=TMP117(address=0x49, title="ADRmu4 Temp Sensor")
+#ADRmu1_temp_sensor=TMP117(address=0x48, title="ADRmu1 Temp Sensor")
+#ADRmu2_temp_sensor=TMP117(address=0x4B, title="ADRmu2 Temp Sensor")
+#ADRmu3_temp_sensor=TMP117(address=0x4A, title="ADRmu3 Temp Sensor")
+#ADRmu4_temp_sensor=TMP117(address=0x49, title="ADRmu4 Temp Sensor")
 print(ADRmu4_temp_sensor.get_read_val())
