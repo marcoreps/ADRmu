@@ -7,6 +7,8 @@
 *.bck
 *.kicad_pcb-bak
 *~
+fp-info-cache
+*.kicad_prl
 _autosave-*
 *.tmp
 *-rescue.lib
