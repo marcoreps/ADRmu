@@ -11,14 +11,12 @@ fp-info-cache
 *.kicad_prl
 _autosave-*
 *.tmp
+*.kicad_prl
 *-rescue.lib
 *-save.pro
 *-save.kicad_pcb
-*ADRmu-backups/
-*ADRmu_battery-backups/
-*resistor_network-backups/
-*backplane-backups/
-*rack_slot_cover-backups/
+*-backups/
+
 
 # Netlist files (exported from Eeschema)
 *.net
