@@ -12,49 +12,48 @@ Item,Qty,Reference(s),Value,Datasheet,MPN,URL,Price (US$),Price * Qty
 11,2,"D301, D306",LT Y8SG-V2AB-36,https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-S321KGKT.pdf,LTST-S321KGKT,https://www.digikey.com/en/products/detail/liteon/LTST-S321KGKT/2764970,$0.33,$0.66
 12,1,D308,SMAJ18A-13-F,~,SMAJ18A-13-F,https://www.digikey.com/en/products/detail/diodes-incorporated/SMAJ18A-13-F/814796,$0.39,$0.39
 13,1,F301,SF-0603S040-2,https://www.bourns.com/docs/product-datasheets/sf0603s.pdf,SF-0603S040-2,https://www.digikey.com/en/products/detail/bourns-inc/SF-0603S040-2/8747904,$0.58,$0.58
-14,1,J101,Harting 09042326831,https://b2b.harting.com/files/download/PRD/PDF_DS/PDF_DS_09041000201_.pdf,9041326921,https://www.digikey.com/en/products/detail/harting/09041326921/3179808,$6.11,$6.11
-15,1,Q201,BD135,http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf,BD13510STU,https://www.digikey.com/en/products/detail/onsemi/BD13510STU/975638,$0.77,$0.77
-16,3,"Q301, Q303, Q401",MMBT3904,https://www.onsemi.com/pub/Collateral/2N3903-D.PDF,MMBT3904-7-F,https://www.digikey.com/en/products/detail/diodes-incorporated/MMBT3904-7-F/814494,$0.13,$0.39
-17,1,Q302,MMBT3906,https://www.onsemi.com/pub/Collateral/2N3906-D.PDF,MMBT3906-7-F,https://www.digikey.com/en/products/detail/diodes-incorporated/MMBT3906-7-F/770797,$0.13,$0.13
-18,4,"R203, R310, R401, R412",1k,~,RR1220P-102-D,https://www.digikey.com/en/products/detail/susumu/RR1220P-102-D/432291,$0.16,$0.64
-19,1,R204,1M,~,CRG0805F1M0,https://www.digikey.com/en/products/detail/te-connectivity-passive-product/CRG0805F1M0/2380864,$0.10,$0.10
-20,7,"R205, R234, R301, R314, R315, R316, R317",10k,~,RR1220P-103-D,https://www.digikey.com/en/products/detail/susumu/RR1220P-103-D/432315,$0.16,$1.12
-21,1,R218,30k,~,RR1220P-303-D,https://www.digikey.com/en/products/detail/susumu/RR1220P-303-D/432326,$0.16,$0.16
-22,2,"R221, R318",DNP,~,,,,$0.00
-23,2,"R302, R304",16k9,~,RR1220P-1692-D-M,https://www.digikey.com/en/products/detail/susumu/RR1220P-1692-D-M/676484,$0.16,$0.32
-24,1,R303,49.9k,~,RT0805FRE0749K9L,https://www.digikey.com/en/products/detail/yageo/RT0805FRE0749K9L/1079283,$0.10,$0.10
-25,5,"R305, R306, R307, R308, R406",4k99,~,RR1220P-4991-D-M,https://www.digikey.com/en/products/detail/susumu/RR1220P-4991-D-M/432569,$0.16,$0.80
-26,1,R309,200k,~,RR1220P-204-D,https://www.digikey.com/en/products/detail/susumu/RR1220P-204-D/432346,$0.16,$0.16
-27,1,R311,130k,~,RR1220P-134-D,https://www.digikey.com/en/products/detail/susumu/RR1220P-134-D/432342,$0.16,$0.16
-28,1,R312,750k,~,RT0805FRE07750KL,https://www.digikey.com/en/products/detail/yageo/RT0805FRE07750KL/1035152,$0.10,$0.10
-29,1,R313,18k,~,RR1220P-183-D,https://www.digikey.com/en/products/detail/susumu/RR1220P-183-D/432321,$0.16,$0.16
-30,1,R409,62R,~,RT0805FRE0762RL,https://www.digikey.com/en/products/detail/yageo/RT0805FRE0762RL/1079353,$0.10,$0.10
-31,1,R410,47R,~,RT0805FRE0747RL,https://www.digikey.com/en/products/detail/yageo/RT0805FRE0747RL/1079276,$0.10,$0.10
-32,2,"R411, R415",0R,~,,,$0.00,$0.00
-33,1,SW301,SW_Push,https://www.ckswitches.com/media/1471/pts645.pdf,PTS645VH31-2 LFS,https://www.digikey.com/en/products/detail/c-k/PTS645VH31-2-LFS/1146771,$0.14,$0.14
-34,1,T301,Feryster RTN-40x25x15(M-083),~,"RTN-40X25X15(M-083)
+14,1,Q201,BD135,http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf,BD13510STU,https://www.digikey.com/en/products/detail/onsemi/BD13510STU/975638,$0.77,$0.77
+15,3,"Q301, Q303, Q401",MMBT3904,https://www.onsemi.com/pub/Collateral/2N3903-D.PDF,MMBT3904-7-F,https://www.digikey.com/en/products/detail/diodes-incorporated/MMBT3904-7-F/814494,$0.13,$0.39
+16,1,Q302,MMBT3906,https://www.onsemi.com/pub/Collateral/2N3906-D.PDF,MMBT3906-7-F,https://www.digikey.com/en/products/detail/diodes-incorporated/MMBT3906-7-F/770797,$0.13,$0.13
+17,4,"R203, R310, R401, R412",1k,~,RR1220P-102-D,https://www.digikey.com/en/products/detail/susumu/RR1220P-102-D/432291,$0.16,$0.64
+18,1,R204,1M,~,CRG0805F1M0,https://www.digikey.com/en/products/detail/te-connectivity-passive-product/CRG0805F1M0/2380864,$0.10,$0.10
+19,7,"R205, R234, R301, R314, R315, R316, R317",10k,~,RR1220P-103-D,https://www.digikey.com/en/products/detail/susumu/RR1220P-103-D/432315,$0.16,$1.12
+20,1,R218,30k,~,RR1220P-303-D,https://www.digikey.com/en/products/detail/susumu/RR1220P-303-D/432326,$0.16,$0.16
+21,2,"R221, R318",DNP,~,,,,$0.00
+22,2,"R302, R304",16k9,~,RR1220P-1692-D-M,https://www.digikey.com/en/products/detail/susumu/RR1220P-1692-D-M/676484,$0.16,$0.32
+23,1,R303,49.9k,~,RT0805FRE0749K9L,https://www.digikey.com/en/products/detail/yageo/RT0805FRE0749K9L/1079283,$0.10,$0.10
+24,5,"R305, R306, R307, R308, R406",4k99,~,RR1220P-4991-D-M,https://www.digikey.com/en/products/detail/susumu/RR1220P-4991-D-M/432569,$0.16,$0.80
+25,1,R309,200k,~,RR1220P-204-D,https://www.digikey.com/en/products/detail/susumu/RR1220P-204-D/432346,$0.16,$0.16
+26,1,R311,130k,~,RR1220P-134-D,https://www.digikey.com/en/products/detail/susumu/RR1220P-134-D/432342,$0.16,$0.16
+27,1,R312,750k,~,RT0805FRE07750KL,https://www.digikey.com/en/products/detail/yageo/RT0805FRE07750KL/1035152,$0.10,$0.10
+28,1,R313,18k,~,RR1220P-183-D,https://www.digikey.com/en/products/detail/susumu/RR1220P-183-D/432321,$0.16,$0.16
+29,1,R409,62R,~,RT0805FRE0762RL,https://www.digikey.com/en/products/detail/yageo/RT0805FRE0762RL/1079353,$0.10,$0.10
+30,1,R410,47R,~,RT0805FRE0747RL,https://www.digikey.com/en/products/detail/yageo/RT0805FRE0747RL/1079276,$0.10,$0.10
+31,2,"R411, R415",0R,~,,,$0.00,$0.00
+32,1,SW301,SW_Push,https://www.ckswitches.com/media/1471/pts645.pdf,PTS645VH31-2 LFS,https://www.digikey.com/en/products/detail/c-k/PTS645VH31-2-LFS/1146771,$0.14,$0.14
+33,1,T301,Feryster RTN-40x25x15(M-083),~,"RTN-40X25X15(M-083)
 ",https://sklep.feryster.pl/en/nanoperm-cores/18140-RTN-40X25X15M-083-18140.html,$27.25,$27.25
-35,1,U201,ADR1000,https://www.analog.com/media/en/technical-documentation/data-sheets/adr1000.pdf,ADR1000AHZ,https://www.analog.com/en/products/adr1000.html#product-overview,$100.00,$100.00
-36,1,U202,OPA2172,https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fopa2172,OPA2172ID,https://www.digikey.com/en/products/detail/texas-instruments/OPA2172ID/5125386,$2.72,$2.72
-37,2,"U301, U306",L78L33_SOT89,http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf,L78L33ACUTR,https://www.digikey.com/en/products/detail/stmicroelectronics/L78L33ACUTR/585724,$0.62,$1.24
-38,1,U302,LT3439,https://www.analog.com/media/en/technical-documentation/data-sheets/3439fs.pdf,LT3439EFE#TRPBF,https://www.digikey.com/en/products/detail/analog-devices-inc/LT3439EFE-TRPBF/959304,$10.75,$10.75
-39,1,U303,TMP117,https://www.ti.com/lit/ds/symlink/tmp117.pdf,TMP117MAIDRVT,https://www.digikey.com/en/products/detail/texas-instruments/TMP117MAIDRVT/9749240,$5.10,$5.10
-40,1,U304,BR24H64FVM,http://ww1.microchip.com/downloads/en/DeviceDoc/21709c.pdf,BR24H64FVM-5ACTR,https://www.digikey.com/en/products/detail/rohm-semiconductor/BR24H64FVM-5ACTR/13684656,$0.90,$0.90
-41,1,U305,LT3045xMSE,https://www.analog.com/media/en/technical-documentation/data-sheets/3045fa.pdf,LT3045EMSE#PBF,https://www.digikey.com/en/products/detail/analog-devices-inc/LT3045EMSE-PBF/6234771,$8.50,$8.50
-42,1,U307,L79L05_SOT89,http://www.farnell.com/datasheets/1827870.pdf,MC79L05F-TP,https://www.digikey.com/en/products/detail/micro-commercial-co/MC79L05F-TP/804677,$0.41,$0.41
-43,3,"U401, U403, U404",ADA4523,https://www.analog.com/media/en/technical-documentation/data-sheets/ada4523-1.pdf,ADA4523-1BCPZ,https://www.digikey.com/en/products/detail/analog-devices-inc/ADA4523-1BCPZ/13146514,$3.06,$9.18
-44,1,U402,ADG5401F,https://www.analog.com/media/en/technical-documentation/data-sheets/adg5401f.pdf,ADG5401FBCPZ-RL7,https://www.digikey.com/en/products/detail/analog-devices-inc/ADG5401FBCPZ-RL7/13212404,$7.29,$7.29
-45,1,U405,D60V0L4B10LP,https://www.diodes.com/assets/Datasheets/D3V3XA4B10LP.pdf,D60V0L4B10LP-7,https://www.digikey.com/en/products/detail/diodes-incorporated/D60V0L4B10LP-7/8550778,$0.44,$0.44
-46,1,R210,61.9k,https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773270&DocType=DS&DocLang=English,RN73C2A61K9BTDF,https://www.digikey.com/en/products/detail/te-connectivity-passive-product/RN73C2A61K9BTDF/2373785,$1.09,$1.09
-47,2,"RN201, RN401",10k,https://www.vishay.com/docs/60045/tdp.pdf,TDPT16031002DUF,https://www.digikey.com/en/products/detail/vishay-dale-thin-film/TDPT16031002DUF/15183178,$6.43,$12.86
-48,1,R214,20k,http://www.vishaypg.com/docs/63131/z202.pdf,Y107320K0000T9L,https://www.digikey.com/en/products/detail/vishay-foil-resistors-division-of-vishay-precision-group/Y107320K0000T9L/3047004,$21.28,$21.28
-49,1,R213,100R,http://www.vishaypg.com/docs/63187/zseries.pdf,Y1453100R000V9L,https://www.digikey.com/en/products/detail/vishay-foil-resistors-division-of-vishay-precision-group/Y1453100R000V9L/2609893,$29.76,$29.76
-50,2,,,https://www.switchcraft.com/assets/1/24/712A%20722A%20732A_CD.PDF?5243,712A,https://www.digikey.com/en/products/detail/switchcraft-inc/712A/109407,$4.46,$8.92
-51,1,,,https://www.switchcraft.com/assets/1/24/760K-765K_CD.PDF?5370,760K,https://www.digikey.com/en/products/detail/switchcraft-inc/760K/241922,$6.62,$6.62
-52,1,,,https://www.cuidevices.com/product/resource/md-pl100.pdf,MD-80PL100,https://www.digikey.com/en/products/detail/cui-devices/MD-80PL100/500830,$3.79,$3.79
-53,1,,,https://app.adam-tech.com/products/download/data_sheet/199608/mdp-00x-data-sheet.pdf,MDP-008,https://www.digikey.com/en/products/detail/adam-tech/MDP-008/10222603,$1.69,$1.69
-54,1,,,https://www.hammfg.com/electronics/small-case/extruded/1455.pdf,1455N1601BK,https://www.digikey.com/en/products/detail/hammond-manufacturing/1455N1601BK/460178,$32.18,$32.18
-55,1,,,https://www.pomonaelectronics.com/file/17329/download?token=JnxIsd1L,3770-0,https://www.digikey.com/en/products/detail/pomona-electronics/3770-0/736559,$12.99,$12.99
-56,1,,,https://www.pomonaelectronics.com/file/17329/download?token=JnxIsd1L,3770-2,https://www.digikey.com/en/products/detail/pomona-electronics/3770-2/736561,$12.99,$12.99
-57,1,,"PCBs, Magnet Wire, Screws, Zip ties",,,,$20.00,$20.00
-,,,SUM,,,,,$367.92
+34,1,U201,ADR1000,https://www.analog.com/media/en/technical-documentation/data-sheets/adr1000.pdf,ADR1000AHZ,https://www.analog.com/en/products/adr1000.html#product-overview,$100.00,$100.00
+35,1,U202,OPA2172,https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fopa2172,OPA2172ID,https://www.digikey.com/en/products/detail/texas-instruments/OPA2172ID/5125386,$2.72,$2.72
+36,2,"U301, U306",L78L33_SOT89,http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf,L78L33ACUTR,https://www.digikey.com/en/products/detail/stmicroelectronics/L78L33ACUTR/585724,$0.62,$1.24
+37,1,U302,LT3439,https://www.analog.com/media/en/technical-documentation/data-sheets/3439fs.pdf,LT3439EFE#TRPBF,https://www.digikey.com/en/products/detail/analog-devices-inc/LT3439EFE-TRPBF/959304,$10.75,$10.75
+38,1,U303,TMP117,https://www.ti.com/lit/ds/symlink/tmp117.pdf,TMP117MAIDRVT,https://www.digikey.com/en/products/detail/texas-instruments/TMP117MAIDRVT/9749240,$5.10,$5.10
+39,1,U304,BR24H64FVM,http://ww1.microchip.com/downloads/en/DeviceDoc/21709c.pdf,BR24H64FVM-5ACTR,https://www.digikey.com/en/products/detail/rohm-semiconductor/BR24H64FVM-5ACTR/13684656,$0.90,$0.90
+40,1,U305,LT3045xMSE,https://www.analog.com/media/en/technical-documentation/data-sheets/3045fa.pdf,LT3045EMSE#PBF,https://www.digikey.com/en/products/detail/analog-devices-inc/LT3045EMSE-PBF/6234771,$8.50,$8.50
+41,1,U307,L79L05_SOT89,http://www.farnell.com/datasheets/1827870.pdf,MC79L05F-TP,https://www.digikey.com/en/products/detail/micro-commercial-co/MC79L05F-TP/804677,$0.41,$0.41
+42,3,"U401, U403, U404",ADA4523,https://www.analog.com/media/en/technical-documentation/data-sheets/ada4523-1.pdf,ADA4523-1BCPZ,https://www.digikey.com/en/products/detail/analog-devices-inc/ADA4523-1BCPZ/13146514,$3.06,$9.18
+43,1,U402,ADG5401F,https://www.analog.com/media/en/technical-documentation/data-sheets/adg5401f.pdf,ADG5401FBCPZ-RL7,https://www.digikey.com/en/products/detail/analog-devices-inc/ADG5401FBCPZ-RL7/13212404,$7.29,$7.29
+44,1,U405,D60V0L4B10LP,https://www.diodes.com/assets/Datasheets/D3V3XA4B10LP.pdf,D60V0L4B10LP-7,https://www.digikey.com/en/products/detail/diodes-incorporated/D60V0L4B10LP-7/8550778,$0.44,$0.44
+45,1,R210,61.9k,https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773270&DocType=DS&DocLang=English,RN73C2A61K9BTDF,https://www.digikey.com/en/products/detail/te-connectivity-passive-product/RN73C2A61K9BTDF/2373785,$1.09,$1.09
+46,2,"RN201, RN401",10k,https://www.vishay.com/docs/60045/tdp.pdf,TDPT16031002DUF,https://www.digikey.com/en/products/detail/vishay-dale-thin-film/TDPT16031002DUF/15183178,$6.43,$12.86
+47,1,R214,20k,http://www.vishaypg.com/docs/63131/z202.pdf,Y107320K0000T9L,https://www.digikey.com/en/products/detail/vishay-foil-resistors-division-of-vishay-precision-group/Y107320K0000T9L/3047004,$21.28,$21.28
+48,1,R213,100R,http://www.vishaypg.com/docs/63187/zseries.pdf,Y1453100R000V9L,https://www.digikey.com/en/products/detail/vishay-foil-resistors-division-of-vishay-precision-group/Y1453100R000V9L/2609893,$29.76,$29.76
+49,2,,,https://www.switchcraft.com/assets/1/24/712A%20722A%20732A_CD.PDF?5243,712A,https://www.digikey.com/en/products/detail/switchcraft-inc/712A/109407,$4.46,$8.92
+50,1,,,https://www.switchcraft.com/assets/1/24/760K-765K_CD.PDF?5370,760K,https://www.digikey.com/en/products/detail/switchcraft-inc/760K/241922,$6.62,$6.62
+51,1,,,https://www.cuidevices.com/product/resource/md-pl100.pdf,MD-80PL100,https://www.digikey.com/en/products/detail/cui-devices/MD-80PL100/500830,$3.79,$3.79
+52,1,,,https://app.adam-tech.com/products/download/data_sheet/199608/mdp-00x-data-sheet.pdf,MDP-008,https://www.digikey.com/en/products/detail/adam-tech/MDP-008/10222603,$1.69,$1.69
+53,1,,,https://www.hammfg.com/electronics/small-case/extruded/1455.pdf,1455N1601BK,https://www.digikey.com/en/products/detail/hammond-manufacturing/1455N1601BK/460178,$32.18,$32.18
+54,1,,,https://www.pomonaelectronics.com/file/17329/download?token=JnxIsd1L,3770-0,https://www.digikey.com/en/products/detail/pomona-electronics/3770-0/736559,$12.99,$12.99
+55,1,,,https://www.pomonaelectronics.com/file/17329/download?token=JnxIsd1L,3770-2,https://www.digikey.com/en/products/detail/pomona-electronics/3770-2/736561,$12.99,$12.99
+56,1,,"PCBs, Magnet Wire, Screws, Zip ties",,,,$20.00,$20.00
+,,,SUM,,,,,$361.81
