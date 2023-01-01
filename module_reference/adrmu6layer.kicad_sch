@@ -2484,7 +2484,7 @@
       (reference "R405") (unit 1) (value "0") (footprint "Crystal:Crystal_HC52-U_Vertical")
     )
     (path "/013f586f-693b-4fd7-8d62-e921eaa5c7a2/88bada42-57d9-4a91-9345-c003cb233119"
-      (reference "R406") (unit 1) (value "4.99k") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R406") (unit 1) (value "4k99") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/013f586f-693b-4fd7-8d62-e921eaa5c7a2/459d8247-edf1-4eed-b787-0cb222715863"
       (reference "R407") (unit 1) (value "DNP") (footprint "Crystal:Crystal_HC52-U_Vertical")
