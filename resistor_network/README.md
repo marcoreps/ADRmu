@@ -6,4 +6,6 @@ This is an adapter for up to 8 SMD resistors to fit into a DIP16 footprint. Usin
 
 I have performed only one superficial test with such a network so far and it didn't look as good as the monolithic 8xthin film array method.
 
+## Image
+
 ![serviervorschlag](https://github.com/marcoreps/ADRmu/raw/main/images/cu_pcb_rn.jpg)
