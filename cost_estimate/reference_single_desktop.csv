@@ -1,11 +1,3 @@
-Source:,C:\Users\reps\Documents\ADRmu\module_reference\adrmu6layer.kicad_sch,,,,,,,,,
-Date:,1/1/2023 12:50:04,,,,,,,,,
-Tool:,Eeschema (6.0.5),,,,,,,,,
-Generator:,C:\Program Files\KiCad\6.0\bin\scripting\plugins/bom_csv_grouped_by_value.py,,,,,,,,,
-Component Count:,103,,,,,,,,,
-,,,,,,,,,,
-Collated Components:,,,,,,,,,,
-,,,,,,,,,,
 Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,MPN,URL,Price (US$),Price * Qty
 1,21,"C201, C202, C203, C204, C205, C301, C302, C308, C309, C310, C311, C314, C315, C317, C318, C402, C403, C405, C406, C410, C411",100n 50V,Device:C,Capacitor_SMD:C_0603_1608Metric,~,CL10B104KB8NNWC,https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNWC/3887593,$0.10,$2.10
 2,1,C303,470u 25V,Device:C_Polarized,Capacitor_THT:CP_Radial_D16.0mm_P7.50mm,~,25YXF2200MEFCGC16X25,https://www.digikey.com/en/products/detail/rubycon/25YXF2200MEFCGC16X25/3567077,$1.26,$1.26
@@ -40,7 +32,8 @@ Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,MPN,URL,Price (US$),Pric
 31,1,R410,47R,Device:R,Resistor_SMD:R_0805_2012Metric,~,RT0805FRE0747RL,https://www.digikey.com/en/products/detail/yageo/RT0805FRE0747RL/1079276,$0.10,$0.10
 32,2,"R411, R415",0R,Device:R,Resistor_SMD:R_0805_2012Metric,~,,,$0.00,$0.00
 33,1,SW301,SW_Push,Switch:SW_Push,Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx31-2LFS,https://www.ckswitches.com/media/1471/pts645.pdf,PTS645VH31-2 LFS,https://www.digikey.com/en/products/detail/c-k/PTS645VH31-2-LFS/1146771,$0.14,$0.14
-34,1,T301,Feryster RTN-40x25x15(M-083),Device:Transformer_SP_1S,,~,"RTN-40X25X15(M-083)",https://sklep.feryster.pl/en/nanoperm-cores/18140-RTN-40X25X15M-083-18140.html,$27.25,$27.25
+34,1,T301,Feryster RTN-40x25x15(M-083),Device:Transformer_SP_1S,,~,"RTN-40X25X15(M-083)
+",https://sklep.feryster.pl/en/nanoperm-cores/18140-RTN-40X25X15M-083-18140.html,$27.25,$27.25
 35,1,U201,ADR1000,ADRmu_Library:ADR1000,Package_TO_SOT_THT:TO-5-8,https://www.analog.com/media/en/technical-documentation/data-sheets/adr1000.pdf,ADR1000AHZ,https://www.analog.com/en/products/adr1000.html#product-overview,$100.00,$100.00
 36,1,U202,OPA2172,Device:Opamp_Dual,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fopa2172,OPA2172ID,https://www.digikey.com/en/products/detail/texas-instruments/OPA2172ID/5125386,$2.72,$2.72
 37,2,"U301, U306",L78L33_SOT89,Regulator_Linear:L78L33_SOT89,Package_TO_SOT_SMD:SOT-89-3,http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf,L78L33ACUTR,https://www.digikey.com/en/products/detail/stmicroelectronics/L78L33ACUTR/585724,$0.62,$1.24
@@ -52,14 +45,10 @@ Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,MPN,URL,Price (US$),Pric
 43,3,"U401, U403, U404",ADA4523,ADRmu_Library:ADA4523-1,Package_CSP:LFCSP-8-1EP_3x3mm_P0.5mm_EP1.6x2.34mm,https://www.analog.com/media/en/technical-documentation/data-sheets/ada4523-1.pdf,ADA4523-1BCPZ,https://www.digikey.com/en/products/detail/analog-devices-inc/ADA4523-1BCPZ/13146514,$3.06,$9.18
 44,1,U402,ADG5401F,ADRmu_Library:ADG5401F,ADRmu_Library:LFCSP-10,https://www.analog.com/media/en/technical-documentation/data-sheets/adg5401f.pdf,ADG5401FBCPZ-RL7,https://www.digikey.com/en/products/detail/analog-devices-inc/ADG5401FBCPZ-RL7/13212404,$7.29,$7.29
 45,1,U405,D60V0L4B10LP,Power_Protection:D3V3XA4B10LP,Package_DFN_QFN:Diodes_UDFN-10_1.0x2.5mm_P0.5mm,https://www.diodes.com/assets/Datasheets/D3V3XA4B10LP.pdf,D60V0L4B10LP-7,https://www.digikey.com/en/products/detail/diodes-incorporated/D60V0L4B10LP-7/8550778,$0.44,$0.44
-,,,,,,,,,,
-Season to taste:,,,,,,,,,,
 46,1,R210,61.9k,Device:R,Resistor_SMD:R_0805_2012Metric,https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773270&DocType=DS&DocLang=English,RN73C2A61K9BTDF,https://www.digikey.com/en/products/detail/te-connectivity-passive-product/RN73C2A61K9BTDF/2373785,$1.09,$1.09
 47,2,"RN201, RN401",10k,,,https://www.vishay.com/docs/60045/tdp.pdf,TDPT16031002DUF,https://www.digikey.com/en/products/detail/vishay-dale-thin-film/TDPT16031002DUF/15183178,$6.43,$12.86
 48,1,R214,20k,Device:R,Crystal:Crystal_HC52-U_Vertical,http://www.vishaypg.com/docs/63131/z202.pdf,Y107320K0000T9L,https://www.digikey.com/en/products/detail/vishay-foil-resistors-division-of-vishay-precision-group/Y107320K0000T9L/3047004,$21.28,$21.28
 49,1,R213,100R,Device:R,Crystal:Crystal_HC52-U_Vertical,http://www.vishaypg.com/docs/63187/zseries.pdf,Y1453100R000V9L,https://www.digikey.com/en/products/detail/vishay-foil-resistors-division-of-vishay-precision-group/Y1453100R000V9L/2609893,$29.76,$29.76
-,,,,,,,,,,
-For single Hammond Desktop Enclosure:,,,,,,,,,,
 50,2,,,,,https://www.switchcraft.com/assets/1/24/712A%20722A%20732A_CD.PDF?5243,712A,https://www.digikey.com/en/products/detail/switchcraft-inc/712A/109407,$4.46,$8.92
 51,1,,,,,https://www.switchcraft.com/assets/1/24/760K-765K_CD.PDF?5370,760K,https://www.digikey.com/en/products/detail/switchcraft-inc/760K/241922,$6.62,$6.62
 52,1,,,,,https://www.cuidevices.com/product/resource/md-pl100.pdf,MD-80PL100,https://www.digikey.com/en/products/detail/cui-devices/MD-80PL100/500830,$3.79,$3.79
@@ -67,8 +56,5 @@ For single Hammond Desktop Enclosure:,,,,,,,,,,
 54,1,,,,,https://www.hammfg.com/electronics/small-case/extruded/1455.pdf,1455N1601BK,https://www.digikey.com/en/products/detail/hammond-manufacturing/1455N1601BK/460178,$32.18,$32.18
 55,1,,,,,https://www.pomonaelectronics.com/file/17329/download?token=JnxIsd1L,3770-0,https://www.digikey.com/en/products/detail/pomona-electronics/3770-0/736559,$12.99,$12.99
 56,1,,,,,https://www.pomonaelectronics.com/file/17329/download?token=JnxIsd1L,3770-2,https://www.digikey.com/en/products/detail/pomona-electronics/3770-2/736561,$12.99,$12.99
-,,,,,,,,,,
-Misc:,,,,,,,,,,
 57,1,,"PCBs, Magnet Wire, Screws, Zip ties",,,,,,$20.00,$20.00
-,,,,,,,,,,
-,,,,,,,,,,$367.92
+,,,SUM,,,,,,,$367.92
