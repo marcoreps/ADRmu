@@ -2082,7 +2082,7 @@
       (reference "D307") (unit 1) (value "PMEG6010CEH") (footprint "Diode_SMD:D_SOD-123F")
     )
     (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/74091010-85e9-4a16-b8b0-631d136f0eff"
-      (reference "D308") (unit 1) (value "SMAJ15A-13-F") (footprint "Diode_SMD:D_SMA")
+      (reference "D308") (unit 1) (value "SMAJ15A-18") (footprint "Diode_SMD:D_SMA")
     )
     (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/ebabca99-ba3d-4a5d-a238-680dee0dbcc9"
       (reference "F301") (unit 1) (value "SF-0603S040-2") (footprint "Fuse:Fuse_0603_1608Metric")
@@ -2243,8 +2243,8 @@
     (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/698f0538-3cd1-412c-8b59-0b7463959ff7"
       (reference "JP211") (unit 1) (value "Jumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
     )
-    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/b35e92b9-9262-42ed-8042-4f2ee4a48e41"
-      (reference "JP213") (unit 1) (value "Jumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
+    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/02455362-8805-425e-b1e8-6dd9b0e5b645"
+      (reference "JP213") (unit 1) (value "Jumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
     )
     (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/6dccf08f-4ace-493e-94fa-7e04ec7590e8"
       (reference "JP218") (unit 1) (value "Jumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
@@ -2358,7 +2358,7 @@
       (reference "R209") (unit 1) (value "0") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/df330e64-1a22-4560-8a2e-19b13abcb836"
-      (reference "R210") (unit 1) (value "0") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R210") (unit 1) (value "62k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/a0bf7f9b-d082-480c-879f-a72866e1289c"
       (reference "R211") (unit 1) (value "0") (footprint "Crystal:Crystal_HC52-U_Vertical")
@@ -2436,7 +2436,7 @@
       (reference "R307") (unit 1) (value "4k99") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/b6374ec4-7ed7-459e-befd-2e08e8f885b1"
-      (reference "R308") (unit 1) (value "4k99") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R308") (unit 1) (value "2k7") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/c704b6f6-f527-4c2e-9d83-ff759777f370"
       (reference "R309") (unit 1) (value "200k") (footprint "Resistor_SMD:R_0805_2012Metric")
