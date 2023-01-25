@@ -64,17 +64,28 @@ Output can be shorted indefinitely with battery life derating. Output protected 
 | SN  | Rev. |      U202      |   .1-10Hz Noise   | 24h Stab ±µV/V | 30d Stab ±µV/V | 90d Stab ±µV/V | 1yr Stab ±µV/V |
 | --- | ---- | -------------- | ----------------- | -------------- | -------------- | -------------- | -------------- |
 |   1 |  0.4 | ADR1000A #1727 | 141 nVrms 100 sec |      0.25      |       0.4      |                |                |
-|   2 |   1  |    LTZ1000A    |                   |´               |                |                |                |
-|   3 |   1  |    LTZ1000A    |                   |´               |                |                |                |
-|   4 |   1  |    ADR1000x    |                   |´               |                |                |                |
-|   5 |   1  | ADR1000A 2018  |                   |´               |                |                |                |
-|   7 |   1  | ADR1000A 2022  |                   |´               |                |                |                |
-|   9 |   1  | ADR1000A 2022  |                   |´               |                |                |                |
-| 107 |   1  | ADR1000A 2018  |                   |´               |                |                |                |
+|   2 |  0.4 |    LTZ1000A    |                   |                |                |                |                |
+|   3 |   1  |    LTZ1000A    |                   |                |                |                |                |
+|   4 |   1  |    ADR1000x    |                   |                |                |                |                |
+|   5 |   1  | ADR1000A 2022  |                   |                |                |                |                |
+|   7 |   1  | ADR1000A 2022  |                   |                |                |                |                |
+|   9 |   1  | ADR1000A 2022  |                   |                |                |                |                |
+| 107 |   1  | ADR1000A 2018  |                   |                |                |                |                |
 
 ## Trim levels
 
-The PCB is prepared for various configurations to adapt to different needs and part availabilities. For example:
+The PCB is prepared for various configurations to adapt to different needs and part availabilities. Here's what I have built so far:
+
+| SN  | Rev. |      U202      | DCDC Transformer | R213 / Pin4 | R214 / Pin5 | R220 / Pin3 | Oven divider | R225 / Iz Down | R223 / Iz Up |
+| --- | ---- | -------------- | ---------------- | ----------- | ----------- | ----------- | ------------ | -------------- | ------------ |
+|   1 |  0.4 | ADR1000A 2017  |                  |             |             |             |              |                |              |
+|   2 |  0.4 |    LTZ1000A    |                  |             |             |             |              |                |              |
+|   3 |   1  |    LTZ1000A    |                  |             |             |             |              |                |              |
+|   4 |   1  |    ADR1000x    |                  |             |             |             |              |                |              |
+|   5 |   1  | ADR1000A 2022  | Shielded + Spacer | Alpha MCY  | Alpha MAY   | 0 Ohm       | TDP10k 12.5 Vratio | Open     | 470k RN73    |
+|   7 |   1  | ADR1000A 2022  |                  |             |             |             |              |                |              |
+|   9 |   1  | ADR1000A 2022  |                  |             |             |             |              |                |              |
+| 107 |   1  | ADR1000A 2018  |                  |             |             |             |              |                |              |
 
 ### ADR1000 & Vishay 1445 All-in-one Resistor Network
 
