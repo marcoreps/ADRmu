@@ -78,14 +78,14 @@ The PCB is prepared for various configurations to adapt to different needs and p
 
 | SN  | U202 |  DCDC Trafo  | R213 / Pin4 | R214 / Pin5 | R220 / Pin3 | Oven divider | R225 / Iz Down | R223 / Iz Up | 10V gain divider |
 | --- | ---- | ------------ | ----------- | ----------- | ----------- | ------------ | -------------- | ------------ | ---------------- |
-|   1 |  ADR | Sreened Wdgs | 1445 95.3R  | 1445 61.9k  | 0R          | 1445 13 ratio |                |              | 1445 2 ratio |
-|   2 |  LTZ | Sreened Wdgs | Z201 100R   | 61.9k SMD Foil | SMD Foil | VHD200 13 ratio |                |              | VHD200 2.5 ratio |
-|   3 |  LTZ | Bare Wdgs    |             |             | TOMC100R 5 ratio | TDP10k |                | RN73             | TDP10k |
-|   4 |  ADR | Bare Wdgs    |             |             |             |              |                |              | |
-|   5 |  ADR | Sreen Spacer | Alpha MCY   | Alpha MAY   | 0R          | TDP10k 11.5 ratio | Open     | 470k RN73    | |
-|   7 |  ADR |              |             |             |             |              |                |              | |
-|   9 |  ADR |              |             |             |             |              |                |              | |
-| 107 |  ADR |              |             |             |             |              |                |              | |
+|   1 |  ADR | Sreened Wdgs | 1445 95.3R  | 1445 61.9k  | 0R          | 1445 13 ratio|                |              | 1445 2 ratio     |
+|   2 |  LTZ | Sreened Wdgs | Z201 100R   | 61.9k SMD Foil | SMD Foil | VHD200 13 ratio |             |              | VHD200 2.5 ratio |
+|   3 |  LTZ | Bare Wdgs    |             |             | TOMC100R 5 ratio | TDP10k  |                | RN73         | TDP10k           |
+|   4 |  ADR | Bare Wdgs    |             |             |             |              |                |              |                  |
+|   5 |  ADR | Sreen Spacer | Alpha MCY   | Alpha MAY   | 0R          | TDP10k 11.5 ratio | Open      | 470k RN73    |                  |
+|   7 |  ADR |              |             |             |             |              |                |              |                  |
+|   9 |  ADR | Spacer       | 1445 95.3R  | 1445 61.9k  | 0R          | 1445 13 ratio|                |              | 1445 2 ratio     |
+| 107 |  ADR | Spacer       | Z201?       | Z201?       | 0R          | TOMC10k      |                |              | TDP10k           |
 
 ### ADR1000 & Vishay 1445 All-in-one Resistor Network
 
