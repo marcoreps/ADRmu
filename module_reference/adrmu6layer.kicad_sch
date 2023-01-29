@@ -6,8 +6,8 @@
 
   (title_block
     (title "Parent schematic")
-    (date "2022-12-26")
-    (rev "0.9")
+    (date "2023-01-29")
+    (rev "1.0")
     (company "RPG")
     (comment 1 "All resistors 0.1% MF unless otherwise noted")
     (comment 2 "All capacitors X7R MLCC unless otherwise noted")
@@ -2048,6 +2048,27 @@
     (path "/013f586f-693b-4fd7-8d62-e921eaa5c7a2/07611367-26ef-4fc5-8aca-7aca4d8f2172"
       (reference "C414") (unit 1) (value "1u Film") (footprint "Capacitor_THT:C_Rect_L4.6mm_W5.5mm_P2.50mm_MKS02_FKP02")
     )
+    (path "/013f586f-693b-4fd7-8d62-e921eaa5c7a2/70791bad-32d8-472e-8d6d-233c9aa1257e"
+      (reference "C415") (unit 1) (value "470n") (footprint "Capacitor_SMD:C_1206_3216Metric")
+    )
+    (path "/013f586f-693b-4fd7-8d62-e921eaa5c7a2/b56cf229-1a49-4a8d-bb6c-1f1bc64dd38b"
+      (reference "C416") (unit 1) (value "100n 50V") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/013f586f-693b-4fd7-8d62-e921eaa5c7a2/5a493f12-4134-449b-91c4-dd680aa12da9"
+      (reference "C417") (unit 1) (value "100n 50V") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/013f586f-693b-4fd7-8d62-e921eaa5c7a2/b7f35cc1-29b7-4e89-8ed8-c1021496e9c2"
+      (reference "C418") (unit 1) (value "22u 25V") (footprint "Capacitor_SMD:C_1206_3216Metric")
+    )
+    (path "/013f586f-693b-4fd7-8d62-e921eaa5c7a2/01b7bad0-4b08-43a6-84df-c4cfa53354b9"
+      (reference "C419") (unit 1) (value "100n 50V") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/013f586f-693b-4fd7-8d62-e921eaa5c7a2/b9cb1212-5003-4e4f-ac0d-b8a8d5baa5b0"
+      (reference "C420") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/013f586f-693b-4fd7-8d62-e921eaa5c7a2/0062e3e6-8c42-4237-bf12-059f47c6514f"
+      (reference "C421") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
     (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/8fd179ed-2169-45be-b5d7-6d3dc6f25d24"
       (reference "D102") (unit 1) (value "PMEG6010CEH") (footprint "Diode_SMD:D_SOD-123F")
     )
@@ -2210,9 +2231,6 @@
     (path "/013f586f-693b-4fd7-8d62-e921eaa5c7a2/207bab9c-50bc-4848-8463-98074bec537e"
       (reference "J401") (unit 1) (value "Conn_01x01") (footprint "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm")
     )
-    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/d8ba8a14-abed-4933-ad1e-a4b7d415b61d"
-      (reference "JP201") (unit 1) (value "Jumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
-    )
     (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/22d3f550-fed4-412b-b6b4-9db1ccb8e521"
       (reference "JP202") (unit 1) (value "Jumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
     )
@@ -2305,6 +2323,12 @@
     )
     (path "/013f586f-693b-4fd7-8d62-e921eaa5c7a2/e010ebe0-c211-4146-af39-8519738d0226"
       (reference "JP409") (unit 1) (value "Jumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
+    )
+    (path "/013f586f-693b-4fd7-8d62-e921eaa5c7a2/1829785b-44cc-4641-8375-d84d7df2097b"
+      (reference "JP410") (unit 1) (value "Jumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
+    )
+    (path "/013f586f-693b-4fd7-8d62-e921eaa5c7a2/ca457fbd-af0c-4e82-adb6-fbd1f0a77aa6"
+      (reference "JP411") (unit 1) (value "Jumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
     )
     (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/67905257-30a1-4202-a054-08d3fb5f91be"
       (reference "JPB201") (unit 1) (value "Jumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
@@ -2498,9 +2522,6 @@
     (path "/013f586f-693b-4fd7-8d62-e921eaa5c7a2/d59d9f0f-e36a-47a1-b6f3-f4428d4481c4"
       (reference "R410") (unit 1) (value "47") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/013f586f-693b-4fd7-8d62-e921eaa5c7a2/bdb796cc-b07d-430e-b533-519ddd294fc5"
-      (reference "R411") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0805_2012Metric")
-    )
     (path "/013f586f-693b-4fd7-8d62-e921eaa5c7a2/18b39a62-0ffa-4389-bb74-52b120d042a1"
       (reference "R412") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
@@ -2509,9 +2530,6 @@
     )
     (path "/013f586f-693b-4fd7-8d62-e921eaa5c7a2/5a288736-435c-41bf-a544-aa163bcc31a0"
       (reference "R414") (unit 1) (value "DNP") (footprint "Resistor_SMD:R_0805_2012Metric")
-    )
-    (path "/013f586f-693b-4fd7-8d62-e921eaa5c7a2/cb8f09cc-e927-4c27-b743-0029a0f55463"
-      (reference "R415") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/bc336e03-bc09-4510-978e-8a7ea994a185"
       (reference "RN201") (unit 1) (value "Vishay TDP 10k") (footprint "Package_DIP:DIP-16_W7.62mm")
@@ -2536,6 +2554,9 @@
     )
     (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/2711f74a-01be-462c-b6ff-c9ee367afe16"
       (reference "RN201") (unit 8) (value "Vishay TDP 10k") (footprint "Package_DIP:DIP-16_W7.62mm")
+    )
+    (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/bb99768a-9859-4aa7-a770-665c68b19479"
+      (reference "RN202") (unit 1) (value "DNP") (footprint "Crystal:Resonator-3Pin_W10.0mm_H5.0mm")
     )
     (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/83a178ff-b2de-443c-b963-4bc1ca845c59"
       (reference "RN203") (unit 1) (value "322146+1") (footprint "ADRmu_Library:VPG322146+1")
@@ -2608,6 +2629,9 @@
     )
     (path "/013f586f-693b-4fd7-8d62-e921eaa5c7a2/29857d48-2ded-4069-b43c-f333d2bf6adb"
       (reference "RN401") (unit 8) (value "Vishay TDP 10k") (footprint "Package_DIP:DIP-16_W7.62mm")
+    )
+    (path "/013f586f-693b-4fd7-8d62-e921eaa5c7a2/1b66088e-6ba2-443c-8e21-cf8a05384cf2"
+      (reference "RN402") (unit 1) (value "DNP") (footprint "Crystal:Resonator-3Pin_W10.0mm_H5.0mm")
     )
     (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/67b963cc-a506-47bb-8b15-24c24b329fb8"
       (reference "SW301") (unit 1) (value "SW_Push") (footprint "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx31-2LFS")

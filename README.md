@@ -36,7 +36,7 @@ Recommended 5:7 transformer (pri:sec) when using 12V input
 
 ### Output Voltage Tempco (±µV/K)
 
-< 0.2
+< 0.04
 
 ### Short circuit current (mA)
 

@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "(6.0.5)"
     },
-    "CreationDate": "2022-12-27T12:46:56+01:00"
+    "CreationDate": "2023-01-29T23:25:53+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "adrmu6layer",
       "GUID": "6164726d-7536-46c6-9179-65722e6b6963",
-      "Revision": "0.9"
+      "Revision": "1"
     },
     "Size": {
       "X": 160.1,
@@ -24,8 +24,8 @@
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.0,
-      "PadToTrack": 0.0,
+      "PadToPad": 0.1,
+      "PadToTrack": 0.1,
       "TrackToTrack": 0.2,
       "MinLineWidth": 0.25,
       "TrackToRegion": 0.2,

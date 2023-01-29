@@ -6,8 +6,8 @@
 
   (title_block
     (title "DC-DC converter & misc")
-    (date "2022-12-26")
-    (rev "0.9")
+    (date "2023-01-29")
+    (rev "1.0")
     (company "RPG")
     (comment 1 "All resistors 0.1% MF unless otherwise noted")
     (comment 2 "All capacitors X7R MLCC unless otherwise noted")
