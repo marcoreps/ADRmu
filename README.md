@@ -61,31 +61,31 @@ Output can be shorted indefinitely with battery life derating. Output protected 
 15 - 35
 
 ## Measured results
-| SN  | Rev. |      U202      |    .1-10Hz Noise   | 24h Stab ±µV/V | 30d Stab ±µV/V | 90d Stab ±µV/V | 1yr Stab ±µV/V |
-| --- | ---- | -------------- | -----------------  | -------------- | -------------- | -------------- | -------------- |
-|   1 |  0.4 | ADR1000A 2017  | 141 nVrms 100 sec  |      0.25      |       0.4      |                |                |
-|   2 |  0.4 |    LTZ1000A    |                    |                |                |                |                |
-|   3 |   .9 |    LTZ1000A    |                    |                |                |                |                |
-|   4 |   .9 |    ADR1000x    |                    |                |                |                |                |
-|   5 |   .9 | ADR1000A 2022  |                    |                |                |                |                |
-|   7 |   .9 | ADR1000A 2022  |                    |                |                |                |                |
-|   9 |   .9 | ADR1000A 2022  |                    |                |                |                |                |
-| 107 |   .9 | ADR1000A 2018  |                    |                |                |                |                |
-|  12 |   .9 | ADR1000A 2022  |                    |                |                |                |                |
+| SN  | U202 |    .1-10Hz Noise   | Tempco µV/V/k  | 24h Stab ±µV/V | 30d Stab ±µV/V | 90d Stab ±µV/V | 1yr Stab ±µV/V |
+| --- | ---- | -----------------  | -------------- | -------------- | -------------- | -------------- | -------------- |
+|   1 | ADR  | 141 nVrms 100 sec  |                |      0.25      |       0.4      |                |                |
+|   2 | LTZ  |                    |                |                |                |                |                |
+|   3 | LTZ  |                    |-0.024 (15-35°C)|                |                |                |                |
+|   4 | ADRx |                    |-0.133 (15-35°C)|                |                |                |                |
+|   5 | ADR  |                    |+0.015 (15-35°C)|                |                |                |                |
+|   7 | ADR  |                    |+0.032 (15-35°C)|                |                |                |                |
+|   9 | ADR  |                    |+0.156 (15-35°C)|                |                |                |                |
+| 107 | ADR  |                    |+0.049 (15-35°C)|                |                |                |                |
+|  12 | ADR  |                    |                |                |                |                |                |
 
 
 ## Initial drift & burn-in
-| SN  | Rev. |      U202      | Powered on | Preparation | Initial ΔV | Hours to plateau | .1-10Hz noise before |
+| SN  | PCB  |      U202      | Powered on | Preparation | Initial ΔV | Hours to plateau | .1-10Hz noise before |
 | --- | ---- | -------------- | ---------- | ----------- | ---------- | ---------------- | -------------------- |
-|   1 |  .4  | ADR1000A 2017  | Jul 2021   | 1yr dummy circuit |      |                  |                      |
-|   2 |  .4  |    LTZ1000A    | Apr 2022   | none        |            |                  |                      |
-|   3 |  .9  |    LTZ1000A    | Mar 2022   | none        |            |                  |                      |
-|   4 | .5SE |    ADR1000x    | May 2022   | none        |            |                  |                      |
-|   5 |  .9  | ADR1000A 2022  |            | 7d 150°C b&b|            |                  |                      |
-|   7 |  .9  | ADR1000A 2022  |            | 7d 150°C b&b|            |                  |                      |
-|   9 |  .9  | ADR1000A 2022  |            | none        |            |                  |                      |
-| 107 |  .9  | ADR1000A 2018  |            | none        |            |                  |                      |
-|  12 |  .9  | ADR1000A 2022  | Jan 2023   |7 day in situ|            |                  |                      |
+|   1 | 0.4  | ADR1000A 2017  | Jul 2021   |1yr dummy circuit| no data|                  |                      |
+|   2 | 0.4  |    LTZ1000A    | Apr 2022   | none        | no data    |                  |                      |
+|   3 | 0.5  |    LTZ1000A    | Mar 2022   | none        | no data    |                  |                      |
+|   4 |0.5SE |    ADR1000x    | May 2022   | none        | no data    |                  |                      |
+|   5 | 0.9  | ADR1000A 2022  | Jan 2023   | 7d 150°C b&b|            |                  |                      |
+|   7 | 0.9  | ADR1000A 2022  | Jan 2023   | 7d 150°C b&b|            |                  |                      |
+|   9 | 0.9  | ADR1000A 2022  | Jan 2023   | none        | 1.1 µV/V   | 310              |                      |
+| 107 | 0.9  | ADR1000A 2018  | Dec 2022   | none        | 3.8 µV/V   | 640              |                      |
+|  12 | 0.9  | ADR1000A 2022  | Jan 2023   |7d in situ b&b|           |                  |                      |
 
 ## Trim levels
 
@@ -93,15 +93,15 @@ The PCB is prepared for various configurations to adapt to different needs and p
 
 | SN  | U202 |  DCDC Trafo  | R213 / Pin4 | R214 / Pin5 | R220 / Pin3 | Oven divider | R225 / Iz Down | R223 / Iz Up | 10V gain divider |
 | --- | ---- | ------------ | ----------- | ----------- | ----------- | ------------ | -------------- | ------------ | ---------------- |
-|   1 |  ADR | Screened Wdgs| 1445 95.3R  | 1445 61.9k  | 0R          | 1445 13 ratio| open           | open         | 1445 2 ratio     |
-|   2 |  LTZ | Screened Wdgs| Z201 100R   | 61.9k SMD Foil | SMD Foil | VHD200 13 ratio |             |              | VHD200 2.5 ratio |
-|   3 |  LTZ | Bare Wdgs    |             |             | TOMC100R 5 ratio | TDP10k  | open           | RN73         | TDP10k 2.5 ratio |
-|   4 |  ADR | Bare Wdgs    | 100R VHP100T| TBA         | TBA         | TBA          | TBA            | TBA          | TBA              |
-|   5 |  ADR | Screen Spacer| Alpha MCY   | Alpha MAY   | 0R          | TDP10k 11.5 ratio | open      | 470k RN73    | TDP10k 2 ratio   |
-|   7 |  ADR | Screen Spacer| Z201?       | Z201?       | 0R          | TDP10k       |                |              | TDP10k 2 ratio   |
-|   9 |  ADR | Spacer       | 1445 95.3R  | 1445 61.9k  | 0R          | 1445 13 ratio| open           | open         | 1445 2 ratio     |
-| 107 |  ADR | Spacer       | Z201T       | Z202T       | 0R          | TOMC10k 11.5 ratio | 200k RN73| open         | TDP10k 2 ratio   |
-|  12 |  ADR | Bare Wdgs    | RCK02       | RCK02       | 0R          | TDP10k 11.5 ratio |           | open         | TDP10k 2 ratio   |
+|   1 | ADR  | Screened Wdgs| 1445 95.3R  | 1445 61.9k  | 0R          | 1445 13 ratio| open           | open         | 1445 2 ratio     |
+|   2 | LTZ  | Screened Wdgs| Z201 100R   | 61.9k SMD Foil | SMD Foil |VHD200 13 ratio|               |              | VHD200 2.5 ratio |
+|   3 | LTZ  | Bare Wdgs    | 100R TOMC   | 50k S102    | 100R TOMC||5|TDP10k 13.5 ratio| open        | 230k RN73    | TDP10k 2.5 ratio |
+|   4 | ADRx | Bare Wdgs    | 100R VHP100T| TBA         | TBA         | TBA          | TBA            | TBA          | TBA              |
+|   5 | ADR  | Screen Spacer| Alpha MCY   | Alpha MAY   | 0R          | TDP10k 11.5 ratio | open      | 470k RN73    | TDP10k 2 ratio   |
+|   7 | ADR  | Screen Spacer| Z201?       | Z201?       | 0R          | TDP10k       |                |              | TDP10k 2 ratio   |
+|   9 | ADR  | Spacer       | 1445 95.3R  | 1445 61.9k  | 0R          | 1445 13 ratio| open           | open         | 1445 2 ratio     |
+| 107 | ADR  | Spacer       | Z201T       | Z202T       | 0R          | TOMC10k 11.5 ratio | 200k RN73| open         | TDP10k 2 ratio   |
+|  12 | ADR  | Bare Wdgs    | RCK02       | RCK02       | 0R          | TDP10k 11.5 ratio |           | open         | TDP10k 2 ratio   |
 
 ### ADR1000 & Vishay 1445 All-in-one Resistor Network
 
