@@ -81,8 +81,8 @@ Output can be shorted indefinitely with battery life derating. Output protected 
 |   2 |  .4  |    LTZ1000A    | Apr 2022   | none        |            |                  |                      |
 |   3 |  .9  |    LTZ1000A    | Mar 2022   | none        |            |                  |                      |
 |   4 | .5SE |    ADR1000x    | May 2022   | none        |            |                  |                      |
-|   5 |  .9  | ADR1000A 2022  |            | 7 day 150°C |            |                  |                      |
-|   7 |  .9  | ADR1000A 2022  |            | 7 day 150°C |            |                  |                      |
+|   5 |  .9  | ADR1000A 2022  |            | 7d 150°C b&b|            |                  |                      |
+|   7 |  .9  | ADR1000A 2022  |            | 7d 150°C b&b|            |                  |                      |
 |   9 |  .9  | ADR1000A 2022  |            | none        |            |                  |                      |
 | 107 |  .9  | ADR1000A 2018  |            | none        |            |                  |                      |
 |  12 |  .9  | ADR1000A 2022  | Jan 2023   |7 day in situ|            |                  |                      |
