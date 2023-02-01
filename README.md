@@ -61,13 +61,13 @@ Output can be shorted indefinitely with battery life derating. Output protected 
 15 - 35
 
 ## Measured results
-| SN  | U202 |    .1-10Hz Noise   | Tempco µV/V/k  | 24h Stab ±µV/V | 30d Stab ±µV/V | 90d Stab ±µV/V | 1yr Stab ±µV/V |
+| SN  | U202 | .1-10Hz Noise µV/V | Tempco µV/V/k  | 24h Stab µV/V  | 30d Stab µV/V  | 90d Stab µV/V  | 1yr Stab µV/V  |
 | --- | ---- | -----------------  | -------------- | -------------- | -------------- | -------------- | -------------- |
-|   1 | ADR  | 141 nVrms 100 sec  |                |      0.25      |       0.4      |                |                |
+|   1 | ADR  |                    |                |      0.25      |       0.4      |                |                |
 |   2 | LTZ  |                    |                |                |                |                |                |
-|   3 | LTZ  |                    |-0.024 (15-35°C)|                |                |                |                |
-|   4 | ADRx |                    |-0.133 (15-35°C)|                |                |                |                |
-|   5 | ADR  |                    |+0.015 (15-35°C)|                |                |                |                |
+|   3 | LTZ  | 0.0277 rms         |-0.024 (15-35°C)|                |                |                |                |
+|   4 | ADRx | 0.0343 rms         |-0.133 (15-35°C)|                |                |                |                |
+|   5 | ADR  | 0.0252 rms         |+0.015 (15-35°C)|                |                |                |                |
 |   7 | ADR  |                    |+0.032 (15-35°C)|                |                |                |                |
 |   9 | ADR  |                    |+0.156 (15-35°C)|                |                |                |                |
 | 107 | ADR  |                    |+0.049 (15-35°C)|                |                |                |                |
