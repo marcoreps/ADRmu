@@ -18994,7 +18994,6 @@
   (gr_line (start 91.44 106.68) (end 91.44 109.22) (layer "Dwgs.User") (width 0.15) (tstamp 41ab5a3b-9761-48ac-b498-f803970b3bc9))
   (gr_line (start 93.98 96.52) (end 88.9 96.52) (layer "Dwgs.User") (width 0.15) (tstamp 4c86a1dc-a028-4508-9410-65fb898b370f))
   (gr_line (start 91.44 106.68) (end 93.98 106.68) (layer "Dwgs.User") (width 0.15) (tstamp 9162912f-1443-45d3-8a1b-41f2bd857b48))
-  (gr_line (start 93.98 99.06) (end 93.98 101.6) (layer "Dwgs.User") (width 0.15) (tstamp 9df7f380-9aed-41b4-a600-937d64320641))
   (gr_line (start 99.06 104.14) (end 99.06 109.22) (layer "Dwgs.User") (width 0.15) (tstamp c7c4741a-cf34-48c6-983b-0e10ae25c4d8))
   (gr_arc (start 172.32233 117.67767) (mid 172.32233 116.263456) (end 173.736544 116.263456) (layer "Edge.Cuts") (width 0.1) (tstamp 31e68305-8633-44fb-911f-5b3eddc6514f))
   (gr_arc (start 139 120.5) (mid 138 119.5) (end 139 118.5) (layer "Edge.Cuts") (width 0.1) (tstamp 3336aee0-e3af-49fa-8c4e-e54bd54129f0))
