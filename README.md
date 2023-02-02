@@ -68,12 +68,19 @@ Output can be shorted indefinitely with battery life derating. Output protected 
 |   3 | LTZ  | [0.0277 rms][3]    |-0.024 (15-35°C)|                |                |                |                |
 |   4 | ADRx | [0.0343 rms][4]    |-0.133 (15-35°C)|                |                |                |                |
 |   5 | ADR  | [0.0252 rms][5]    |+0.015 (15-35°C)|                |                |                |                |
-|   7 | ADR  | [0.0199 rms][6]    |+0.032 (15-35°C)|                |                |                |                |
-|   9 | ADR  | [0.0291 rms][7]    |+0.156 (15-35°C)|                |                |                |                |
+|   7 | ADR  | [0.0199 rms][7]    |+0.032 (15-35°C)|                |                |                |                |
+|   9 | ADR  | [0.0291 rms][9]    |+0.156 (15-35°C)|                |                |                |                |
 | 107 | ADR  | [0.0240 rms][8]    |+0.049 (15-35°C)|                |                |                |                |
 |  12 | ADR  |                    |                |                |                |                |                |
 
 [1]:/results/ADRmu1_LFnoise.png
+[2]:/results/ADRmu2_LFnoise.png
+[3]:/results/ADRmu3_LFnoise.png
+[4]:/results/ADRmu4_LFnoise.png
+[5]:/results/ADRmu5_LFnoise.png
+[7]:/results/ADRmu7_LFnoise.png
+[9]:/results/ADRmu9_LFnoise.png
+[107]:/results/ADRmu107_LFnoise.png
 
 
 
