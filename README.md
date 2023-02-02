@@ -70,7 +70,7 @@ Output can be shorted indefinitely with battery life derating. Output protected 
 |   5 | ADR  | [0.0252 rms][5]    |+0.015 (15-35°C)|                |                |                |                |
 |   7 | ADR  | [0.0199 rms][7]    |+0.032 (15-35°C)|                |                |                |                |
 |   9 | ADR  | [0.0291 rms][9]    |+0.156 (15-35°C)|                |                |                |                |
-| 107 | ADR  | [0.0240 rms][8]    |+0.049 (15-35°C)|                |                |                |                |
+| 107 | ADR  | [0.0240 rms][107]  |+0.049 (15-35°C)|                |                |                |                |
 |  12 | ADR  |                    |                |                |                |                |                |
 
 [1]:/results/ADRmu1_LFnoise.png
