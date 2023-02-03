@@ -85,17 +85,18 @@ Output can be shorted indefinitely with battery life derating. Output protected 
 
 
 ## Initial drift & burn-in
-| SN  | PCB  |      U202      | Powered on | Preparation | Initial ΔV | Hours to plateau | .1-10Hz noise before |
-| --- | ---- | -------------- | ---------- | ----------- | ---------- | ---------------- | -------------------- |
-|   1 | 0.4  | ADR1000A 2017  | Jul 2021   |1yr dummy circuit| no data|                  |                      |
-|   2 | 0.4  |    LTZ1000A    | Apr 2022   | none        | no data    |                  |                      |
-|   3 | 0.5  |    LTZ1000A    | Mar 2022   | none        | no data    |                  |                      |
-|   4 |0.5SE |    ADR1000x    | May 2022   | none        | no data    |                  |                      |
-|   5 | 0.9  | ADR1000A 2022  | Jan 2023   | 7d 150°C b&b|            |                  |                      |
-|   7 | 0.9  | ADR1000A 2022  | Jan 2023   | 7d 150°C b&b|            |                  |                      |
-|   9 | 0.9  | ADR1000A 2022  | Jan 2023   | none        | 1.1 µV/V   | 310              |                      |
-| 107 | 0.9  | ADR1000A 2018  | Dec 2022   | none        | 3.8 µV/V   | 640              |                      |
-|  12 | 0.9  | ADR1000A 2022  | Jan 2023   |7d in situ b&b|           |                  |                      |
+| SN  | PCB  |      U202      | Powered on | Preparation | Initial ΔV | Hours to plateau | .1-10Hz noise before | Special |
+| --- | ---- | -------------- | ---------- | ----------- | ---------- | ---------------- | -------------------- ||
+|   1 | 0.4  | ADR1000A 2017  | Jul 2021   |1yr dummy circuit| no data|                  |                      ||
+|   2 | 0.4  |    LTZ1000A    | Apr 2022   | none        | no data    |                  |                      ||
+|   3 | 0.5  |    LTZ1000A    | Mar 2022   | none        | no data    |                  |                      ||
+|   4 |0.5SE |    ADR1000x    | May 2022   | none        | no data    |                  |                      ||
+|   5 | 0.9  | ADR1000A 2022  | Jan 2023   | 7d 150°C b&b|            |                  |                      ||
+|   7 | 0.9  | ADR1000A 2022  | Jan 2023   | 7d 150°C b&b|            |                  |                      ||
+|   9 | 0.9  | ADR1000A 2022  | Jan 2023   | none        | 1.1 µV/V   | 310              |                      ||
+| 107 | 0.9  | ADR1000A 2018  | Dec 2022   | none        | 3.8 µV/V   | 640              |                      ||
+|  12 | 0.9  | ADR1000A 2022  | Feb 2023   |7d in situ b&b|           |                  |                      ||
+|  13 | 0.9  | ADR1000A 2022  | Feb 2023   |             |            |                  |                      |Ultrasonic cleaned|
 
 ## Trim levels
 
