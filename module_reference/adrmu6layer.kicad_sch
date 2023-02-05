@@ -2105,6 +2105,9 @@
     (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/74091010-85e9-4a16-b8b0-631d136f0eff"
       (reference "D308") (unit 1) (value "SMAJ15A-18") (footprint "Diode_SMD:D_SMA")
     )
+    (path "/013f586f-693b-4fd7-8d62-e921eaa5c7a2/2c40b58a-0186-4537-8cef-fd6186be75dd"
+      (reference "D401") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
     (path "/b2eac6f7-6f2b-41aa-9eec-9c2e749d1013/ebabca99-ba3d-4a5d-a238-680dee0dbcc9"
       (reference "F301") (unit 1) (value "SF-0603S040-2") (footprint "Fuse:Fuse_0603_1608Metric")
     )
@@ -2508,7 +2511,7 @@
       (reference "R405") (unit 1) (value "0") (footprint "Crystal:Crystal_HC52-U_Vertical")
     )
     (path "/013f586f-693b-4fd7-8d62-e921eaa5c7a2/88bada42-57d9-4a91-9345-c003cb233119"
-      (reference "R406") (unit 1) (value "4k99") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R406") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/013f586f-693b-4fd7-8d62-e921eaa5c7a2/459d8247-edf1-4eed-b787-0cb222715863"
       (reference "R407") (unit 1) (value "DNP") (footprint "Crystal:Crystal_HC52-U_Vertical")
@@ -2522,6 +2525,9 @@
     (path "/013f586f-693b-4fd7-8d62-e921eaa5c7a2/d59d9f0f-e36a-47a1-b6f3-f4428d4481c4"
       (reference "R410") (unit 1) (value "47") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
+    (path "/013f586f-693b-4fd7-8d62-e921eaa5c7a2/d5741ca3-b497-463d-9089-ad622d237c30"
+      (reference "R411") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
     (path "/013f586f-693b-4fd7-8d62-e921eaa5c7a2/18b39a62-0ffa-4389-bb74-52b120d042a1"
       (reference "R412") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
@@ -2530,6 +2536,9 @@
     )
     (path "/013f586f-693b-4fd7-8d62-e921eaa5c7a2/5a288736-435c-41bf-a544-aa163bcc31a0"
       (reference "R414") (unit 1) (value "DNP") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/013f586f-693b-4fd7-8d62-e921eaa5c7a2/8d7706e2-f63e-4c44-8f8d-c47ae73402e8"
+      (reference "R415") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/027929a1-62dd-40f4-83d4-39d0de3b1543/bc336e03-bc09-4510-978e-8a7ea994a185"
       (reference "RN201") (unit 1) (value "Vishay TDP 10k") (footprint "Package_DIP:DIP-16_W7.62mm")
