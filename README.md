@@ -61,18 +61,19 @@ Output can be shorted indefinitely with battery life derating. Output protected 
 15 - 35
 
 ## Measured results
-| SN  | U202 | .1-10Hz Noise µV/V | Tempco µV/V/k  | 24h Stab µV/V  | 30d Stab µV/V  | 90d Stab µV/V  | 1yr Stab µV/V  |
-| --- | ---- | -----------------  | -------------- | -------------- | -------------- | -------------- | -------------- |
-|   1 | ADR  | [0.0239 rms][1]    |                |      0.25      |       0.4      |                |                |
-|   2 | LTZ  | [0.0280 rms][2]    |                |                |                |                |                |
-|   3 | LTZ  | [0.0277 rms][3]    |-0.024 (15-35°C)|                |                |                |                |
-|   4 | ADRx | [0.0343 rms][4]    |-0.133 (15-35°C)|                |                |                |                |
-|   5 | ADR  | [0.0252 rms][5]    |+0.015 (15-35°C)|                |                |                |                |
-|   7 | ADR  | [0.0199 rms][7]    |+0.032 (15-35°C)|                |                |                |                |
-|   9 | ADR  | [0.0291 rms][9]    |+0.156 (15-35°C)|                |                |                |                |
-| 107 | ADR  | [0.0240 rms][107]  |+0.049 (15-35°C)|                |                |                |                |
-|  12 | ADR  |                    |                |                |                |                |                |
-
+| SN  | U202 | .1-10Hz Noise  | Tempco 15-35°C  |  24h Stab  |  30d Stab  |  90d Stab  |  1yr Stab  |
+| --- | ---- | -------------- | --------------- | ---------- | ---------- | ---------- | ---------- |
+|     |      | \[µV/V rms\]   | \[µV/V/k\]      | \[µV/V\]   | \[µV/V\]   | \[µV/V\]   | \[µV/V\]   |
+|   1 | ADR  | [0.0186][1]    |                 | 0.25       | 0.4        |            |            |
+|   2 | LTZ  | [0.0206][2]    |                 |            |            |            |            |
+|   3 | LTZ  | [0.0247][3]    | -0.024          |            |            |            |            |
+|   4 | ADRx | [0.0346][4]    | -0.133          |            |            |            |            |
+|   5 | ADR  | [TBD][5]       | +0.015          |            |            |            |            |
+|   7 | ADR  | [0.0157][7]    | +0.032          |            |            |            |            |
+|   9 | ADR  | [0.0227][9]    | +0.156          |            |            |            |            |
+| 107 | ADR  | [0.0242][107]  | +0.049          |            |            |            |            |
+|  12 | ADR  |                |                 |            |            |            |            |
+ 
 [1]:/results/ADRmu1_LFnoise.png
 [2]:/results/ADRmu2_LFnoise.png
 [3]:/results/ADRmu3_LFnoise.png
@@ -86,17 +87,17 @@ Output can be shorted indefinitely with battery life derating. Output protected 
 
 ## Initial drift & burn-in
 | SN  | PCB  |      U202      | Powered on | Preparation | Initial ΔV | Hours to plateau | .1-10Hz noise before | Special |
-| --- | ---- | -------------- | ---------- | ----------- | ---------- | ---------------- | -------------------- ||
-|   1 | 0.4  | ADR1000A 2017  | Jul 2021   |1yr dummy circuit| no data|                  |                      ||
-|   2 | 0.4  |    LTZ1000A    | Apr 2022   | none        | no data    |                  |                      ||
-|   3 | 0.5  |    LTZ1000A    | Mar 2022   | none        | no data    |                  |                      ||
-|   4 |0.5SE |    ADR1000x    | May 2022   | none        | no data    |                  |                      ||
-|   5 | 0.9  | ADR1000A 2022  | Jan 2023   | 7d 150°C b&b|            |                  |                      ||
-|   7 | 0.9  | ADR1000A 2022  | Jan 2023   | 7d 150°C b&b|            |                  |                      ||
-|   9 | 0.9  | ADR1000A 2022  | Jan 2023   | none        | 1.1 µV/V   | 310              |                      ||
-| 107 | 0.9  | ADR1000A 2018  | Dec 2022   | none        | 3.8 µV/V   | 640              |                      ||
-|  12 | 0.9  | ADR1000A 2022  | Feb 2023   |7d in situ b&b|           |                  |                      ||
-|  13 | 0.9  | ADR1000A 2022  | Feb 2023   |             |            |                  |                      |Ultrasonic cleaned|
+| --- | ---- | -------------- | ---------- | ----------- | ---------- | ---------------- | -------------------- |---------|
+|   1 | 0.4  | ADR1000A 2017  | Jul 2021   |1yr dummy circuit| no data|                  |                      | |
+|   2 | 0.4  |    LTZ1000A    | Apr 2022   | none        | no data    |                  |                      | |
+|   3 | 0.5  |    LTZ1000A    | Mar 2022   | none        | no data    |                  |                      | |
+|   4 |0.5SE |    ADR1000x    | May 2022   | none        | no data    |                  |                      | Popcorn noise|
+|   5 | 0.9  | ADR1000A 2022  | Jan 2023   | 7d 150°C b&b|            |                  |                      | |
+|   7 | 0.9  | ADR1000A 2022  | Jan 2023   | 7d 150°C b&b|            |                  |                      | |
+|   9 | 0.9  | ADR1000A 2022  | Jan 2023   | none        | 1.1 µV/V   | 310              |                      | |
+| 107 | 0.9  | ADR1000A 2018  | Dec 2022   | none        | 3.8 µV/V   | 640              |                      | Transplanted to 108|
+|  12 | 0.9  | ADR1000A 2022  | Feb 2023   |7d in situ b&b|           |                  |                      | |
+|  13 | 0.9  | ADR1000A 2022  | Feb 2023   |             |            |                  |                      | Ultrasonic cleaned|
 
 ## Trim levels
 
