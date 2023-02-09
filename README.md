@@ -64,15 +64,15 @@ Output can be shorted indefinitely with battery life derating. Output protected 
 | SN  | U202 | .1-10Hz Noise  | Tempco 15-35°C  |  24h Stab  |  30d Stab  |  90d Stab  |  1yr Stab  |
 | --- | ---- | -------------- | --------------- | ---------- | ---------- | ---------- | ---------- |
 |     |      | \[µV/V rms\]   | \[µV/V/k\]      | \[µV/V\]   | \[µV/V\]   | \[µV/V\]   | \[µV/V\]   |
-|   1 | ADR  | [0.0186][1]    |                 | 0.25       | 0.4        |            |            |
-|   2 | LTZ  | [0.0206][2]    |                 |            |            |            |            |
+|   1 | ADR  | [0.0179][1]    |                 | 0.25       | 0.4        |            |            |
+|   2 | LTZ  | [0.0189][2]    |                 |            |            |            |            |
 |   3 | LTZ  | [0.0247][3]    | -0.024          |            |            |            |            |
 |   4 | ADRx | [0.0346][4]    | -0.133          |            |            |            |            |
-|   5 | ADR  | [TBD][5]       | +0.015          |            |            |            |            |
+|   5 | ADR  | [0.0134][5]    | +0.015          |            |            |            |            |
 |   7 | ADR  | [0.0157][7]    | +0.032          |            |            |            |            |
-|   9 | ADR  | [0.0227][9]    | +0.156          |            |            |            |            |
+|   9 | ADR  | [0.0147][9]    | +0.156          |            |            |            |            |
 | 107 | ADR  | [0.0242][107]  | +0.049          |            |            |            |            |
-|  12 | ADR  |                |                 |            |            |            |            |
+|  12 | ADR  | [0.0135][12]   |                 |            |            |            |            |
  
 [1]:/results/ADRmu1_LFnoise.png
 [2]:/results/ADRmu2_LFnoise.png
@@ -82,7 +82,7 @@ Output can be shorted indefinitely with battery life derating. Output protected 
 [7]:/results/ADRmu7_LFnoise.png
 [9]:/results/ADRmu9_LFnoise.png
 [107]:/results/ADRmu107_LFnoise.png
-
+[12]:/results/ADRmu12_LFnoise.png
 
 
 ## Initial drift & burn-in
@@ -113,7 +113,8 @@ The PCB is prepared for various configurations to adapt to different needs and p
 |   7 | ADR  | Screen Spacer| Z201?       | Z201?       | 0R          | TDP10k       |                |              | TDP10k 2 ratio   |
 |   9 | ADR  | Spacer       | 1445 95.3R  | 1445 61.9k  | 0R          | 1445 13 ratio| open           | open         | 1445 2 ratio     |
 | 107 | ADR  | Spacer       | Z201T       | Z202T       | 0R          | TOMC10k 11.5 ratio | 200k RN73| open         | TDP10k 2 ratio   |
-|  12 | ADR  | Bare Wdgs    | RCK02       | RCK02       | 0R          | TDP10k 11.5 ratio |           | open         | TDP10k 2 ratio   |
+|  12 | ADR  | Bare Wdgs    | RCK02       | RCK02       | 0R          | TDP10k 12 ratio | 1M          | open         | TDP10k 2 ratio   |
+|  13 | ADR  | Bare Wdgs    | RCK02       | RCK02       | 0R          | TDP10k 11.5 ratio | open      | 1M           | TDP10k 2 ratio   |
 
 ### ADR1000 & Vishay 1445 All-in-one Resistor Network
 
