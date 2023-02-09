@@ -67,13 +67,13 @@ Output can be shorted indefinitely with battery life derating. Output protected 
 |   1 | ADR  | [0.0179][1]    |                 | 0.25       | 0.4        |            |            |
 |   2 | LTZ  | [0.0189][2]    |                 |            |            |            |            |
 |   3 | LTZ  | [0.0247][3]    | [-0.024][3tc]   |            |            |            |            |
-|   4 | ADRx | [0.0346][4]    | -0.133          |            |            |            |            |
-|   5 | ADR  | [0.0134][5]    | +0.015          |            |            |            |            |
-|   7 | ADR  | [0.0157][7]    | +0.032          |            |            |            |            |
-|   9 | ADR  | [0.0147][9]    | +0.156          |            |            |            |            |
-| 107 | ADR  | [0.0242][107]  | +0.049          |            |            |            |            |
+|   4 | ADRx | [0.0346][4]    | [-0.133][4tc]   |            |            |            |            |
+|   5 | ADR  | [0.0134][5]    | [+0.015][5tc]   |            |            |            |            |
+|   7 | ADR  | [0.0157][7]    | [+0.032][7tc]   |            |            |            |            |
+|   9 | ADR  | [0.0147][9]    | [+0.156][9tc]   |            |            |            |            |
+| 107 | ADR  | [0.0242][107]  | [+0.049][107tc] |            |            |            |            |
 |  12 | ADR  | [0.0135][12]   |                 |            |            |            |            |
-|  13 | ADR  | [TBD][13]      | -0.024          |            |            |            |            |
+|  13 | ADR  | [TBD][13]      | [-0.024][13tc]  |            |            |            |            |
  
 [1]:/results/ADRmu1_LFnoise.png
 [2]:/results/ADRmu2_LFnoise.png
@@ -85,7 +85,14 @@ Output can be shorted indefinitely with battery life derating. Output protected 
 [107]:/results/ADRmu107_LFnoise.png
 [12]:/results/ADRmu12_LFnoise.png
 [13]:/results/ADRmu13_LFnoise.png
+
 [3tc]:/results/ADRmu3_TC.ipynb
+[4tc]:/results/ADRmu4_TC.ipynb
+[5tc]:/results/ADRmu5_TC.ipynb
+[7tc]:/results/ADRmu7_TC.ipynb
+[9tc]:/results/ADRmu9_TC.ipynb
+[107tc]:/results/ADRmu107_TC.ipynb
+[13tc]:/results/ADRmu13_TC.ipynb
 
 
 
