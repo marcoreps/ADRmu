@@ -66,13 +66,14 @@ Output can be shorted indefinitely with battery life derating. Output protected 
 |     |      | \[µV/V rms\]   | \[µV/V/k\]      | \[µV/V\]   | \[µV/V\]   | \[µV/V\]   | \[µV/V\]   |
 |   1 | ADR  | [0.0179][1]    |                 | 0.25       | 0.4        |            |            |
 |   2 | LTZ  | [0.0189][2]    |                 |            |            |            |            |
-|   3 | LTZ  | [0.0247][3]    | -0.024          |            |            |            |            |
+|   3 | LTZ  | [0.0247][3]    | [-0.024][3tc]   |            |            |            |            |
 |   4 | ADRx | [0.0346][4]    | -0.133          |            |            |            |            |
 |   5 | ADR  | [0.0134][5]    | +0.015          |            |            |            |            |
 |   7 | ADR  | [0.0157][7]    | +0.032          |            |            |            |            |
 |   9 | ADR  | [0.0147][9]    | +0.156          |            |            |            |            |
 | 107 | ADR  | [0.0242][107]  | +0.049          |            |            |            |            |
 |  12 | ADR  | [0.0135][12]   |                 |            |            |            |            |
+|  13 | ADR  | [TBD][13]      | -0.024          |            |            |            |            |
  
 [1]:/results/ADRmu1_LFnoise.png
 [2]:/results/ADRmu2_LFnoise.png
@@ -83,6 +84,9 @@ Output can be shorted indefinitely with battery life derating. Output protected 
 [9]:/results/ADRmu9_LFnoise.png
 [107]:/results/ADRmu107_LFnoise.png
 [12]:/results/ADRmu12_LFnoise.png
+[13]:/results/ADRmu13_LFnoise.png
+[3tc]:/results/ADRmu3_TC.ipynb
+
 
 
 ## Initial drift & burn-in
