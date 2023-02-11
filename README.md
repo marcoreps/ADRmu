@@ -72,6 +72,7 @@ Output can be shorted indefinitely with battery life derating. Output protected 
 |   7 | ADR  | [0.0157][7]    | [+0.032][7tc]   |            |            |            |            |
 |   9 | ADR  | [0.0147][9]    | [+0.156][9tc]   |            |            |            |            |
 | 107 | ADR  | [0.0242][107]  | [+0.049][107tc] |            |            |            |            |
+| 108 | ADR  | [TBD][108]     | [+0.030][108tc] |            |            |            |            |
 |  12 | ADR  | [0.0135][12]   |                 |            |            |            |            |
 |  13 | ADR  | [TBD][13]      | [-0.024][13tc]  |            |            |            |            |
  
@@ -92,6 +93,7 @@ Output can be shorted indefinitely with battery life derating. Output protected 
 [7tc]:/results/ADRmu7_TC.ipynb
 [9tc]:/results/ADRmu9_TC.ipynb
 [107tc]:/results/ADRmu107_TC.ipynb
+[108tc]:/results/ADRmu108_TC.ipynb
 [13tc]:/results/ADRmu13_TC.ipynb
 
 
