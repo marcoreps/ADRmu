@@ -12,6 +12,13 @@ Low cost 10V DC reference standard in DIN 41612 modular enclosure. Based on oven
 Align JP and R designators
 Remove JPB and JPH enumeration
 add lt5400 and other gain resistor options
+foil -> SMD resistor alternatives
+TC network trim footprint
+discrete push-pull driver
+LC filters a la mac
+re-test LTZ
+4 vias per transformer winding
+
 
 
 ## Assembly advice
@@ -84,6 +91,7 @@ Output can be shorted indefinitely with battery life derating. Output protected 
 [7]:/results/ADRmu7_LFnoise.png
 [9]:/results/ADRmu9_LFnoise.png
 [107]:/results/ADRmu107_LFnoise.png
+[108]:/results/ADRmu108_LFnoise.png
 [12]:/results/ADRmu12_LFnoise.png
 [13]:/results/ADRmu13_LFnoise.png
 
