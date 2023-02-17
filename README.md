@@ -12,12 +12,8 @@ Low cost 10V DC reference standard in DIN 41612 modular enclosure. Based on oven
 Align JP and R designators
 Remove JPB and JPH enumeration
 add lt5400 and other gain resistor options
-film -> SMD capacitor alternatives
-TC network trim footprint
 discrete push-pull driver
-LC filters a la mac
 re-test LTZ
-4 vias per transformer winding
 
 
 
@@ -120,7 +116,7 @@ Output can be shorted indefinitely with battery life derating. Output protected 
 |   9 | 0.9  | ADR1000A 2022  | Jan 2023   | none        | 1.1 µV/V   | 310              |                      | |
 | 107 | 0.9  | ADR1000A 2018  | Dec 2022   | none        | 3.8 µV/V   | 640              |                      | Transplanted to 108|
 | 108 | 0.9  | ADR1000A 2018  | Dec 2022   | none        | 3.8 µV/V   | 640              |                      | |
-|  11 | 0.9  | ADR1000A 2022  | Feb 2023   |7d dummy circuit|         |                  |                      | |
+|  11 | 0.9  | ADR1000A 2022  | Feb 2023   |7d dummy circuit|         |                  |                      | No trim resistors|
 |  12 | 0.9  | ADR1000A 2022  | Feb 2023   |7d in situ b&b|           |                  |                      | |
 |  13 | 0.9  | ADR1000A 2022  | Feb 2023   |             |            |                  |                      | Ultrasonic cleaned|
 

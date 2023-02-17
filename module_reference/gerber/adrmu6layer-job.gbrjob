@@ -3,15 +3,15 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "(6.0.5)"
+      "Version": "(7.0.0)"
     },
-    "CreationDate": "2023-01-29T23:25:53+01:00"
+    "CreationDate": "2023-02-17T09:17:20+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "adrmu6layer",
       "GUID": "6164726d-7536-46c6-9179-65722e6b6963",
-      "Revision": "1"
+      "Revision": "1.1"
     },
     "Size": {
       "X": 160.1,
@@ -24,10 +24,10 @@
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.1,
-      "PadToTrack": 0.1,
+      "PadToPad": 0.2,
+      "PadToTrack": 0.2,
       "TrackToTrack": 0.2,
-      "MinLineWidth": 0.25,
+      "MinLineWidth": 0.3,
       "TrackToRegion": 0.2,
       "RegionToRegion": 0.2
     },
@@ -36,7 +36,7 @@
       "PadToPad": 0.0,
       "PadToTrack": 0.0,
       "TrackToTrack": 0.2,
-      "MinLineWidth": 1.0,
+      "MinLineWidth": 0.4,
       "TrackToRegion": 0.2,
       "RegionToRegion": 0.2
     }
