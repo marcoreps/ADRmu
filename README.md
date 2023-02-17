@@ -75,10 +75,11 @@ Output can be shorted indefinitely with battery life derating. Output protected 
 |   7 | ADR  | [0.0157][7]    | [+0.032][7tc]   |            |            |            |            |
 |   9 | ADR  | [0.0147][9]    | [+0.156][9tc]   |            |            |            |            |
 | 107 | ADR  | [0.0242][107]  | [+0.049][107tc] |            |            |            |            |
-| 108 | ADR  | [TBD][108]     | [+0.030][108tc] |            |            |            |            |
+| 108 | ADR  |                | [+0.030][108tc] |            |            |            |            |
+|  10 | ADR  |                | [+0.028][10tc]  |            |            |            |            |
 |  11 | ADR  |                | [+0.015][11tc]  |            |            |            |            |
 |  12 | ADR  | [0.0135][12]   |                 |            |            |            |            |
-|  13 | ADR  | [TBD][13]      | [-0.024][13tc]  |            |            |            |            |
+|  13 | ADR  |                | [-0.024][13tc]  |            |            |            |            |
  
 [1]:/results/ADRmu1_LFnoise.png
 [2]:/results/ADRmu2_LFnoise.png
@@ -87,20 +88,25 @@ Output can be shorted indefinitely with battery life derating. Output protected 
 [5]:/results/ADRmu5_LFnoise.png
 [7]:/results/ADRmu7_LFnoise.png
 [9]:/results/ADRmu9_LFnoise.png
-[107]:/results/ADRmu107_LFnoise.png
-[108]:/results/ADRmu108_LFnoise.png
+[10]:/results/ADRmu10_LFnoise.png
 [12]:/results/ADRmu12_LFnoise.png
 [13]:/results/ADRmu13_LFnoise.png
+[107]:/results/ADRmu107_LFnoise.png
+[108]:/results/ADRmu108_LFnoise.png
 
 [3tc]:/results/ADRmu3_TC.ipynb
 [4tc]:/results/ADRmu4_TC.ipynb
 [5tc]:/results/ADRmu5_TC.ipynb
 [7tc]:/results/ADRmu7_TC.ipynb
 [9tc]:/results/ADRmu9_TC.ipynb
+[10tc]:/results/ADRmu10_TC.ipynb
+[11tc]:/results/ADRmu11_TC.ipynb
+[12tc]:/results/ADRmu12_TC.ipynb
+[13tc]:/results/ADRmu13_TC.ipynb
 [107tc]:/results/ADRmu107_TC.ipynb
 [108tc]:/results/ADRmu108_TC.ipynb
-[13tc]:/results/ADRmu13_TC.ipynb
-[11tc]:/results/ADRmu11_TC.ipynb
+
+
 
 
 
@@ -116,6 +122,7 @@ Output can be shorted indefinitely with battery life derating. Output protected 
 |   9 | 0.9  | ADR1000A 2022  | Jan 2023   | none        | 1.1 µV/V   | 310              |                      | |
 | 107 | 0.9  | ADR1000A 2018  | Dec 2022   | none        | 3.8 µV/V   | 640              |                      | Transplanted to 108|
 | 108 | 0.9  | ADR1000A 2018  | Dec 2022   | none        | 3.8 µV/V   | 640              |                      | |
+|  10 | 0.9  | ADR1000A 2022  | Feb 2023   | none        |            |                  |                      | |
 |  11 | 0.9  | ADR1000A 2022  | Feb 2023   |7d dummy circuit|         |                  |                      | No trim resistors|
 |  12 | 0.9  | ADR1000A 2022  | Feb 2023   |7d in situ b&b|           |                  |                      | |
 |  13 | 0.9  | ADR1000A 2022  | Feb 2023   |             |            |                  |                      | Ultrasonic cleaned|
@@ -133,10 +140,11 @@ The PCB is prepared for various configurations to adapt to different needs and p
 |   5 | ADR  | Screen Spacer| Alpha MCY   | Alpha MAY   | 0R          | TDP10k 11.5 ratio | open      | 470k RN73    | TDP10k 2 ratio   |
 |   7 | ADR  | Screen Spacer| Z201?       | Z201?       | 0R          | TDP10k       |                |              | TDP10k 2 ratio   |
 |   9 | ADR  | Spacer       | 1445 95.3R  | 1445 61.9k  | 0R          | 1445 13 ratio| open           | open         | 1445 2 ratio     |
-| 107 | ADR  | Spacer       | Z201T       | Z202T       | 0R          | TOMC10k 11.5 ratio | 200k RN73| open         | TDP10k 2 ratio   |
-| 108 | ADR  | Spacer       | Z201T       | Z202T       | 0R          | TOMC10k 11.5 ratio |          |              | TDP10k 2 ratio   |
+| 107 | ADR  | Spacer       | Z201T       | Z202T       | 0R          | TOMC10k 11.5 ratio| 200k RN73 | open         | TDP10k 2 ratio   |
+| 108 | ADR  | Spacer       | Z201T       | Z202T       | 0R          | TOMC10k 11.5 ratio|           |              | TDP10k 2 ratio   |
+|  10 | ADR  | Spacer       | RCK02       | RCK02       | 0R          | TDP10k 11.5 ratio | 493k RN73 | open         | TDP10k 2 ratio   |
 |  11 | ADR  | Bare Wdgs    | Z201T       | Z201T       | 0R          | TDP10k 11.5 ratio |           |              | TDP10k 2 ratio   |
-|  12 | ADR  | Bare Wdgs    | RCK02       | RCK02       | 0R          | TDP10k 12 ratio | 1M          | open         | TDP10k 2 ratio   |
+|  12 | ADR  | Bare Wdgs    | RCK02       | RCK02       | 0R          | TDP10k 12 ratio   | 1M        | open         | TDP10k 2 ratio   |
 |  13 | ADR  | Bare Wdgs    | RCK02       | RCK02       | 0R          | TDP10k 11.5 ratio | open      | 1M           | TDP10k 2 ratio   |
 
 ### ADR1000 & Vishay 1445 All-in-one Resistor Network
