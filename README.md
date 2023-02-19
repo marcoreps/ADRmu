@@ -67,19 +67,20 @@ Output can be shorted indefinitely with battery life derating. Output protected 
 | SN  | U202 | .1-10Hz Noise  | Tempco 15-35°C  |  24h Stab  |  30d Stab  |  90d Stab  |  1yr Stab  |
 | --- | ---- | -------------- | --------------- | ---------- | ---------- | ---------- | ---------- |
 |     |      | \[µV/V rms\]   | \[µV/V/k\]      | \[µV/V\]   | \[µV/V\]   | \[µV/V\]   | \[µV/V\]   |
-|   1 | ADR  | [0.0179][1]    |                 | 0.25       | 0.4        |            |            |
-|   2 | LTZ  | [0.0189][2]    |                 |            |            |            |            |
-|   3 | LTZ  | [0.0247][3]    | [-0.024][3tc]   |            |            |            |            |
+|   1 | ADR  | [0.0139][1]    |                 | 0.25       | 0.4        |            |            |
+|   2 | LTZ  | [0.0175][2]    |                 |            |            |            |            |
+|   3 | LTZ  | [0.0201][3]    | [-0.024][3tc]   |            |            |            |            |
 |   4 | ADRx | [0.0346][4]    | [-0.133][4tc]   |            |            |            |            |
-|   5 | ADR  | [0.0134][5]    | [+0.015][5tc]   |            |            |            |            |
-|   7 | ADR  | [0.0157][7]    | [+0.032][7tc]   |            |            |            |            |
-|   9 | ADR  | [0.0147][9]    | [+0.156][9tc]   |            |            |            |            |
-| 107 | ADR  | [0.0242][107]  | [+0.049][107tc] |            |            |            |            |
-| 108 | ADR  |                | [+0.030][108tc] |            |            |            |            |
-|  10 | ADR  |                | [-0.028][10tc]  |            |            |            |            |
-|  11 | ADR  |                | [+0.015][11tc]  |            |            |            |            |
-|  12 | ADR  | [0.0135][12]   |                 |            |            |            |            |
-|  13 | ADR  |                | [-0.024][13tc]  |            |            |            |            |
+|   5 | ADR  | [0][5]         | [+0.015][5tc]   |            |            |            |            |
+|   7 | ADR  | [0.0125][7]    | [+0.032][7tc]   |            |            |            |            |
+|   9 | ADR  | [0.0121][9]    | [+0.156][9tc]   |            |            |            |            |
+| 107 | ADR  |                | [+0.049][107tc] |            |            |            |            |
+| 108 | ADR  | [0.0163][108]  | [+0.030][108tc] |            |            |            |            |
+|  10 | ADR  | [0.0115][10]   | [-0.028][10tc]  |            |            |            |            |
+|  11 | ADR  | [0.0129][11]   | [+0.015][11tc]  |            |            |            |            |
+|  12 | ADR  | [0.0116][12]   |                 |            |            |            |            |
+|  13 | ADR  | [0.0132][13]   | [-0.024][13tc]  |            |            |            |            |
+|F731B| SZA  | [0.0272][731]  |                 |            |            |            |            |
  
 [1]:/results/ADRmu1_LFnoise.png
 [2]:/results/ADRmu2_LFnoise.png
@@ -89,10 +90,12 @@ Output can be shorted indefinitely with battery life derating. Output protected 
 [7]:/results/ADRmu7_LFnoise.png
 [9]:/results/ADRmu9_LFnoise.png
 [10]:/results/ADRmu10_LFnoise.png
+[11]:/results/ADRmu11_LFnoise.png
 [12]:/results/ADRmu12_LFnoise.png
 [13]:/results/ADRmu13_LFnoise.png
 [107]:/results/ADRmu107_LFnoise.png
 [108]:/results/ADRmu108_LFnoise.png
+[731]:/results/Fluke731B_LFnoise.png
 
 [3tc]:/results/ADRmu3_TC.ipynb
 [4tc]:/results/ADRmu4_TC.ipynb
