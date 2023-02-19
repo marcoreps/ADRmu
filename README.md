@@ -71,7 +71,7 @@ Output can be shorted indefinitely with battery life derating. Output protected 
 |   2 | LTZ  | [0.0175][2]    |                 |            |            |            |            |
 |   3 | LTZ  | [0.0201][3]    | [-0.024][3tc]   |            |            |            |            |
 |   4 | ADRx | [0.0346][4]    | [-0.133][4tc]   |            |            |            |            |
-|   5 | ADR  | [0][5]         | [+0.015][5tc]   |            |            |            |            |
+|   5 | ADR  | [0.0119][5]    | [+0.015][5tc]   |            |            |            |            |
 |   7 | ADR  | [0.0125][7]    | [+0.032][7tc]   |            |            |            |            |
 |   9 | ADR  | [0.0121][9]    | [+0.156][9tc]   |            |            |            |            |
 | 107 | ADR  |                | [+0.049][107tc] |            |            |            |            |
@@ -93,7 +93,6 @@ Output can be shorted indefinitely with battery life derating. Output protected 
 [11]:/results/ADRmu11_LFnoise.png
 [12]:/results/ADRmu12_LFnoise.png
 [13]:/results/ADRmu13_LFnoise.png
-[107]:/results/ADRmu107_LFnoise.png
 [108]:/results/ADRmu108_LFnoise.png
 [731]:/results/Fluke731B_LFnoise.png
 
