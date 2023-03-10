@@ -13,8 +13,6 @@ Align JP and R designators
 Remove JPB and JPH enumeration
 add lt5400 and other gain resistor options
 discrete push-pull driver
-re-test LTZ
-
 
 
 ## Assembly advice
@@ -124,7 +122,7 @@ Output can be shorted indefinitely with battery life derating. Output protected 
 |   9 | 0.9  | ADR1000A 2022  | Jan 2023   | none        | 1.1 µV/V   | 310              |                      | |
 | 107 | 0.9  | ADR1000A 2018  | Dec 2022   | none        | 3.8 µV/V   | 640              |                      | Transplanted to 108|
 | 108 | 0.9  | ADR1000A 2018  | Dec 2022   | none        | 3.8 µV/V   | 640              |                      | |
-|  10 | 0.9  | ADR1000A 2022  | Feb 2023   | none        |            |                  |                      | |
+|  10 | 0.9  | ADR1000A 2022  | Feb 2023   | none        |            |                  |                      | On/off cylcing for 48h|
 |  11 | 0.9  | ADR1000A 2022  | Feb 2023   |7d dummy circuit|         |                  |                      | No trim resistors|
 |  12 | 0.9  | ADR1000A 2022  | Feb 2023   |7d in situ b&b|           |                  |                      | On/off cylcing for 24h|
 |  13 | 0.9  | ADR1000A 2022  | Feb 2023   |             |            |                  |                      | Ultrasonic cleaned|
@@ -148,6 +146,8 @@ The PCB is prepared for various configurations to adapt to different needs and p
 |  11 | ADR  | Bare Wdgs    | Z201T       | Z201T       | 0R          | TDP10k 11.5 ratio |           |              | TDP10k 2 ratio   |
 |  12 | ADR  | Bare Wdgs    | RCK02       | RCK02       | 0R          | TDP10k 12 ratio   | 1M        | open         | TDP10k 2 ratio   |
 |  13 | ADR  | Bare Wdgs    | RCK02       | RCK02       | 0R          | TDP10k 11.5 ratio | open      | 1M           | TDP10k 2 ratio   |
+|   6 | ADR  | Bare Wdgs    | PTF56       | PTF56       | 0R          | TDP10k 11.5 ratio |           |              | TDP10k 2 ratio   |
+|  14 | LTZ  | Bare Wdgs    | TDP         |             | TDP         | TDP10k 12   ratio |           |              | TDP10k 2.5 ratio |
 
 ### ADR1000 & Vishay 1445 All-in-one Resistor Network
 
