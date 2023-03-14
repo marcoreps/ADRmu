@@ -129,6 +129,7 @@ Output can be shorted indefinitely with battery life derating. Output protected 
 |  11 | 0.9  | ADR1000A 2022  | Feb 2023   |7d dummy circuit|         |                  |                      | No trim resistors|
 |  12 | 0.9  | ADR1000A 2022  | Feb 2023   |7d in situ b&b|           |                  |                      | On/off cylcing for 24h|
 |  13 | 0.9  | ADR1000A 2022  | Feb 2023   |             |            |                  |                      | Ultrasonic cleaned|
+|   6 | 1.1  | ADR1000A 2022  | Mar 2023   |30d dummy circuit|        |                  |                      | Chinese SMT assembly|
 |  14 | 1.1  | LTZ1000A 2020  | Mar 2023   | none        |            |                  |                      | Chinese SMT assembly|
 
 ## Trim levels
