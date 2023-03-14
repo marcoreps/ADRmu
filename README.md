@@ -79,6 +79,8 @@ Output can be shorted indefinitely with battery life derating. Output protected 
 |  12 | ADR  | [0.0116][12]   |                 |            |            |            |            |
 |  13 | ADR  | [0.0132][13]   | [-0.024][13tc]  |            |            |            |            |
 |F731B| SZA  | [0.0272][731]  |                 |            |            |            |            |
+|   6 | ADR  |                |                 |            |            |            |            |
+|  14 | LTZ  |                | [+0.025][14tc]  |            |            |            |            |
  
 [1]:/results/ADRmu1_LFnoise.png
 [2]:/results/ADRmu2_LFnoise.png
@@ -105,6 +107,7 @@ Output can be shorted indefinitely with battery life derating. Output protected 
 [13tc]:/results/ADRmu13_TC.ipynb
 [107tc]:/results/ADRmu107_TC.ipynb
 [108tc]:/results/ADRmu108_TC.ipynb
+[14tc]:/results/ADRmu14_TC.ipynb
 
 
 
@@ -126,6 +129,7 @@ Output can be shorted indefinitely with battery life derating. Output protected 
 |  11 | 0.9  | ADR1000A 2022  | Feb 2023   |7d dummy circuit|         |                  |                      | No trim resistors|
 |  12 | 0.9  | ADR1000A 2022  | Feb 2023   |7d in situ b&b|           |                  |                      | On/off cylcing for 24h|
 |  13 | 0.9  | ADR1000A 2022  | Feb 2023   |             |            |                  |                      | Ultrasonic cleaned|
+|  14 | 1.1  | LTZ1000A 2020  | Mar 2023   | none        |            |                  |                      | Chinese SMT assembly|
 
 ## Trim levels
 
@@ -147,7 +151,7 @@ The PCB is prepared for various configurations to adapt to different needs and p
 |  12 | ADR  | Bare Wdgs    | RCK02       | RCK02       | 0R          | TDP10k 12 ratio   | 1M        | open         | TDP10k 2 ratio   |
 |  13 | ADR  | Bare Wdgs    | RCK02       | RCK02       | 0R          | TDP10k 11.5 ratio | open      | 1M           | TDP10k 2 ratio   |
 |   6 | ADR  | Bare Wdgs    | PTF56       | PTF56       | 0R          | TDP10k 11.5 ratio |           |              | TDP10k 2 ratio   |
-|  14 | LTZ  | Bare Wdgs    | TDP         |             | TDP         | TDP10k 12   ratio |           |              | TDP10k 2.5 ratio |
+|  14 | LTZ  | Bare Wdgs    | TDP         | 1% ax metal | TDP         | TDP10k 12   ratio | open      | open         | TDP10k 2.5 ratio |
 
 ### ADR1000 & Vishay 1445 All-in-one Resistor Network
 
