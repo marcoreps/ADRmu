@@ -79,7 +79,7 @@ Output can be shorted indefinitely with battery life derating. Output protected 
 |  12 | ADR  | [0.0116][12]   |                 |            |            |            |            |
 |  13 | ADR  | [0.0132][13]   | [-0.024][13tc]  |            |            |            |            |
 |F731B| SZA  | [0.0272][731]  |                 |            |            |            |            |
-|   6 | ADR  |                |                 |            |            |            |            |
+|   6 | ADR  |                | [-0.018][6tc]   |            |            |            |            |
 |  14 | LTZ  |                | [+0.025][14tc]  |            |            |            |            |
  
 [1]:/results/ADRmu1_LFnoise.png
@@ -108,6 +108,7 @@ Output can be shorted indefinitely with battery life derating. Output protected 
 [107tc]:/results/ADRmu107_TC.ipynb
 [108tc]:/results/ADRmu108_TC.ipynb
 [14tc]:/results/ADRmu14_TC.ipynb
+[6tc]:/results/ADRmu6_TC.ipynb
 
 
 
