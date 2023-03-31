@@ -44,7 +44,7 @@ if (sys.argv[1]=="read"):
     read_result = read_eeprom(bus, i2c_address, 100)
     print(''.join(chr(i) for i in read_result))
 
-elif( sys.argv[0]=="write"):
+elif( sys.argv[1]=="write"):
     write_eeprom(bus,i2c_address,[0xFF]*100)
     sleep(1)
     str_to_write="ADRmu S/N 4\nYYYY.MM.DD,VV.VVVVVVVV,TT.TTT\n2022.06.02,09.99785080,28.585"
