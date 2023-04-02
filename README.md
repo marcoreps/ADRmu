@@ -144,7 +144,7 @@ The PCB is prepared for various configurations to adapt to different needs and p
 |   3 | LTZ  | Bare Wdgs    | 100R TOMC   | 50k S102    | 100R TOMC/5 |TDP10k 13.5 ratio| open        | 230k RN73    | TDP10k 2.5 ratio |
 |   4 | ADRx | Bare Wdgs    | 100R VHP100T| TBA         | TBA         | TBA          | TBA            | TBA          | TBA              |
 |   5 | ADR  | Screen Spacer| Alpha MCY   | Alpha MAY   | 0R          | TDP10k 11.5 ratio | open      | 470k RN73    | TDP10k 2 ratio   |
-|   7 | ADR  | Screen Spacer| Z201?       | Z201?       | 0R          | TDP10k       |                |              | TDP10k 2 ratio   |
+|   7 | ADR  | Screen Spacer| Z201        | Z201        | 0R          | TDP10k       | open           | open         | TDP10k 2 ratio   |
 |   9 | ADR  | Spacer       | 1445 95.3R  | 1445 61.9k  | 0R          | 1445 13 ratio| open           | open         | 1445 2 ratio     |
 | 107 | ADR  | Spacer       | Z201T       | Z202T       | 0R          | TOMC10k 11.5 ratio| 200k RN73 | open         | TDP10k 2 ratio   |
 | 108 | ADR  | Spacer       | Z201T       | Z202T       | 0R          | TOMC10k 11.5 ratio|           |              | TDP10k 2 ratio   |
