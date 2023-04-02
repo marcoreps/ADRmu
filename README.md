@@ -117,21 +117,21 @@ Output can be shorted indefinitely with battery life derating. Output protected 
 ## Initial drift & burn-in
 | SN  | PCB  |      U202      | Powered on | Preparation | Initial ΔV | Hours to plateau | .1-10Hz noise before | Special |
 | --- | ---- | -------------- | ---------- | ----------- | ---------- | ---------------- | -------------------- |---------|
-|   1 | 0.4  | ADR1000A 2017  | Jul 2021   |1yr dummy circuit| no data|                  |                      | |
-|   2 | 0.4  |    LTZ1000A    | Apr 2022   | none        | no data    |                  |                      | |
-|   3 | 0.5  |    LTZ1000A    | Mar 2022   | none        | no data    |                  |                      | |
-|   4 |0.5SE |    ADR1000x    | May 2022   | none        | no data    |                  |                      | Popcorn noise|
-|   5 | 0.9  | ADR1000A 2022  | Jan 2023   | 7d 150°C b&b|            |                  |                      | |
-|   7 | 0.9  | ADR1000A 2022  | Jan 2023   | 7d 150°C b&b|            |                  |                      | |
-|   9 | 0.9  | ADR1000A 2022  | Jan 2023   | none        | 1.1 µV/V   | 310              |                      | |
-| 107 | 0.9  | ADR1000A 2018  | Dec 2022   | none        | 3.8 µV/V   | 640              |                      | Transplanted to 108|
-| 108 | 0.9  | ADR1000A 2018  | Dec 2022   | none        | 3.8 µV/V   | 640              |                      | |
-|  10 | 0.9  | ADR1000A 2022  | Feb 2023   | none        |            |                  |                      | On/off cylcing for 48h|
-|  11 | 0.9  | ADR1000A 2022  | Feb 2023   |7d dummy circuit|         |                  |                      | No trim resistors|
-|  12 | 0.9  | ADR1000A 2022  | Feb 2023   |7d in situ b&b|           |                  |                      | On/off cylcing for 24h|
-|  13 | 0.9  | ADR1000A 2022  | Feb 2023   |             |            |                  |                      | Ultrasonic cleaned|
-|   6 | 1.1  | ADR1000A 2022  | Mar 2023   |30d dummy circuit|        |                  |                      | Chinese SMT assembly|
-|  14 | 1.1  | LTZ1000A 2020  | Mar 2023   | none        |            |                  |                      | Chinese SMT assembly|
+|   1 | 0.4  | ADR1000A 2017  | Jul 2021   |1yr dummy circuit| no data|                  |                      | VPG golden network |
+|   2 | 0.4  |    LTZ1000A    | Apr 2022   | none        | no data    |                  |                      | LTZ1000A w/ VPG foil |
+|   3 | 0.5  |    LTZ1000A    | Mar 2022   | none        | no data    |                  |                      | Cheapest LTZ variant |
+|   4 |0.5SE |    ADR1000x    | May 2022   | none        | no data    |                  |                      | Popcorn noise :( |
+|   5 | 0.9  | ADR1000A 2022  | Jan 2023   | 7d 150°C b&b|            |                  |                      | Gone to new owner |
+|   7 | 0.9  | ADR1000A 2022  | Jan 2023   | 7d 150°C b&b|            |                  |                      | No trim resistors |
+|   9 | 0.9  | ADR1000A 2022  | Jan 2023   | none        | 1.1 µV/V   | 310              |                      | VPG golden network |
+| 107 | 0.9  | ADR1000A 2018  | Dec 2022   | none        | 3.8 µV/V   | 640              |                      | Transplant to 108 |
+| 108 | 0.9  | ADR1000A 2018  | Dec 2022   | none        | 3.8 µV/V   | 640              |                      | Gone to new owner |
+|  10 | 0.9  | ADR1000A 2022  | Feb 2023   | none        |            |                  |                      | On/off cylcing 48h |
+|  11 | 0.9  | ADR1000A 2022  | Feb 2023   |7d dummy circuit|         |                  |                      | No trim resistors |
+|  12 | 0.9  | ADR1000A 2022  | Feb 2023   |7d in situ b&b|           |                  |                      | On/off cylcing 24h |
+|  13 | 0.9  | ADR1000A 2022  | Feb 2023   |             |            |                  |                      | Ultrasonic cleaned |
+|   6 | 1.1  | ADR1000A 2022  | Mar 2023   |30d dummy circuit|        |                  |                      | Chinese SMT assembly |
+|  14 | 1.1  | LTZ1000A 2020  | Mar 2023   | none        |            |                  |                      | Chinese SMT assembly |
 
 ## Trim levels
 
