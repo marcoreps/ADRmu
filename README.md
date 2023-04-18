@@ -149,11 +149,12 @@ The PCB is prepared for various configurations to adapt to different needs and p
 | 107 | ADR  | Spacer       | Z201T       | Z202T       | 0R          | TOMC10k 11.5 ratio| 200k RN73 | open         | TDP10k 2 ratio   |
 | 108 | ADR  | Spacer       | Z201T       | Z202T       | 0R          | TOMC10k 11.5 ratio|           |              | TDP10k 2 ratio   |
 |  10 | ADR  | Spacer       | RCK02       | RCK02       | 0R          | TDP10k 11.5 ratio | 493k RN73 | open         | TDP10k 2 ratio   |
-|  11 | ADR  | Bare Wdgs    | Z201T       | Z201T       | 0R          | TDP10k 11.5 ratio |           |              | TDP10k 2 ratio   |
-|  12 | ADR  | Bare Wdgs    | RCK02       | RCK02       | 0R          | TDP10k 12 ratio   | 1M        | open         | TDP10k 2 ratio   |
-|  13 | ADR  | Bare Wdgs    | RCK02       | RCK02       | 0R          | TDP10k 11.5 ratio | open      | 1M           | TDP10k 2 ratio   |
-|   6 | ADR  | Bare Wdgs    | PTF56       | PTF56       | 0R          | TDP10k 11.5 ratio |           |              | TDP10k 2 ratio   |
-|  14 | LTZ  | Bare Wdgs    | TDP         | 1% ax metal | TDP         | TDP10k 12   ratio | open      | open         | TDP10k 2.5 ratio |
+|  11 | ADR  | Spacer       | Z201T       | Z201T       | 0R          | TDP10k 11.5 ratio |           |              | TDP10k 2 ratio   |
+|  12 | ADR  | Spacer       | RCK02       | RCK02       | 0R          | TDP10k 12 ratio   | 1M        | open         | TDP10k 2 ratio   |
+|  13 | ADR  | Spacer       | RCK02       | RCK02       | 0R          | TDP10k 11.5 ratio | open      | 1M           | TDP10k 2 ratio   |
+|   6 | ADR  | Spacer       | PTF56       | PTF56       | 0R          | TDP10k 11.5 ratio |           |              | TDP10k 2 ratio   |
+|  14 | LTZ  | Spacer       | TDP         | 1% ax metal | TDP         | TDP10k 12   ratio | open      | open         | TDP10k 2.5 ratio |
+|  44 | ADR  | Spacer       | Z201T       | Z202T       | 0R          | TDP10k 11.5 ratio | 900k      | open         | TDP10k 2 ratio   |
 
 ### ADR1000 & Vishay 1445 All-in-one Resistor Network
 
