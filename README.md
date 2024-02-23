@@ -190,6 +190,12 @@ My SN 3 and 20 are built this way. This variant is inspired by Datron Wavetek 70
 
 ### ADR1000 & Thin film arrays
 
-Most of my ADRmus are built this way. This is the most cost-effective way to build a great performance 10V DC Standard. The same techniques that worked for LTZ in the past also apply to ADR1000, only the specific resistor values are slightly different. Based on my early ADR1000 samples I can see significantly longer initial settling times of ADR1000, which can be improved simply by power cycling a default circuit (30 minutes off, 30 minutes on for a week). This new part exhibits lower low frequency noise than LTZ. A 10V buffer circuit with a low noise op amp and thin film arrays ([Excess Noise in Thin Film and Metal Foil Resistor Networks][beev]) passes this advantage right on to the output. 
+Most of my ADRmus are built this way. This is the most cost-effective way to build a great performance 10V DC Standard. The same techniques that worked for LTZ in the past also apply to ADR1000, only the specific resistor values are slightly different. Based on my early ADR1000 samples I can see significantly longer initial settling times of ADR1000, which can be improved simply by power cycling a part in its default circuit (30 minutes off, 30 minutes on for a week). This new part exhibits lower low frequency noise than LTZ. A 10V buffer circuit with a low noise op amp and thin film arrays ([Excess Noise in Thin Film and Metal Foil Resistor Networks][beev]) passes this advantage right on to the output. 
 
 [beev]:https://arxiv.org/abs/2109.02448
+
+### ADR1001
+
+I have been given one very early sample of this new part, so my results may not reflect the final parts performance. This new all-in-one ovenized zener reference & buffer makes it easier than ever before to deploy a high performance, environmentally tolerant voltage reference with few external parts and little research. My sample showed some popcorn noise at first ([Screenshot][popcorn]), which I seemingly improved by keeping the part powered on, externally heated to 110°C for a few weeks. This extreme measure made it impossible to judge early drift. Long-term drift and tempco now seem to fall easily within the datasheet spec. LF noise of the 10V output still appears to be slightly elevated, but the datasheet only specifies this for the 6P6 output.
+
+[popcorn]:/results/ADRmu4_LFnoise_popcorn.png
