@@ -172,8 +172,9 @@ The PCB is prepared for various configurations to adapt to different needs and p
 
 ### ADR1000 & Vishay 1445 All-in-one Resistor Network
 
-My SN 1 is built this way. This is a no-bainer or easy mode. When I got my first glimpse at the ADR1000 datasheet I went straight to Vishay Foil Resistors and ordered an all-in-one resistor network with all the critical resistors from the datasheet plus a simple divider for buffering the 6.62V output to 10V [(Custom network specification)][322146]. By specifying at least 2 ppm/°C TC tracking for the two critical dividers I am guaranteed great performance. And thanks to the hermetically sealed DIP14 package I expect little long term drift from the resistors. This solution comes at a hefty price, is not effortlessly adjustable after assembly.
-[322146]:/datasheets/322146_p1-4_1445_Marco_Reps.pdf
+My SN 1 is built this way. This is a no-bainer or easy mode. When I got my first glimpse at the ADR1000 datasheet I went straight to Vishay Foil Resistors and ordered an all-in-one resistor network with all the critical resistors from the datasheet plus a simple divider for buffering the 6.62V output to 10V [(Custom network specification)][1445]. By specifying at least 2 ppm/°C TC tracking for the two critical dividers I am guaranteed great performance. And thanks to the hermetically sealed DIP14 package I expect little long term drift from the resistors. This solution comes at a hefty price, is not effortlessly adjustable after assembly.
+
+[1445]:/datasheets/322146_p1-4_1445_Marco_Reps.pdf
 
 ### LTZ1000A & Discrete Vishay Foil Resistors
 
