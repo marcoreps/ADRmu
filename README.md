@@ -10,11 +10,16 @@ Low cost 10V DC reference standard in DIN 41612 modular enclosure. Based on oven
 ## TODO
 
 Align JP and R designators
+
 Remove JPB and JPH enumeration
+
 add lt5400 and other gain resistor options
+
 discrete push-pull driver
+
 snubber for the DC-DC converter?
-change DC-DC secondary to split rail?
+
+find off-the-shelf DC-DC transformer
 
 
 ## Assembly advice
@@ -23,15 +28,17 @@ Recommended 5:7 transformer (pri:sec) when using 12V input
 
 ## Spec speculations
 
+After initial settling, tempco adjustment, continuously powered on, no ambient temperatures outside of specified range
+
 ### Output Voltage Stability (± µV/V):
 
 24 hour: < 0.3
 
-30 day:
+30 day: < 0.4
 
-90 day:
+90 day: < 0.8
 
-1 year:
+1 year: < 1.0
 
 ### Output Voltage Noise (0.1 - 10 Hz)(±µV/V rms)
 
