@@ -5,7 +5,7 @@
 
 ## Scope
 
-Low cost 10V DC reference standard in DIN 41612 modular enclosure. Based on ovenized LTZ1000 / LTZ1000A or ADR1000A zener diodes. Fits into standard 100x160mm project boxes too. The most promising strategies for configuring the zener and buffering the output are accomodated.
+Low cost 10V DC reference standard in DIN 41612 modular enclosure. Based on ovenized LTZ1000 / LTZ1000A or ADR1000A zener diodes. Fits into standard 100x160mm project boxes too. The most promising strategies for configuring the zener and buffering the output are accommodated. Includes a high isolation DC-DC converter to attenuate the effects of common mode current.
 
 ## TODO
 
@@ -187,3 +187,9 @@ My SN 2 is built this way. This is probably the most popular way of building LTZ
 My SN 3 and 20 are built this way. This variant is inspired by Datron Wavetek 7000 DCV Standards ([EEVBlog forum thread][w7000]) and as such it has proven itself over a long time. Here the most critical voltage dividers for the LTZ1000 temperature and the 7->10V gain are implemented through an arrangement of monolithic thin film resistor arrays and their fantastic tracking temperature coefficients. Furthermore the overall output voltage tempco is fine-tuned after assembly through trim resistors R225 / R223. SN 3 is one of the cheapest ADRmus in my comparison, yet one of the most stable ones.
 
 [w7000]:https://www.eevblog.com/forum/metrology/(3300)-wavetek-7000-the-hidden-gemstone/
+
+### ADR1000 & Thin film arrays
+
+Most of my ADRmus are built this way. This is the most cost-effective way to build a great performance 10V DC Standard. The same techniques that worked for LTZ in the past also apply to ADR1000, only the specific resistor values are slightly different. Based on my early ADR1000 samples I can see significantly longer initial settling times of ADR1000, which can be improved simply by power cycling a default circuit (30 minutes off, 30 minutes on for a week). This new part exhibits lower low frequency noise than LTZ. A 10V buffer circuit with a low noise op amp and thin film arrays ([Excess Noise in Thin Film and Metal Foil Resistor Networks][beev]) passes this advantage right on to the output. 
+
+[beev]:https://arxiv.org/abs/2109.02448
