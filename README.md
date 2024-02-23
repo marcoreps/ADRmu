@@ -13,6 +13,8 @@ Align JP and R designators
 Remove JPB and JPH enumeration
 add lt5400 and other gain resistor options
 discrete push-pull driver
+snubber for the DC-DC converter?
+change DC-DC secondary to split rail?
 
 
 ## Assembly advice
@@ -47,7 +49,7 @@ Recommended 5:7 transformer (pri:sec) when using 12V input
 
 \< 2W
 
-### Isolation (MΩ to AC,PE)
+### Isolation (to DCin, Chassis)
 
 \> 10 000 MΩ
 
@@ -57,18 +59,22 @@ Recommended 5:7 transformer (pri:sec) when using 12V input
 
 Output can be shorted indefinitely with battery life derating. Output protected against ESD and input up to 60V.
 
-### Temperature Range (°C)
+### Specified Temperature Range (°C)
 
 15 - 35
+
+### Oerational Temperature Range (°C)
+
+-10 - 40
 
 ## Measured results
 | SN    | U202  | .1-10Hz Noise   | Tempco 15-35°C    |  24h Stab  |  30d Stab  |  90d Stab  |  1yr Stab  |
 | ---   | ----  | --------------  | ---------------   | ---------- | ---------- | ---------- | ---------- |
 |       |       | \[µV/V rms\]    | \[µV/V/k\]        | \[µV/V\]   | \[µV/V\]   | \[µV/V\]   | \[µV/V\]   |
 |   1   | ADR   | [0.0139][1]     |                   | 0.25       | 0.4        |            |            |
-|   2   | LTZ   | [0.0175][2]     |                   |            |            |            |            |
-|   3   | LTZ   | [0.0201][3]     | [-0.024][3tc]     |            |            |            |            |
-|   4   | ADRx  | [0.0346][4]     | [-0.133][4tc]     |            |            |            |            |
+| ~~2~~ |~~LTZ-A~~| ~~[0.0175][2]~~|                  |            |            |            |            |
+|   3   | LTZ-A | [0.0201][3]     | [-0.024][3tc]     |            |            |            |            |
+|   4   |ADR1001| [0.0346][4]     | [-0.133][4tc]     |            |            |            |            |
 | ~~5~~ |~~ADR~~|~~[0.0119][5]~~  |~~[+0.015][5tc]~~  |            |            |            |            |
 | ~~7~~ |~~ADR~~|~~[0.0125][7]~~  |~~[+0.032][7tc]~~  |            |            |            |            |
 |   9   |  ADR  |  [0.0121][9]    |  [+0.156][9tc]    |            |            |            |            |
@@ -78,15 +84,16 @@ Output can be shorted indefinitely with battery life derating. Output protected 
 |  11   | ADR   | [0.0129][11]    | [+0.015][11tc]    |            |            |            |            |
 |  12   | ADR   | [0.0116][12]    |                   |            |            |            |            |
 |~~13~~ |~~ADR~~|~~[0.0132][13]~~ |~~[-0.024][13tc]~~ |            |            |            |            |
-|F731B  | SZA   | [0.0272][731]   |                   |            |            |            |            |
+|~~F731B~~  |~~DH80417B~~| ~~[0.0272][731]~~  |       |            |            |            |            |
 |   6   | ADR   |                 | [-0.018][6tc]     |            |            |            |            |
-|~~14~~ |~~LTZ~~|                 |~~[+0.025][14tc]~~ |            |            |            |            |
+|~~14~~ |~~LTZ-A~~|               |~~[+0.025][14tc]~~ |            |            |            |            |
 |  15   |  ADR  |                 |                   |            |            |            |            |
+|  20   | LTZ-A |                 | -0.018            |            |            |            |            |
  
 [1]:/results/ADRmu1_LFnoise.png
 [2]:/results/ADRmu2_LFnoise.png
 [3]:/results/ADRmu3_LFnoise.png
-[4]:/results/ADRmu4_LFnoise.png
+[4]:/results/ADRmu4_LFnoise_improved.png
 [5]:/results/ADRmu5_LFnoise.png
 [7]:/results/ADRmu7_LFnoise.png
 [9]:/results/ADRmu9_LFnoise.png
@@ -122,7 +129,7 @@ Strikethrough: Device no longer in my possession
 |   1 | 0.4  | ADR1000A 2017  | Jul 2021   |1yr dummy circuit| no data|                  |                      | VPG golden network |
 |   2 | 0.4  |    LTZ1000A    | Apr 2022   | none        | no data    |                  |                      | LTZ1000A w/ VPG foil |
 |   3 | 0.5  |    LTZ1000A    | Mar 2022   | none        | no data    |                  |                      | Cheapest LTZ variant |
-|   4 |0.5SE |    ADR1000x    | May 2022   | none        | no data    |                  |                      | Popcorn noise :( |
+|   4 |0.5SE |    ADR10001    | May 2022   | none        | no data    |                  |                      | ~~Popcorn noise~~ Healed? |
 |   5 | 0.9  | ADR1000A 2022  | Jan 2023   | 7d 150°C b&b|            |                  |                      | Gone to new owner |
 |   7 | 0.9  | ADR1000A 2022  | Jan 2023   | 7d 150°C b&b|            |                  |                      | No trim resistors |
 |   9 | 0.9  | ADR1000A 2022  | Jan 2023   | none        | 1.1 µV/V   | 310              |                      | VPG golden network |
@@ -134,36 +141,44 @@ Strikethrough: Device no longer in my possession
 |  13 | 0.9  | ADR1000A 2022  | Feb 2023   |             |            |                  |                      | Ultrasonic cleaned |
 |   6 | 1.1  | ADR1000A 2022  | Mar 2023   |30d dummy circuit|        |                  |                      | Chinese SMT assembly |
 |  14 | 1.1  | LTZ1000A 2020  | Mar 2023   | none        |            |                  |                      | Chinese SMT assembly |
+|  15 | 1.1  | LTZ1000A 2020  | Mar 2023   | none        |            |                  |                      | Chinese SMT assembly |
+|  44 | 1.1  | LTZ1000A 2020  | Mar 2023   | none        |            |                  |                      | Chinese SMT assembly |
+|  20 | 1.1  | LTZ1000A 2020  | Mar 2023   | none        |            |                  |                      | Chinese SMT assembly |
 
 ## Trim levels
 
 The PCB is prepared for various configurations to adapt to different needs and part availabilities. Here's what I have built so far:
 
-| SN  | U202 |  DCDC Trafo  | R213 / Pin4 | R214 / Pin5 | R220 / Pin3 | Oven divider | R225 / Iz Down | R223 / Iz Up | 10V gain divider |
-| --- | ---- | ------------ | ----------- | ----------- | ----------- | ------------ | -------------- | ------------ | ---------------- |
-|   1 | ADR  | Screened Wdgs| 1445 95.3R  | 1445 61.9k  | 0R          | 1445 13 ratio| open           | open         | 1445 2 ratio     |
-|   2 | LTZ  | Screened Wdgs| Z201 100R   | 61.9k SMD Foil | SMD Foil |VHD200 13 ratio|               |              | VHD200 2.5 ratio |
-|   3 | LTZ  | Bare Wdgs    | 100R TOMC   | 50k S102    | 100R TOMC/5 |TDP10k 13.5 ratio| open        | 230k RN73    | TDP10k 2.5 ratio |
-|   4 | ADRx | Bare Wdgs    | 100R VHP100T| TBA         | TBA         | TBA          | TBA            | TBA          | TBA              |
-|   5 | ADR  | Screen Spacer| Alpha MCY   | Alpha MAY   | 0R          | TDP10k 11.5 ratio | open      | 470k RN73    | TDP10k 2 ratio   |
-|   7 | ADR  | Screen Spacer| Z201        | Z201        | 0R          | TDP10k       | open           | open         | TDP10k 2 ratio   |
-|   9 | ADR  | Spacer       | 1445 95.3R  | 1445 61.9k  | 0R          | 1445 13 ratio| open           | open         | 1445 2 ratio     |
-| 107 | ADR  | Spacer       | Z201T       | Z202T       | 0R          | TOMC10k 11.5 ratio| 200k RN73 | open         | TDP10k 2 ratio   |
-| 108 | ADR  | Spacer       | Z201T       | Z202T       | 0R          | TOMC10k 11.5 ratio|           |              | TDP10k 2 ratio   |
-|  10 | ADR  | Spacer       | RCK02       | RCK02       | 0R          | TDP10k 11.5 ratio | 493k RN73 | open         | TDP10k 2 ratio   |
-|  11 | ADR  | Spacer       | Z201T       | Z201T       | 0R          | TDP10k 11.5 ratio |           |              | TDP10k 2 ratio   |
-|  12 | ADR  | Spacer       | RCK02       | RCK02       | 0R          | TDP10k 12 ratio   | 1M        | open         | TDP10k 2 ratio   |
-|  13 | ADR  | Spacer       | RCK02       | RCK02       | 0R          | TDP10k 11.5 ratio | open      | 1M           | TDP10k 2 ratio   |
-|   6 | ADR  | Spacer       | PTF56       | PTF56       | 0R          | TDP10k 11.5 ratio |           |              | TDP10k 2 ratio   |
-|  14 | LTZ  | Spacer       | TDP         | 1% ax metal | TDP         | TDP10k 12   ratio | open      | open         | TDP10k 2.5 ratio |
-|  44 | ADR  | Spacer       | Z201T       | Z202T       | 0R          | TDP10k 11.5 ratio | 900k      | open         | TDP10k 2 ratio   |
+| SN  | U202 | R213 / Pin4 | R214 / Pin5 | R220 / Pin3 | Oven divider      | R225 / Iz Down | R223 / Iz Up | 10V gain divider |
+| --- | ---- | ----------- | ----------- | ----------- | ----------------- | -------------- | ------------ | ---------------- |
+|   1 | ADR  | 1445 95.3R  | 1445 61.9k  | 0R          | 1445 13 ratio     | open           | open         | 1445 2 ratio     |
+|   2 |LTZ-A | Z201 100R   | 61.9k  Foil | SMD Foil    | VHD200 13 ratio   |                |              | VHD200 2.5 ratio |
+|   3 |LTZ-A | 100R TOMC   | 50k S102    | 100R TOMC/5 | TDP10k 13.5 ratio | open           | 230k RN73    | TDP10k 2.5 ratio |
+|   4 | ADRx | 100R VHP100T| TBA         | TBA         | TBA               | TBA            | TBA          | TBA              |
+|   5 | ADR  | Alpha MCY   | Alpha MAY   | 0R          | TDP10k 11.5 ratio | open           | 470k RN73    | TDP10k 2 ratio   |
+|   7 | ADR  | Z201        | Z201        | 0R          | TDP10k            | open           | open         | TDP10k 2 ratio   |
+|   9 | ADR  | 1445 95.3R  | 1445 61.9k  | 0R          | 1445 13 ratio     | open           | open         | 1445 2 ratio     |
+| 107 | ADR  | Z201T       | Z202T       | 0R          | TOMC10k 11.5 ratio| 200k RN73      | open         | TDP10k 2 ratio   |
+| 108 | ADR  | Z201T       | Z202T       | 0R          | TOMC10k 11.5 ratio|                |              | TDP10k 2 ratio   |
+|  10 | ADR  | RCK02       | RCK02       | 0R          | TDP10k 11.5 ratio | 493k RN73      | open         | TDP10k 2 ratio   |
+|  11 | ADR  | Z201T       | Z201T       | 0R          | TDP10k 11.5 ratio |                |              | TDP10k 2 ratio   |
+|  12 | ADR  | RCK02       | RCK02       | 0R          | TDP10k 12 ratio   | 1M             | open         | TDP10k 2 ratio   |
+|  13 | ADR  | RCK02       | RCK02       | 0R          | TDP10k 11.5 ratio | open           | 1M           | TDP10k 2 ratio   |
+|   6 | ADR  | PTF56       | PTF56       | 0R          | TDP10k 11.5 ratio |                |              | TDP10k 2 ratio   |
+|  14 |LTZ-A | TDP         | 1% ax metal | TDP         | TDP10k 12   ratio | open           | open         | TDP10k 2.5 ratio |
+|  15 |      |             |             |             |                   |                |              |                  |
+|  44 | ADR  | Z201T       | Z202T       | 0R          | TDP10k 11.5 ratio | 900k           | open         | TDP10k 2 ratio   |
+|  20 |LTZ-A | 100R TDP    | 40k Prec WW | 16.667R TDP | TDP10k 11.5 ratio | open           | 1M           | TDP10k 2.5 ratio |
 
 ### ADR1000 & Vishay 1445 All-in-one Resistor Network
 
-My SN 1 is built this way. This is a no-bainer or easy mode. When I got my first glimpse at the ADR1000 datasheet I went straight to Vishay Foil Resistors and ordered an all-in-one resistor network with all the critical resistors from the datasheet plus a simple divider for buffering the 6.62V output to 10V. By specifying at least 2 ppm/°C TC tracking for the two critical dividers I am guaranteed great performance. And thanks to the hermetically sealed DIP14 package I expect little long term drift from the resistors. This solution comes at a hefty price.
+My SN 1 is built this way. This is a no-bainer or easy mode. When I got my first glimpse at the ADR1000 datasheet I went straight to Vishay Foil Resistors and ordered an all-in-one resistor network with all the critical resistors from the datasheet plus a simple divider for buffering the 6.62V output to 10V [(Custom network specification)][322146]. By specifying at least 2 ppm/°C TC tracking for the two critical dividers I am guaranteed great performance. And thanks to the hermetically sealed DIP14 package I expect little long term drift from the resistors. This solution comes at a hefty price, is not effortlessly adjustable after assembly.
+[322146]:/datasheets/322146_p1-4_1445_Marco_Reps.pdf
 
-### LTZ1000A & Discrete Resistors
+### LTZ1000A & Discrete Vishay Foil Resistors
 
-My SN 2 is built this way. This is probably the most popular way of building LTZ1000 voltage standards. Digikey carries quite a few hermetically sealed Vishay Bulk Metal Foil resistors without MOQ these days, giving you all the design freedom. The two most critical parts are the LTZ-temperature-configration divder i.e. 13k/1k and the 7.1V to 10V buffer divder i.e. 2k/5k. For these two I used hermetically sealed Vishay VHD200 dividers. These have guaranteed TC tracking and little long term drift. The remaining LTZ-configruation resistors i.e. 70k, 70k, 120R are not very critical. For best performance you can add an additional resistor to LTZ pin 3 to improve the Vrefs tempco, see "Adjusting Temperature Coefficient in Unstabilized Applications" in the LTZ1000 datasheet. 20 Ohm seems to be a reasonable approximation, suitable for most LTZs. In my case I determined 18 Ohm to be an optimal resistor with a TC peak at the oven setpoint. Careful, this additional resistor, if equipped, has a lot of influence on zener voltage and should be of high quality.
+My SN 2 is built this way. This is probably the most popular way of building LTZ1000 voltage standards. Digikey carries quite a few hermetically sealed Vishay Bulk Metal Foil resistors ~~without MOQ these days~~ not any more LAME!, giving you all the design freedom. The two most critical parts are the LTZ-temperature-configration divder i.e. 13k/1k and the 7.1V to 10V buffer divder i.e. 2k/5k. For these two I used hermetically sealed Vishay VHD200 dividers. These have guaranteed TC tracking and little long term drift. The remaining LTZ-configruation resistors i.e. 70k, 70k, 120R are not very critical. For best performance you can add an additional resistor to LTZ pin 3 to improve the Vrefs tempco, see "Adjusting Temperature Coefficient in Unstabilized Applications" in the LTZ1000 datasheet. 20 Ohm seems to be a reasonable approximation, suitable for most LTZs. In my case I determined 18 Ohm to be an optimal resistor with a TC peak at the oven setpoint. Careful, this additional resistor, if equipped, has a lot of influence on zener voltage and should be of high quality.
 
+### LTZ1000A & Thin film arrays
 
+My SN 3, 20 are built this way. This variant is inspired by Datron Wavetek 7000 DCV Standards and as such it has proven itself over a long time. Here the most critical voltage dividers for the LTZ1000 temperature and the 7->10V gain are implemented through an arrangement of monolithic thin film resistor arrays and their fantastic tracking temperature coefficients. Furthermore the overall output voltage tempco is fine-tuned after assembly through trim resistors R225 / R223. SN 3 is one of the cheapest ADRmus in my comparison, yet one of the most stable ones.
