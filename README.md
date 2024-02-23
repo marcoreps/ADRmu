@@ -206,3 +206,13 @@ Most of my ADRmus are built this way. This is the most cost-effective way to bui
 I have been given one very early sample of this new part, so my results may not reflect the final parts performance. This new all-in-one ovenized zener reference & buffer makes it easier than ever before to deploy a high performance, environmentally tolerant voltage reference with few external parts and little research. My sample showed some popcorn noise at first ([Screenshot][popcorn]), which I seemingly improved by keeping the part powered on, externally heated to 110°C for a few weeks. This extreme measure made it impossible to judge early drift. Long-term drift and tempco now seem to fall easily within the datasheet spec. LF noise of the 10V output still appears to be slightly elevated, but the datasheet only specifies this for the 6P6 output. Overall this part is not the greatest performer in my comparison, it lacks a way of fine-tuning, but it's by far the easiest to use and its efficient overall heater makes it interesting for portable devices.
 
 [popcorn]:/results/ADRmu4_LFnoise_popcorn.png
+
+## Results
+
+### Raw data
+
+Unprocessed CSV files can be found here https://github.com/marcoreps/multiinstrumentalist/tree/master/csv These show direct readings by digital voltmeters, which are subject to temperature variations, adjustments and even modifications, resulting in large deviations of readings.
+
+### Processed data
+
+To attenuate voltmeter errors from the measurements, we use the mathematical difference between an ADRmu reading and the average of many ADRmu readings that were taken at the same time, with the same voltmeter. These results can be found here https://github.com/marcoreps/ADRmu/tree/main/results
