@@ -151,7 +151,7 @@ Strikethrough: Device no longer in my possession
 |  14 | 1.1  | LTZ1000A 2020  | Mar 2023   | none        |            |                  |                      | Chinese SMT assembly |
 |  15 | 1.1  | LTZ1000A 2020  | Mar 2023   | none        |            |                  |                      | Chinese SMT assembly |
 |  44 | 1.1  | LTZ1000A 2020  | Mar 2023   | none        |            |                  |                      | Chinese SMT assembly |
-|  20 | 1.1  | LTZ1000A 2020  | Mar 2023   | none        |            |                  |                      | Chinese SMT assembly |
+|  20 | 1.1  | LTZ1000A 2020  | Sep 2023   | none        |            |                  |                      | Chinese SMT assembly |
 
 ## Trim levels
 
