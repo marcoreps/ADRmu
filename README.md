@@ -95,7 +95,7 @@ Output can be shorted indefinitely with battery life derating. Output protected 
 |~~F731B~~  |~~DH80417B~~| ~~[0.0272][731]~~  |       |            |            |            |            |
 |   6   | ADR   |                 | [-0.018][6tc]     |            |            |            |            |
 |~~14~~ |~~LTZ-A~~|               |~~[+0.025][14tc]~~ |            |            |            |            |
-|  15   |  ADR  |                 |                   |            |            |            |            |
+|  15   |  ADR  |   [0.0123][15]  |                   |            |            |            |            |
 |  20   | LTZ-A |                 | -0.018            |            |            |            |            |
  
 [1]:/results/ADRmu1_LFnoise.png
@@ -109,6 +109,7 @@ Output can be shorted indefinitely with battery life derating. Output protected 
 [11]:/results/ADRmu11_LFnoise.png
 [12]:/results/ADRmu12_LFnoise.png
 [13]:/results/ADRmu13_LFnoise.png
+[13]:/results/ADRmu15_LFnoise.png
 [108]:/results/ADRmu108_LFnoise.png
 [731]:/results/Fluke731B_LFnoise.png
 
