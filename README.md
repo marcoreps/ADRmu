@@ -20,8 +20,6 @@ discrete push-pull driver
 
 snubber for the DC-DC converter?
 
-find off-the-shelf DC-DC transformer
-
 
 ## Assembly advice
 
@@ -178,6 +176,20 @@ The PCB is prepared for various configurations to adapt to different needs and p
 |  15 |      |             |             |             |                   |                |              |                  |
 |  44 | ADR  | Z201T       | Z202T       | 0R          | TDP10k 11.5 ratio | 900k           | open         | TDP10k 2 ratio   |
 |  20 |LTZ-A | 100R TDP    | 40k Prec WW | 16.667R TDP | TDP10k 11.5 ratio | open           | 1M           | TDP10k 2.5 ratio |
+
+## Raw Vz of 10 parts in datasheet default circuit, warmed up for a few minutes but not burnt in
+| SN  |   Type  | Datecode |     Vz    | 
+| --- | ------- | -------- | --------- |
+| \#1 | ADR1000 | 2108     | 6.6556730 |
+| \#8 | ADR1000 | 2108     | 6.6545676 |
+| \#9 | ADR1000 | 2108     | 6.6531460 |
+| \#10| ADR1000 | 2108     | 6.6609841 |
+| \#11| ADR1000 | 2108     | 6.6690263 |
+| \#12| ADR1000 | 2108     | 6.6534043 |
+|   5 | ADR1000 | 2209     | 6.6457519 |
+|   8 | ADR1000 | 2209     | 6.6509818 |
+|   3 | ADR1000 | 1839     | 6.6707478 |
+| \#7 | ADR1000 | 2108     | 6.6545726 |
 
 ### ADR1000 & Vishay 1445 All-in-one Resistor Network
 
